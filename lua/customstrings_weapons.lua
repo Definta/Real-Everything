@@ -246,7 +246,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_coal = "Akimbo Izhmash PP-19 Bizon-2s", --Akimbo Tatonkas
 		bm_w_x_coal_desc = "Wield two IZHMA Tatonkas simultaneously in akimbo. Make John Woo proud.",
 
-		bm_w_x_sterling = "Akimbo Sterling L2A3s", --Akimbo Patchetts 
+		bm_w_x_sterling = "Akimbo Sterling L2A1s", --Akimbo Patchetts 
 		bm_w_x_sterling_desc = "Wield two Patchett L2A1s simultaneously in akimbo. Make John Woo proud.",
 		
 		bm_w_x_uzi = "Akimbo IMI Uzis", --Akimbo Uzis 
@@ -460,64 +460,64 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_mac10 = "Ingram MAC-11",                      --Mark 10
 		bm_w_mac10_desc = "Compact submachine gun. Moderate damage - blistering rate of fire.",
         
-        bm_w_mp5 = "Heckler & Koch MP5",                        --Compact-5
+        bm_w_mp5 = "Heckler & Koch MP5A2",                        --Compact-5
         bm_w_mp5_desc = "Iconic German submachine gun. Low damage - High concealment.",
 
-		bm_w_mp9 = "SG CMP",                              --CMP
+		bm_w_mp9 = "Brugger & Thomat MP9-NA3",                              --CMP
 		bm_w_mp9_desc = "Lightweight German submachine gun. Low damage - Moderate Stability.",
         
-        bm_w_olympic = "Crosskill AMCAR-Para",      		  --Para
+        bm_w_olympic = "Olympic Arms K23B",      		  --Para
         bm_w_olympic_desc = "Compact submachine gun based on Crosskill's AM platform. Moderate damage - Decent customisability.",
 
-		bm_w_akmsu = "IZHMA Krinkov",                       --Krinkov
+		bm_w_akmsu = "Khyber Pass AKMSU",                       --Krinkov
 		bm_w_akmsu_desc = "Downsized Russian submachine gun based on the IZHMA AK.762. High damage - Low ammo capacity.",
 
-		bm_w_p90 = "UN Kobus 90",                         --Kobus 90
+		bm_w_p90 = "FN P90 TR",                         --Kobus 90
 		bm_w_p90_desc = "Advanced Belgian PDW with a unique feeding mechanism. Moderate damage - High magazine size.",
 
-		bm_w_m45 = "Swedish K",                       	  --Swedish K / idk
+		bm_w_m45 = "Carl Gustav m/45B",                       	  --Swedish K / idk
 		bm_w_m45_desc = "Swedish submachine gun made for the Swedish army. High damage - Low ammo capacity.",
 
-		bm_w_mp7 = "SG SpecOps",                          --SpecOps
+		bm_w_mp7 = "Heckler & Koch MP7A1",                          --SpecOps
 		bm_w_mp7_desc = "Tactical German submachine gun. Moderate damage - Low magazine size.",
 
-		bm_w_scorpion = "TKA Cobra",                           --Cobra / name from otwd
+		bm_w_scorpion = "CZ vz. 61 E Skorpion",                           --Cobra / name from otwd
 		bm_w_scorpion_desc = "Compact Czechoslovak submachine gun. Low damage - High rate of fire.",
 
-		bm_w_tec9 = "Blastatec DylK9",                         --Blaster 9mm / May go to hell for name
+		bm_w_tec9 = "Intratec TEC-9",                         --Blaster 9mm / May go to hell for name
 		bm_w_tec9_desc = "Semi-automatic pistol frequently modified to fire fully automatic. Low damage - High rate of fire.",
 
 		bm_w_uzi = "IMI Uzi",                             --Uzi
 		bm_w_uzi_desc = "Classic Israeli submachine gun. Low damage - High ammo capacity.",
 
-		bm_w_sterling = "Patchett L2A1",                       --Patchett L2A1
+		bm_w_sterling = "Sterling L2A1",                       --Patchett L2A1
 		bm_w_sterling_desc = "British WWII submachine gun. Low damage - Low rate of fire.",
 
-		bm_w_cobray = "HIC Jacket's Piece",                  --Jacket's Piece / Hotline Improving Corpses
+		bm_w_cobray = "Cobray M11/9",                  --Jacket's Piece / Hotline Improving Corpses
 		bm_w_cobray_desc = "Jacket's submachine gun of choice. Moderate damage - High rate of fire.",
 
-		bm_w_polymer = "Kross Vertex Polygon",                --Kross Vertex / Polygon SMG
+		bm_w_polymer = "KRISS Vector",                --Kross Vertex / Polygon SMG
 		bm_w_polymer_desc = "High-tech submachine gun with unique firing mechanism. Moderate damage - High rate of fire.",
 
 		bm_w_baka = "IMI Micro Uzi",                       --Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
 
-		bm_w_sr2 = "Veresk Heather",                      --Heather SMG / idk
+		bm_w_sr2 = "TsNIITochMash SR-2M Veresk",                      --Heather SMG / idk
 		bm_w_sr2_desc = "Compact Russian submachine gun. Moderate damage - High concealment.",
 
-		bm_w_hajk = "CR 805B",                             --CR 805B
+		bm_w_hajk = "CZ 805 BREN A1",                             --CR 805B
 		bm_w_hajk_desc = "Czech assault rifle. High damage - High accuracy.",
 
-		bm_w_schakal = "SG AMP",			    	      	  --Jackal SMG
+		bm_w_schakal = "Heckler & Koch UMP45",			    	      	  --Jackal SMG
 		bm_w_schakal_desc = "Modern German submachine gun. High damage - Low ammo capacity.",
 
-		bm_w_coal = "IZHMA Tatonka",		                  --Tatonka SMG
+		bm_w_coal = "Kalashnikov Concern PP-19 Bizon-2",		                  --Tatonka SMG
 		bm_w_coal_desc = "Russian submachine gun with unique cylindrical magazine. High damage - High magazine size.",
         
-        bm_w_erma = "Reich MP40",                                --MP40 Submachinegun
+        bm_w_erma = "Erma Werke MP40",                                --MP40 Submachinegun
         bm_w_erma_desc = "Classic WWII machine pistol. High damage - Low ammo.",
 
-        bm_w_shepheard = "Signature SNTHC", --Signature SMG
+        bm_w_shepheard = "SIG Sauer MPX", --Signature SMG
         bm_w_shepheard_desc = "Highly concealable submachine gun. Low damage - High concealment.",
         
         thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun
