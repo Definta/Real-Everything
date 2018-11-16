@@ -1,0 +1,26 @@
+{
+	"blt_version" : 2,
+	"name" : "Real Everything",
+	"description" : "Changes the weapon and attachment names to their real life counterparts. Also adds useful descriptions for weapons and weapon attachments.\n\nSpecial thanks to VxWolf for letting me completely rip his mod for my use, Alcat for help with weapon attachment descriptions, and Luffy for the weapon description reenabling",
+	"author" : "AF Definta",
+	"contact" : "hard",
+	"color" : "0.8 0.8 1.0",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weapons.lua"
+		},
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/customstrings_weaponmods.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weapontweakdata",
+			"script_path": "lua/descriptions_weapons.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/weaponfactorytweakdata",
+			"script_path": "lua/descriptions_weaponmods.lua"
+		}
+	]
+}
