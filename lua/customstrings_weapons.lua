@@ -52,7 +52,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_g3_desc = "This German battle rifle may not look very pretty, but it has an extensive legacy. Being the first successful product made by H&K, the company made dozens of derivatives based on this rifle, most notably the MP5. If you're looking for a raw, battle-proven 7.62x51mm rifle, and find the FAL too basic and the M14 too prissy, this is the rifle for you. The force of ejection also makes a good lateral defense. Not for the faint of shoulders.",
 
 		bm_w_l85a2 = "Enfield L85A2",                       	 			 			--Queen's Wrath - Could be BAE L85A2 as well
-		bm_w_l85a2_desc = "Clover's assault rifle of choice. Moderate damage - The 'Queen's Wrath'.",
+		bm_w_l85a2_desc = "The L85A2 is a British 5.56x45mm rifle, which serves as the Royal British Army's main service rifle. It is part of the SA80 rifle series, and the successor to the notoriously unreliable L85A1. With the assistance of German gun maker Heckler & Koch, the A1 was fixed and improved, allowing it to finally earn its place as a worthy member of the bullpup family.",
 
 		bm_w_vhs = "HS Produkt VHS-D2",                              					--Lion's Roar
 		bm_w_vhs_desc = "Dragan's assault rifle of choice. Moderate damage - The 'Lion's Roar'.",
