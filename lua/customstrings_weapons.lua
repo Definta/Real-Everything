@@ -55,7 +55,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_l85a2_desc = "The L85A2 is a British 5.56x45mm rifle, which serves as the Royal British Army's main service rifle. It is part of the SA80 rifle series, and the successor to the notoriously unreliable L85A1. With the assistance of German gun maker Heckler & Koch, the A1 was fixed and improved, allowing it to finally earn its place as a worthy member of the bullpup family.",
 
 		bm_w_vhs = "HS Produkt VHS-D2",                              					--Lion's Roar
-		bm_w_vhs_desc = "Dragan's assault rifle of choice. Moderate damage - The 'Lion's Roar'.",
+		bm_w_vhs_desc = "Despite looking like a cross between a FAMAS and a cyberpunk movie, the VHS-D2 of Croatia is actually a modern-day 5.56x45mm rifle, introduced in 2013 as the new Croatian Army service rifle. Though it is criticized for its strange ergonomics, and for the use of G36 magazines over M16 magazines, it is a perfectly serviceable modern bullpup rifle that will serve your needs just fine. Just don't let Dragan talk your ear off about it.",
 
 		bm_w_asval = "TsNIITochMash AS VAL",                      						--Valkyria Rifle - s i l e n c e r  s k i l l s
 		bm_w_asval_desc = "Sokol's assault rifle of choice. Low damage - Integrally suppressed.",
