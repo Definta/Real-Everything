@@ -136,91 +136,91 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 	--Pistols
 
 		bm_w_x_rage = "Akimbo Taurus Raging Bulls", 									--Akimbo Bronco .44
-		bm_w_x_rage_desc = "Wield two Crosskill Bronco .44s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_rage_desc = "A pair of Brazilian revolvers manufactured by Tarusu. Double action, cylinder fed, and chambered in .44 Magnum",
 
 		bm_w_x_pl14 = "Akimbo Kalashnikov Concern PL-14 Lebedevs", 						--Akimbo White Streak
-		bm_w_x_pl14_desc = "Wield two IZHMA White Streaks simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_pl14_desc = "A pair of Russian handguns manufactured by Kalashnikov Concern. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_sparrow = "Akimbo IWI Jericho 941s", 									--Akimbo Baby Deagle 
-		bm_w_x_sparrow_desc = "Wield two Foreign Arnaments Sparrow 941s simultaneously in akimbo. I don't quite remember this from Cowboy Bebop.",
+		bm_w_x_sparrow_desc = "A pair of Israeli handguns manufactured by Israeli Weapon Industries. Semi-automatic, magazine fed, and chambered in .41 Action Express.",
 
 		bm_w_x_c96 = "Akimbo Mauser C96s", 												--Akimbo Broomstick
-		bm_w_x_c96_desc = "Wield two Ubertoten Broomsticks simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_c96_desc = "A pair of German Empire handguns manufactured by Mauser. Semi-automatic, clip loaded, and chambered in 7.63x25mm Mauser.",
 
 		bm_w_x_breech = "Akimbo Luger P08s",											--Akimbo Parabellum - https://youtu.be/4g5p6b-ZZ5Y?t=61 - Double one handed Nazi?
-		bm_w_x_breech_desc = "Wield two Max Parabellums simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_breech_desc = "A pair of German Empire handguns designed by Georg Luger. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_chinchilla = "Akimbo Smith & Wesson Model 29s",							--Akimbo Castigo .44 Revolvers 
-		bm_w_x_chinchilla_desc = "Wield two Crosskill Castigo .44s simultaneously in akimbo. Sangres very angry.",
+		bm_w_x_chinchilla_desc = "A pair of American revolvers manufactured by Smith & Wesson. Double action, cylinder fed, and chambered in .44 Magnum.",
 		
 		bm_w_x_shrew = "Akimbo Colt Defenders",     		  							--Akimbo Crosskill Guards
-		bm_w_x_shrew_desc = "Wield two Crosskill Guards simultaneously in akimbo. Kneel before the Duke.",
+		bm_w_x_shrew_desc = "A pair of American handguns manufactured by Colt's Manufacturing Company. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_x_hs2000 = "Akimbo HS2000s", 												--Akimbo LEO 
-		bm_w_x_hs2000_desc = "Wield two HS LEOs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_hs2000 = "Akimbo Springfield Armory XD(M)s", 												--Akimbo LEO 
+		bm_w_x_hs2000_desc = "A pair of Croation-American handguns manufactured by Springfield Armory. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_g18c = "Akimbo Glock 18Cs", 												--Akimbo STRYK18c 
-		bm_w_x_g18c_desc = "Wield two Chimano STRYK18cs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_g18c_desc = "A pair of Austrian machine pistols manufactured by Glock. Select-fire, magazine fed, and chambered in 9x19mm Parabellum.",
 		
 		bm_w_x_2006m = "Akimbo Mateba 2006Ms", 											--Akimbo Matever .357
-		bm_w_x_2006m_desc = "Wield two Matever Custom Series .357s simultaneously in akimbo. Imagine what Togusa could have done with these trusty puppies.",
+		bm_w_x_2006m_desc = "A pair of Italian handguns manufactured by Mateba. Double action, cylinder-fed, and chambered in .357 Magnum.",
 		
 		bm_w_jowi = "Akimbo Glock 26s",              									--Akimbo Chimano Compact
-		bm_w_jowi_desc = "Wield two Chimano Compacts simultaneously in akimbo. Make John Woo proud.",
+		bm_w_jowi_desc = "A pair of Austrian handguns manufactured by Glock. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_1911 = "Akimbo Springfield Armory 1911 Lightweight Operators",		  	--Akimbo Crosskill
-		bm_w_x_1911_desc = "Wield two Crosskill Operator IIs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_1911_desc = "A pair of American handguns manufactured by Springfield Armory. Semi-automatic, magazine fed, and chambered in .45 ACP.",
 
 		bm_w_x_b92fs = "Akimbo Beretta 92FS Centurions",                 				--Akimbo Bernetti
-		bm_w_x_b92fs_desc = "Wield two Bernetti B9Ses simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_b92fs_desc = "A pair of Italian handguns manufactured by Beretta. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_deagle = "Akimbo IMI Desert Eagle Mark XIXs",               				--Akimbo Deagle
-		bm_w_x_deagle_desc = "Wield two IMI Deagle .50cs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_deagle_desc = "A pair of Israeli handguns manufactured by Israeli Military Industries. Semi-automatic, magazine fed, and chambered in .50 Action Express.",
 
 		bm_w_x_g17 = "Akimbo Glock 17s",                   								--Akimbo Chimano 88
-		bm_w_x_g17_desc = "Wield two Chimano 88s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_g17_desc = "A pair of Austrian handguns manufactured by Glock. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_g22c = "Akimbo Glock 22Cs",               								--Akimbo Chimano Custom
-		bm_w_x_g22c_desc = "Wield two Chimano Customs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_g22c_desc = "A pair of Austrian handguns manufactured by Glock. Semi-automatic, magazine fed, and chambered in .40 S&W.",
 
 		bm_w_x_p226 = "Akimbo SIG Sauer P226Rs", 										--Akimbo Signature .40s
-		bm_w_x_p226_desc = "Wield two Signature .40s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_p226_desc = "A pair of Swiss-American handguns manufactured by SG Sauer. Semi-automatic, magazine fed, and chambered in .40 S&W.",
 
-		bm_w_x_ppk = "Akimbo Walther PPKs", 											--Akimbo Gruber Kurz
-		bm_w_x_ppk_desc = "Wield two Lakner Gruber Kurzes simultaneously in akimbo. Which Bond film did he use these in?",
+		bm_w_x_ppk = "Akimbo Walther PPK/Ses", 											--Akimbo Gruber Kurz
+		bm_w_x_ppk_desc = "A pair of German handguns manufactured by Walther. Semi-automatic, magazine fed, and chambered in .32 ACP.",
 
 		bm_w_x_usp = "Akimbo Heckler & Koch USP45s", 									--Akimbo Interceptor 45
-		bm_w_x_usp_desc = "Wield two SG Interceptor 45s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_usp_desc = "A pair of German handguns manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
 		
 		bm_w_x_packrat = "Akimbo Heckler & Koch P30Ls", 								--Akimbo Contractor
-		bm_w_x_packrat_desc = "Wield two SG Masters simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_packrat_desc = "A pair of German handguns manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_x_legacy = "Akimbo Heckler & Koch P7s", 									--Akimbo Contractor
-		bm_w_x_legacy_desc = "Wield two SG M13s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_legacy = "Akimbo Heckler & Koch P7M13s", 									--Akimbo Contractor
+		bm_w_x_legacy_desc = "A pair of German handguns manufactured by Heckler & Koch. Semi-automatic, magazine fed, and chambered in 9x19mm Parabellum.",
 		
 
 	--SMGs
 
 		bm_w_x_hajk = "Akimbo CZ 805 BREN A1s", 										--Akimbo CR 805B 
-		bm_w_x_hajk_desc = "Wield two CR 805Bs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_hajk_desc = "A pair of Czech carbines manufactured by Ceska zbrojovka Uhersky Brod. Select fire, magazine fed, and chambered in 5.56x45mm.",
 		
 		bm_w_x_mac10 = "Akimbo Ingram MAC-11s",											--Akimbo Mark 10s
-		bm_w_x_mac10_desc = "Wield two Ingrid Mark 10s simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_mac10_desc = "A pair of American machine pistols manufactured by Military Armament Corporation. Select fire, magazine fed, and chambered in .380 ACP.",
 
 		bm_w_x_cobray = "Akimbo Cobray M11/9s",											--Akimbo Jacket's Piece
-		bm_w_x_cobray_desc = "Wield two HIC Jacket's Pieces simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_cobray_desc = "A pair of American machine pistols manufactured by Cobray Company. Select fire, magazine fed, and chambered in 9x19mm Parabellum.",
 		
 		bm_w_x_m1928 = "Akimbo Auto Ordnance M1928s", 									--Akimbo Chicago Typewriter
-		bm_w_x_m1928_desc = "Wield two Chicago Typewriters simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_m1928_desc = "A pair of American submachine guns manufactured by Auto Ordnance Company. Fully automatic, magazine fed, and chambered in .45 ACP.",
 
 		bm_w_x_scorpion = "Akimbo Sa. Vz. 61 Skorpions", 								--Akimbo Cobras 
-		bm_w_x_scoption_desc = "Wield two TKA Cobras simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_scoption_desc = "A pair of Czechoslovak machine pistols manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in .32 ACP.",
 
 		bm_w_x_baka = "Akimbo IMI Micro Uzi", 											--Akimbo Micro Uzis 
-		bm_w_x_baka_desc = "Wield two IMI Micro Uzis simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_baka_desc = "A pair of Israeli machine pistols manufactured by Israeli Military Industries. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_x_mp9 = "Akimbo B&T MP9s", 												--Akimbo CMPs 
-		bm_w_x_mp9_desc = "Wield two SG CMPs simultaneously in akimbo. Make John Woo proud.",
+		bm_w_x_mp9 = "Akimbo B&T MP9NA3s", 												--Akimbo CMPs 
+		bm_w_x_mp9_desc = "A pair of Swiss machine pistols manufactured by Brugger & Thomet. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_olympic = "Akimbo Olympic Arms K23Bs", 									--Akimbo Para SMGs 
 		bm_w_x_olympic_desc = "Wield two Croskill AMCAR-Paras simultaneously in akimbo. Make John Woo proud.",
