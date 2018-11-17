@@ -1,7 +1,7 @@
 {
 	"blt_version" : 2,
 	"name" : "Real Everything",
-	"description" : "Changes the weapon and attachment names to their real life counterparts. Also adds useful descriptions for weapons and weapon attachments.\n\nSpecial thanks to VxWolf for letting me completely rip his mod for my use, Alcat for help with weapon attachment descriptions, and Luffy for the weapon description reenabling",
+	"description" : "Changes the weapon and attachment names to their real life counterparts. Also adds useful descriptions for weapons and weapon attachments.\n\nSpecial thanks to VxWolf for letting me completely rip his mod for my use, Alcat for help with weapon attachment descriptions, Luffy for the weapon description reenabling, and Tempest the kochsucker of Mazeworld for coming up with the JA2 style descriptions.",
 	"author" : "AF Definta",
 	"contact" : "hard",
 	"color" : "0.8 0.8 1.0",
