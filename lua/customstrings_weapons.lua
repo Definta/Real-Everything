@@ -46,7 +46,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_famas_desc = "The most iconic French firearm, the FAMAS has served for over 40 years as the main service rifle of the French Army. Some soldiers once referred to it as \"le clairon\" (the bugle), after its iconic shape, and the nickname since stuck. Expect all of the performance of an M16 in a package just under 30 inches in length.",
 
 		bm_w_galil = "IMI Galil ARM 7.62",                      						--Gecko 7.62
-		bm_w_galil_desc = "Israeli assault rifle. Moderate damage - wide part variety.",
+		bm_w_galil_desc = "The Galil ARM is a 7.62x51mm rifle of Israeli origin. Its design incorporates a carry handle and a bipod; that, and its name (Galil Automatic Rifle Machine-gun) suggest it was intended as a squad automatic weapon, though it ended up serving as an infantry rifle as well. Also, the front handguard doubles as a bottle opener. Yes, really.",
 
 		bm_w_g3 = "Heckler & Koch G3A3",                         						--Gewehr 3
 		bm_w_g3_desc = "Battle rifle of choice for WPD snipers. High damage - Great accuracy.",
