@@ -225,7 +225,35 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		bm_wp_m95_b_barrel_long_desc = "Lengthened barrel increases accuracy. Not as concealable.", --Thanatos tank buster barrel
 		bm_wp_m95_b_barrel_short_desc = "Shortened barrel increases concealment. Greatly reduced accuracy. Remember your training, Snake.", --CQB Barrel
         bm_wp_m95_b_barrel_suppressed_desc = "Suppressed barrel reduces firing noise. Massively reduced damage.", --Supressed barrel
-        
+		
+--modded stuff
+
+		--K1A7
+		bm_wp_wpn_fps_smg_k1a7_b_sd = "Daewoo Telecom K7 Suppressor",
+		bm_wp_wpn_fps_smg_k1a7_b_sd_desc = "The suppressor from a South Korean submachine gun.",
+		
+		bm_wp_wpn_fps_smg_k1a7_m_9mm = "Daewoo Telecom K7 Rechamber Kit",
+		bm_wp_wpn_fps_smg_k1a7_m_9mm_desc = "The receiver and magazine of a South Korean submachine gun. Pair this with the suppressor to recreate the S&T Daewoo K7.",
+		
+		bm_wp_wpn_fps_smg_k1a7_s_pulled_desc = "Extends the stock for better control.",
+		
+		--MP7
+		bm_wp_wpn_fps_smg_mp7new_mag_ext = "H&K MP7A1 40-round extended mag",
+		bm_wp_wpn_fps_smg_mp7new_mag_ext_desc = "An extended magazine for a German PDW, loaded to 40 rounds.",
+		
+		bm_wp_wpn_fps_smg_mp7new_mag_ext_underloaded = "H&K MP7A1 40-round extended mag (30 rounds)",
+        bm_wp_wpn_fps_smg_mp7new_mag_ext_underloaded_desc = "An extended magazine for a German PDW, underloaded to 30 rounds.",
+		
+		bm_wp_wpn_fps_smg_mp7new_irons_raised = "H&K MP7A1 Aperture Sights",
+		bm_wp_wpn_fps_smg_mp7new_irons_raised_desc = "Unfolded MP7 sights with a ring aperture for better target acquisition.",
+		
+		bm_wp_wpn_fps_smg_mp7new_stock_extended_desc = "Extends the stock for better control.",
+		
+		--PDR SMG
+		bm_wp_wpn_fps_pdr_body_green_desc = "An olive green body for the PDR.",
+		bm_wp_wpn_fps_pdr_body_tan_desc = "A desert tan body for the PDR.",
+		bm_wp_wpn_fps_pdr_body_white_desc "A futuristic white body for the PDR.",
+		
         thislineisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add an attachment
     })
 end)

@@ -523,7 +523,14 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 --modded weapons
 
+		bm_w_k1a7 = "Daewoo Precision Industries K1A",									--K1A7 SMG
+		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm."
+
+		bm_w_mp7new = "Heckler & Koch MP7A1",											--MP7
+		bm_w_mp7new_desc = "A German personal defence weapon manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in HK 4.6x30mm DM11.",
 		
+		bm_w_pdr = "Magpul PDR-C",														--PDR
+		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
         
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
