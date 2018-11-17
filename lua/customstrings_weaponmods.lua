@@ -252,7 +252,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 		--PDR SMG
 		bm_wp_wpn_fps_pdr_body_green_desc = "An olive green body for the PDR.",
 		bm_wp_wpn_fps_pdr_body_tan_desc = "A desert tan body for the PDR.",
-		bm_wp_wpn_fps_pdr_body_white_desc "A futuristic white body for the PDR.",
+		
+		bm_wp_wpn_fps_smg_pdr_m_short = "STANAG 5.56x45mm 20-round mag",
+		bm_wp_wpn_fps_smg_pdr_m_short_desc = "NATO standard magazine that's been manufactured to hold 20 rounds.",
 		
         thislineisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add an attachment
     })
