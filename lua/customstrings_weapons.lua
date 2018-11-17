@@ -61,58 +61,58 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_asval_desc = "A Soviet integrally suppressed rifle manufactured by Tula Arms Plant. Select fire, magazine fed, and chambered in 9x39mm.",
 
 		bm_w_sub2000 = "Kel-Tec SUB-2000",							  					--Cavity 9mm
-		bm_w_sub2000_desc = "Folding DMR. Extremely high damage - High concealment.",
+		bm_w_sub2000_desc = "An American folding pistol carbine manufactured by Kel-Tec. Semi-automatic only, magazine fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_tecci = "Heckler & Koch HK416C",                             				--Bootleg - Sydney is not the worst girl only because the H3H3 pack is shit, and because of Joy
-		bm_w_tecci_desc = "Sydney's assault rifle of choice. Low damage - Large magazines.",
+		bm_w_tecci_desc = "A German carbine manufactured by Heckler & Koch. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
-		bm_w_contraband = "Heckler & Koch HK417",         				  				--Little Friend 7.62
-		bm_w_contraband_desc = "Scarface's little friend. Extremely high damage - Has an underbarrel grenade launcher.",
+		bm_w_contraband = "Heckler & Koch HK417D",         				  				--Little Friend 7.62
+		bm_w_contraband_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt. Select fire/single shot, magazine fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
 		bm_w_contraband_m203 = "Colt M203",    			  								--Little Friend Underbarrel Grenade Launcher
 
 		bm_w_ak12 = "Kalashnikov Concern AK-15",                         				--AK17 Rifle - The AK-200 derived prototype was better.
-		bm_w_ak12_desc = "Modernized battle rifle based on IZHMA's AK platform. High damage - low customisability.",
+		bm_w_ak12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select fire, magazine fed, and chambered in 7.62x39mm. AK-400 prototype derived.",
 
 		bm_w_ching = "Springfield Armory M1 Garand",           							--Galant Rifle
-		bm_w_ching_desc = "Once described by General Patton as the greatest battle implement ever devised, this iconic American rifle has served millions of Americans during World War 2 and in a few conflicts afterwards. It allows any shooter to kill deer, Nazis, North Koreans, and just about any law enforcement officer, with all of the power and authority that a .30-06 cartridge commands. Watch out: the Garand is a hungry rifle, it likes to bite thumbs.",
+		bm_w_ching_desc = "An American semi-automatic rifle manufactured by Springfield Armory. Semi-automatic only, en block clip loaded, and chambered in .30-06 Springfield.",
 
-		bm_w_corgi = "FN F2000",							  							--Union 5.56 Rifle
-		bm_w_corgi_desc = "Neatly configured bullpup assault rifle. Moderate damage - Moderate ammo.",
+		bm_w_corgi = "FN F2000 Tactical",							  							--Union 5.56 Rifle
+		bm_w_corgi_desc = "A Belgian bullpup assault rifle manufactured Fabrique Nationale d'Herstal. Select-fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_komodo = "IWI X95",							  							--MTAR 21 Rifle - Fuck you Overkill it's an X95
-		bm_w_komodo_desc = "Israeli bullpup assault rifle. Moderate damage - Moderate ammo.",
+		bm_w_komodo_desc = "An Israeli bullpup carbine manufactured by Israeli Weapon Industries. Select fire, magazine-fed, and chambered in 5.56x45mm.",
 
 --Shotguns
  
 		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 - Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
-		bm_w_spas12_desc = "This beefy Italian 12 gauge shotgun is often misunderstood by the video games portraying it; some depict it as a pump-action. Others depict it as a semi-automatic. The truth is, it can do both, but your favorite developers are lazy, so it's usually one or the other. Nevertheless, the first movie it was portrayed in demonstrated that this lovely 12 gauge autoloader is more than adequate against police officers. Best paired with an Uzi nine-millimetah and a thick pair of shades.",
+		bm_w_spas12_desc = "An Italian dual-mode shotgun manufactured by Franchi. Semi-automatic, tube fed, and chambered in 12 gauge.",
 
-		bm_w_b682 = "CZ Redhead O/U Deluxe",											--Joceline O/U 12G
-		bm_w_b682_desc = "Whether you go for the Redhead, or any other over-and-under double barrel hunting shotgun, you know exactly what you're getting: two shots of 12 gauge, long barrels, and the confidence that with no more than that, millions of animals and certainly just as many men have been felled.\n\nJust one thing: Try not to attract your natural predator, the Taser. They'll eat you up and laugh about it if they can.",
+		bm_w_b682 = "CZUB Redhead O/U Deluxe",											--Joceline O/U 12G
+		bm_w_b682_desc = "A Czech over-under double barrel shotgun manufactured by Ceska zbrojovka Uhersky Brod. Over/under, chamber loaded, and chambered in 12 gauge.",
 
 		bm_w_r870 = "Remington Model 870 Field",										--Reinfield 880
-		bm_w_r870_desc = "Standard issue shotgun. Moderate damage - high rate of fire.",
+		bm_w_r870_desc = "An American shotgun manufactured by Remington Arms. Pump-action, tube fed, and chambered in 12 gauge.",
 
 		bm_w_saiga = "Kalashnikov Concern Saiga 12K",									--IZHMA 12G
-		bm_w_saiga_desc = "Fully automatic magazine-fed light shotgun. Low damage - high rate of fire.",
+		bm_w_saiga_desc = "A Soviet shotgun manufactured by Kalashnikov Concern. Semi-automatic, magazine fed, and chambered in 12 gauge.",
 
 		bm_w_huntsman = "Stoeger Industries Uplander",									--Mosconi 12G
-		bm_w_huntsman_desc = "Break-action heavy shotgun made for hunting. High damage - low ammo capacity.",
+		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chambered loaded, and chambered in 12 gauge.	",
 
 		bm_w_benelli = "Benelli M4 Super 90",											--M1014
-		bm_w_benelli_desc = "Modern light shotgun. Low damage - high rate of fire.",
+		bm_w_benelli_desc = "An Italian shotgun manufactured by Benelli. Semi-automatic, tube fed, and chambered in 12 gauge.",
 
 		bm_w_ksg = "Kel-Tec KSG",														--Raven
-		bm_w_ksg_desc = "A shotgun with unique feed system. Moderate damage - Large magazines.",
+		bm_w_ksg_desc = "An American bullpup shotgun manufactured by Kel-Tec. Pump action, tube fed, and chambered in 12 gauge.",
 
-		bm_w_aa12 = "Auto Assault-12",													--Steakout 12G
-		bm_w_aa12_desc = "Fully automatic magazine-fed light shotgun. Low damage - high ammo capacity.",
+		bm_w_aa12 = "MPS AA-12 CQB",													--Steakout 12G
+		bm_w_aa12_desc = "An American shotgun designed by Maxwell Atchisson. Select-fire, magazine-fed, and chambered in 12 gauge.",
 
 		bm_w_boot = "Winchester Model 1887",											--Breaker 12G
-		bm_w_boot_desc = "Rust's heavy shotgun of choice. High damage - Large magazines.",
+		bm_w_boot_desc = "An American shotgun manufactured by Winchester Arms. Lever action, tube fed, and chambered in 12 gauge.",
 
-		bm_w_rota = "Crye Precision SIX12",												--Goliath 12G
-		bm_w_rota_desc = "Magazine-fed shotgun. Moderate damage - Fast reloads.",
+		bm_w_rota = "Crye Precision SIX12-LE",												--Goliath 12G
+		bm_w_rota_desc = "An American bullpup shotgun manufactured by Crye Precision. Semi-automatic, cylindrical magazine fed, and chambered in 12 gauge.",
 
 		bm_w_judge = "Taurus 4510PLYFS",												--The Judge
 		bm_w_judge_desc = "Pocket-sized revolver heavy shotgun. High damage - High concealment.",
