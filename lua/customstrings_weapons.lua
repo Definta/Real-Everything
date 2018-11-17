@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
     LocalizationManager:add_localized_strings({
 
 --Assault Rifles
@@ -6,7 +6,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
         bm_w_akm_gold = "Golden Kalashnikov Concern AKMS",								--Golden AK.762
 		bm_w_akm_gold_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 7.62x39mm. Gold plated.",
 
-		bm_w_amcar = "Colt Model 727 Commando",											--AMCAR - "Automatic Military Carbine, Armalite Rifle?
+		bm_w_amcar = "Colt Model 727 Commando",											--AMCAR "Automatic Military Carbine, Armalite Rifle?
 		bm_w_amcar_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_ak74 = "Kalashnikov Concern AKS-74",                            			--AK
@@ -36,7 +36,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_s552 = "SIG SG 552 Commando",              								--Commando 553
 		bm_w_s552_desc = "A Swiss carbine manufactured by Schweizerische Industrie Gesellschaft. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_scar = "FN SCAR-H STD",                     					 			--Eagle Heavy Rifle - Eagle Light Rifle when
+		bm_w_scar = "FN SCAR-H STD",                     					 			--Eagle Heavy Rifle Eagle Light Rifle when
 		bm_w_scar_desc = "A Belgian battle rifle manufactured by Fabrique Nationale d'Herstal",
 
 		bm_w_fal = "DSA SA58 FAL",                          				 			--Falcon
@@ -51,40 +51,40 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_g3 = "Heckler & Koch G3A3",                         						--Gewehr 3
 		bm_w_g3_desc = "A German battle rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 7.62x51mm.",
 
-		bm_w_l85a2 = "Enfield L85A2",                       	 			 			--Queen's Wrath - Could be BAE L85A2 as well
+		bm_w_l85a2 = "Enfield L85A2",                       	 			 			--Queen's Wrath Could be BAE L85A2 as well
 		bm_w_l85a2_desc = "A British bullpup assault rifle manufactured by RSAF Enfield. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_vhs = "HS Produkt VHS-D2",                              					--Lion's Roar
 		bm_w_vhs_desc = "A Croatian bullpup assault rifle manufactured by HS Produkt. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_asval = "TsNIITochMash AS VAL",                      						--Valkyria Rifle - s i l e n c e r  s k i l l s
+		bm_w_asval = "TsNIITochMash AS VAL",                      						--Valkyria Rifle s i l e n c e r  s k i l l s
 		bm_w_asval_desc = "A Soviet integrally suppressed rifle manufactured by Tula Arms Plant. Select-fire, magazine-fed, and chambered in 9x39mm.",
 
 		bm_w_sub2000 = "Kel-Tec SUB-2000",							  					--Cavity 9mm
 		bm_w_sub2000_desc = "An American folding pistol carbine manufactured by Kel-Tec. Semi-automatic only, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_tecci = "Heckler & Koch HK416C",                             				--Bootleg - Sydney is not the worst girl only because the H3H3 pack is shit, and because of Joy
+		bm_w_tecci = "Heckler & Koch HK416C",                             				--Bootleg Sydney is not the worst girl only because the H3H3 pack is shit, and because of Joy
 		bm_w_tecci_desc = "A German carbine manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_contraband = "Heckler & Koch HK417D",         				  				--Little Friend 7.62
 		bm_w_contraband_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
 		bm_w_contraband_m203 = "Colt M203",    			  								--Little Friend Underbarrel Grenade Launcher
 
-		bm_w_ak12 = "Kalashnikov Concern AK-15",                         				--AK17 Rifle - The AK-200 derived prototype was better.
+		bm_w_ak12 = "Kalashnikov Concern AK-15",                         				--AK17 Rifle The AK-200 derived prototype was better.
 		bm_w_ak12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 7.62x39mm. AK-400 prototype derived.",
 
 		bm_w_ching = "Springfield Armory M1 Garand",           							--Galant Rifle
 		bm_w_ching_desc = "An American semi-automatic rifle manufactured by Springfield Armory. Semi-automatic only, en block clip loaded, and chambered in .30-06 Springfield.",
 
-		bm_w_corgi = "FN F2000 Tactical",							  							--Union 5.56 Rifle
+		bm_w_corgi = "FN F2000 Tactical",							  					--Union 5.56 Rifle
 		bm_w_corgi_desc = "A Belgian bullpup assault rifle manufactured Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_komodo = "IWI X95",							  							--MTAR 21 Rifle - Fuck you Overkill it's an X95
+		bm_w_komodo = "IWI X95",							  							--MTAR 21 Rifle Fuck you Overkill it's an X95
 		bm_w_komodo_desc = "An Israeli bullpup carbine manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 --Shotguns
  
-		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 - Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
+		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
 		bm_w_spas12_desc = "An Italian dual-mode shotgun manufactured by Franchi. Semi-automatic, tube-fed, and chambered in 12 gauge.",
 
 		bm_w_b682 = "CZUB Redhead O/U Deluxe",											--Joceline O/U 12G
@@ -111,7 +111,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_boot = "Winchester Model 1887",											--Breaker 12G
 		bm_w_boot_desc = "An American shotgun manufactured by Winchester Arms. Lever action, tube-fed, and chambered in 12 gauge.",
 
-		bm_w_rota = "Crye Precision SIX12-LE",												--Goliath 12G
+		bm_w_rota = "Crye Precision SIX12-LE",											--Goliath 12G
 		bm_w_rota_desc = "An American bullpup shotgun manufactured by Crye Precision. Semi-automatic, cylindrical magazine-fed, and chambered in 12 gauge.",
 
 		bm_w_judge = "Taurus 4510PLYFS",												--The Judge
@@ -120,10 +120,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_serbu = "Sawn-off Remington 870",											--Locomotive 12G
 		bm_w_serbu_desc = "A shortened American shotgun manufactured by Remington Arms. Pump-action, tube-fed, and chambered in 12 gauge.",
 
-		bm_w_striker = "Armsel Striker",												--Street Sweeper - I hate this shotgun. SO MANY FUCKING VERSIONS. Penn Arms? Armsel? Sentinel Arms? Protecta?
+		bm_w_striker = "Armsel Striker",												--Street Sweeper I hate this shotgun. SO MANY FUCKING VERSIONS. Penn Arms? Armsel? Sentinel Arms? Protecta?
 		bm_w_striker_desc = "A South African shotgun manufactured by various companies over its life span. Semi-automatic, cylinder-fed, and chambered in 12 gauge.",
 
-		bm_w_m37 = "Ithaca Model 37 Riot",													--GSPS Shotgun
+		bm_w_m37 = "Ithaca Model 37 Riot",												--GSPS Shotgun
 		bm_w_m37_desc = "An American shotgun manufactured by Ithaca Gun Company. Pump-action, tube-fed, and chambered in 12 gauge.",
 
 		bm_w_basset = "CBRPS Spike X1S Saiga Conversion",								--Grimm 12G
@@ -147,7 +147,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_c96 = "Akimbo Mauser C96s", 												--Akimbo Broomstick
 		bm_w_x_c96_desc = "A pair of German Empire handguns manufactured by Mauser. Semi-automatic, clip loaded, and chambered in 7.63x25mm Mauser.",
 
-		bm_w_x_breech = "Akimbo Luger P08s",											--Akimbo Parabellum - https://youtu.be/4g5p6b-ZZ5Y?t=61 - Double one handed Nazi?
+		bm_w_x_breech = "Akimbo Luger P08s",											--Akimbo Parabellum https://youtu.be/4g5p6b-ZZ5Y?t=61 Double one handed Nazi?
 		bm_w_x_breech_desc = "A pair of German Empire handguns designed by Georg Luger. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_chinchilla = "Akimbo Smith & Wesson Model 29s",							--Akimbo Castigo .44 Revolvers 
@@ -156,7 +156,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_shrew = "Akimbo Colt Defenders",     		  							--Akimbo Crosskill Guards
 		bm_w_x_shrew_desc = "A pair of American handguns manufactured by Colt's Manufacturing Company. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_x_hs2000 = "Akimbo Springfield Armory XD(M)s", 												--Akimbo LEO 
+		bm_w_x_hs2000 = "Akimbo Springfield Armory XD(M)s", 							--Akimbo LEO 
 		bm_w_x_hs2000_desc = "A pair of Croatian-American handguns manufactured by Springfield Armory. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_g18c = "Akimbo Glock 18Cs", 												--Akimbo STRYK18c 
@@ -195,7 +195,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_x_packrat = "Akimbo Heckler & Koch P30Ls", 								--Akimbo Contractor
 		bm_w_x_packrat_desc = "A pair of German handguns manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_x_legacy = "Akimbo Heckler & Koch P7M13s", 									--Akimbo Contractor
+		bm_w_x_legacy = "Akimbo Heckler & Koch P7M13s", 								--Akimbo Contractor
 		bm_w_x_legacy_desc = "A pair of German handguns manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 
@@ -280,7 +280,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
 --Special
 
-		bm_w_gre_m79 = "Springfield Armory M79",      				          			--GL40 GL - GRENADE LAUNCHER 40 GRENADE LAUNCHER
+		bm_w_gre_m79 = "Springfield Armory M79",      				          			--GL40 GL GRENADE LAUNCHER 40 GRENADE LAUNCHER
 		bm_w_gre_m79_desc = "An American grenade launcher manufactured by Springfield Armory. Single shot, breech loaded, and chambered in 40x46mm SR.",
 
 		bm_w_saw = "OVE9000",                             								--SAW
@@ -289,7 +289,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_m134 = "General Electrics M134",   										--Vulcan Minigun - Vulcan Minigun is redundant
 		bm_w_m134_desc = "An American portable minigun manufactured by General Electrics. Fully automatic, belt fed, and chambered in 7.62x51mm.",
 
-		bm_w_m32 = "Milkor M32 Mk 1S MGL",       		  											--Piglet GL
+		bm_w_m32 = "Milkor M32 Mk 1S MGL",       		  								--Piglet GL
 		bm_w_m32_desc = "A South African grenade launcher manufactured by Milkor. Semi-automatic, cylinder-fed, and chambered in 40x46mm SR.",
 
 		bm_w_rpg7 = "Bazalt RPG-7",                        								--HRL-7
@@ -301,7 +301,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_arbiter = "Heckler & Koch XM25 CDTE",		          		  				--Arbiter Grenade Launcher
 		bm_w_arbiter_desc = "A German grenade launcher manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 25x40mm.",
 
-		bm_w_ray = "M202A1 FLASH",		                  								--Commando 101 Rocket Launcher - Literally no one knows who manufactured them
+		bm_w_ray = "M202A1 FLASH",		                  								--Commando 101 Rocket Launcher Literally no one knows who manufactured them
 
 		bm_w_flamethrower_mk2 = "Flamethrower Mk 1",		  							--Flamethrower
 		bm_w_flamethrower_mk2_desc = "A custom flamethrower probably cooked up in Wolf's backyard. Shoots flames.",
@@ -309,19 +309,19 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_slap = "Heckler & Koch M320",		 										--Compact 40mm Grenade Launcher
 		bm_w_slap_desc = "A German grenade launcher manufactured by Heckler & Koch. Single shot, breech loaded, and chambered in 40x46mm SR.",
 
-		bm_w_shuno = "Overkill Industries XL 5.56",  		  							--XL 5.56 Microgun - Kinda reminds me of the FNV Shoulder Mounted Machine Gun
+		bm_w_shuno = "Overkill Industries XL 5.56",  		  							--XL 5.56 Microgun Kinda reminds me of the FNV Shoulder Mounted Machine Gun
 		bm_w_shuno_desc = "A portable minigun probably custom built by Chains and Gage. Fully automatic, belt fed, and chambered in 5.56x45mm.",
 
 		bm_w_system = "Boring Company Not A Flamethrower",  			          		--MA-17 Flamethrower
 		bm_w_system_desc = "A glorified lighter manufactured by The Boring Company. It's been converted to actually be a flamethrower.",
 		
-		bm_w_ecp = "Airbow",											--Airbow
+		bm_w_ecp = "Airbow",															--Airbow
 		bm_w_ecp_desc = "A custom bow that uses compressed air to launch its bolts.",
 
 		bm_w_elastic = "DECA Compound",													--DECA Technologies Compound Bow
 		bm_w_elastic_desc = "A modern day compound bow that shoots arrows.",
 
-		bm_w_bow_hunter = "Avalanche Pistol Tactical Crossbow", 										--Pistol Crossbow
+		bm_w_bow_hunter = "Avalanche Pistol Tactical Crossbow", 						--Pistol Crossbow
 		bm_w_bow_hunter_desc = "An American pistol crossbow bought off Amazon.",
 
 		bm_w_bow_long_desc = "Medieval longbow. Fires reusable arrows.", 				--English Longbow
@@ -420,10 +420,10 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_c96 = "Mauser C96",                										--Broomstick
 		bm_w_c96_desc = "A German Empire handgun manufactured by Mauser Werke. Semi-automatic, clip loaded, and chambered in 7.63x25mm Mauser.",
 
-		bm_w_hs2000 = "Springfield Armory XD(M)",                              				--LEO
+		bm_w_hs2000 = "Springfield Armory XD(M)",                              			--LEO
 		bm_w_hs2000_desc = "A Croatian-American handgun manufactured by Springfield Armory. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_peacemaker = "Ruger New Vaquero", 		  									--Peacemaker .45 - Most people think it's a Colt SAA, but it ain't.
+		bm_w_peacemaker = "Ruger New Vaquero", 		  									--Peacemaker .45 Most people think it's a Colt SAA, but it ain't.
 		bm_w_peacemaker_desc = "An American revolver manufactured by Ruger. Single action, cylinder-fed, and chambered in .45 LC.",
 
 		bm_w_mateba = "Mateba 2006M",          											--Matever
@@ -441,7 +441,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_lemming = "FN Five-seveN",	    	              							--5/7 AP Pistol
 		bm_w_lemming_desc = "A Belgian handgun manufactured by Fabrique Nationale d'Herstal. Semi-automatic, magazine-fed, and chambered in FN 5.7x28mm.",
 
-		bm_w_chinchilla = "Smith & Wesson Model 29",    		  						--Castigo .44 Revolver - https://www.youtube.com/watch?v=8Xjr2hnOHiM
+		bm_w_chinchilla = "Smith & Wesson Model 29",    		  						--Castigo .44 Revolver https://www.youtube.com/watch?v=8Xjr2hnOHiM
 -		bm_w_chinchilla_desc = "An American revolver manufactured by Smith & Wesson. Double action, cylinder-fed, and chambered in .44 Magnum.",
 
 		bm_w_breech = "Luger P08",                      								--Parabellum Pistol
@@ -485,7 +485,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_scorpion = "CZ vz. 61 E Skorpion",                           				--Cobra
 		bm_w_scorpion_desc = "A Czechoslovak machine pistol manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in .32 ACP",
 
-		bm_w_tec9 = "Intratec TEC-9",                         							--Blaster 9mm - https://www.youtube.com/watch?v=mLeX6aFLwTs
+		bm_w_tec9 = "Intratec TEC-9",                         							--Blaster 9mm https://www.youtube.com/watch?v=mLeX6aFLwTs
 		bm_w_tec9_desc = "An American machine pistol manufactured by Intratec. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_uzi = "IMI Uzi",                             								--Uzi
@@ -520,7 +520,9 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 
         bm_w_shepheard = "SIG Sauer MPX", 												--Signature SMG
         bm_w_shepheard_desc = "A Swiss submachine gun manufactured by SIG Sauer. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		
         
-        thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun - I kept this from VxWolf's stuff
+        thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
 end)
