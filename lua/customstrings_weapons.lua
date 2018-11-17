@@ -40,25 +40,25 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_scar_desc = "A Belgian battle rifle manufactured by Fabrique Nationale d'Herstal",
 
 		bm_w_fal = "DSA SA58 FAL",                          				 			--Falcon
-		bm_w_fal_desc = "This isn't your grandfather's FAL. The SA58 OSW is a heavily modified version of the old Belgian workhorse; a short barrel, a folding stock, and plenty of rails for your attachments, but still the same dependable FAL at the core. Reportedly quite popular with Colombian commandos and Brazilian special forces.",
+		bm_w_fal_desc = "An American carbine battle rifle manufactured by David Selveggio Arms. Select fire, magazine fed, and chambered in 7.62x51mm.",
 
 		bm_w_famas = "Nexter FAMAS F1",                          						--Clarion
-		bm_w_famas_desc = "The most iconic French firearm, the FAMAS has served for over 40 years as the main service rifle of the French Army. Some soldiers once referred to it as \"le clairon\" (the bugle), after its iconic shape, and the nickname since stuck. Expect all of the performance of an M16 in a package just under 30 inches in length.",
+		bm_w_famas_desc = "A French bullpup assault rifle manufactred by Nexter. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_galil = "IMI Galil ARM 7.62",                      						--Gecko 7.62
-		bm_w_galil_desc = "Israeli assault rifle. Moderate damage - wide part variety.",
+		bm_w_galil_desc = "An Israeli light machine gun manufactured by Israeli Military Industries. Select fire, magazine fed, and chambered in 7.62x51mm.",
 
 		bm_w_g3 = "Heckler & Koch G3A3",                         						--Gewehr 3
-		bm_w_g3_desc = "Battle rifle of choice for WPD snipers. High damage - Great accuracy.",
+		bm_w_g3_desc = "A German battle rifle manufactured by Heckler & Koch. Select fire, magazine fed, and chambered in 7.62x51mm.",
 
 		bm_w_l85a2 = "Enfield L85A2",                       	 			 			--Queen's Wrath - Could be BAE L85A2 as well
-		bm_w_l85a2_desc = "Clover's assault rifle of choice. Moderate damage - The 'Queen's Wrath'.",
+		bm_w_l85a2_desc = "A British bullpup assault rifle manufactured by RSAF Enfield. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_vhs = "HS Produkt VHS-D2",                              					--Lion's Roar
-		bm_w_vhs_desc = "Dragan's assault rifle of choice. Moderate damage - The 'Lion's Roar'.",
+		bm_w_vhs_desc = "A Croation bullpup assault rifle manufactured by HS Produkt. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_asval = "TsNIITochMash AS VAL",                      						--Valkyria Rifle - s i l e n c e r  s k i l l s
-		bm_w_asval_desc = "Sokol's assault rifle of choice. Low damage - Integrally suppressed.",
+		bm_w_asval_desc = "A Soviet integrally suppressed rifle manufactured by Tula Arms Plant. Select fire, magazine fed, and chambered in 9x39mm.",
 
 		bm_w_sub2000 = "Kel-Tec SUB-2000",							  					--Cavity 9mm
 		bm_w_sub2000_desc = "Folding DMR. Extremely high damage - High concealment.",
