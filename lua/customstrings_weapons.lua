@@ -97,7 +97,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_saiga_desc = "A Soviet shotgun manufactured by Kalashnikov Concern. Semi-automatic, magazine fed, and chambered in 12 gauge.",
 
 		bm_w_huntsman = "Stoeger Industries Uplander",									--Mosconi 12G
-		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chambered loaded, and chambered in 12 gauge.	",
+		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chamber loaded, and chambered in 12 gauge.	",
 
 		bm_w_benelli = "Benelli M4 Super 90",											--M1014
 		bm_w_benelli_desc = "An Italian shotgun manufactured by Benelli. Semi-automatic, tube fed, and chambered in 12 gauge.",
@@ -115,22 +115,22 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_rota_desc = "An American bullpup shotgun manufactured by Crye Precision. Semi-automatic, cylindrical magazine fed, and chambered in 12 gauge.",
 
 		bm_w_judge = "Taurus 4510PLYFS",												--The Judge
-		bm_w_judge_desc = "Pocket-sized revolver heavy shotgun. High damage - High concealment.",
+		bm_w_judge_desc = "A Brazilian revolving shotgun manufactured by Taurus. Double-action, cylinder fed, and chambered in .410 bore.",
 
 		bm_w_serbu = "Sawn-off Remington 870",											--Locomotive 12G
-		bm_w_serbu_desc = "Shortened standard shotgun. Moderate damage - high rate of fire.",
+		bm_w_serbu_desc = "A shortened American shotgun manufactured by Remington Arms. Pump-action, tube fed, and chambered in 12 gauge.",
 
 		bm_w_striker = "Armsel Striker",												--Street Sweeper - I hate this shotgun. SO MANY FUCKING VERSIONS. Penn Arms? Armsel? Sentinel Arms? Protecta?
-		bm_w_striker_desc = "South African shotgun. Moderate damage - Large magazines.",
+		bm_w_striker_desc = "A South African shotgun manufactured by various companies over its life span. Semi-automatic, cylinder fed, and chambered in 12 gauge.",
 
-		bm_w_m37 = "Ithaca Model 37",													--GSPS Shotgun
-		bm_w_m37_desc = "Heavy shotgun intended for police use. High damage - Large magazines.",
+		bm_w_m37 = "Ithaca Model 37 Riot",													--GSPS Shotgun
+		bm_w_m37_desc = "An American shotgun manufactured by Ithaca Gun Company. Pump-action, tube fed, and chambered in 12 gauge.",
 
 		bm_w_basset = "CBRPS Spike X1S Saiga Conversion",								--Grimm 12G
-		bm_w_basset_desc = "Modernized light shotgun based on the IZHMA 12G. Low damage - High concealment.",
+		bm_w_basset_desc = "An American bullpup conversion from CBRPS of a Soviet shotgun originally manufactured by Kalashnikov Concern. Semi-automatic, magazine fed, and chambered in 12 gauge.",
 
 		bm_w_coach = "Remington Exposed Hammer SxS",									--Claire 12G
-		bm_w_coach_desc = "Break-action heavy shotgun made for hunting. High damage - low ammo capacity.",
+		bm_w_coach_desc = "An American side-by-side double barrel shotgun manufactured by Remington Arms. Side-by-side, chamber loaded, and chambered in 12 gauge.",
 
 --Akimbos
 	--Pistols
