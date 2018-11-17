@@ -15,7 +15,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m4 = "Colt M4A1",       		      										--CAR-4 - Carbine, Armalite Rifle?
 		bm_w_m4_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_aug = "Steyr AUG A2",                            							--UAR - Universal Assault Rifle?
+		bm_w_aug = "Steyr AUG A2",                            							--UAR Universal Assault Rifle?
 		bm_w_aug_desc = "An Austrian bullpup assault rifle manufactured by Steyr. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_akm = "Kalashnikov Concern AKMS",                        					--AK.762
@@ -286,7 +286,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_saw = "OVE9000",                             								--SAW
 		bm_w_saw_desc = "Ammo pickups are disabled for this weapon.",
 
-		bm_w_m134 = "General Electrics M134",   										--Vulcan Minigun - Vulcan Minigun is redundant
+		bm_w_m134 = "General Electrics M134",   										--Vulcan Minigun is redundant
 		bm_w_m134_desc = "An American portable minigun manufactured by General Electrics. Fully automatic, belt fed, and chambered in 7.62x51mm.",
 
 		bm_w_m32 = "Milkor M32 Mk 1S MGL",       		  								--Piglet GL
