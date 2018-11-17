@@ -4,40 +4,40 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 --Assault Rifles
 
         bm_w_akm_gold = "Golden Kalashnikov Concern AKMS",								--Golden AK.762
-		bm_w_akm_gold_desc = "Gold-plated. Gaudy. Grandiloquent. Gauche. When you absolutely, positively have to show off to every motherfucker in the room. Before you kill them, that is. Highly recommended to tinpot dictators in Central Africa, wealthy Middle-Eastern terrorists, and tasteless criminals. Just try to remember that the gold plating and the diamonds offer no tactical advantage whatsoever.",
+		bm_w_akm_gold_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select fire, magazine fed, and chambered in 7.62x39mm. Gold plated.",
 
 		bm_w_amcar = "Colt Model 727 Commando",											--AMCAR - "Automatic Military Carbine, Armalite Rifle?
-		bm_w_amcar_desc = "The Colt Model 727 is an improved successor to the Vietnam-era CAR-15 and XM177 rifles, all of which are shortened versions of the M16. It goes by many names; the \"M16 Shorty\", the \"Commando\", some fools even call it the \"AMCAR\" (who knows what that even stands for?), but they all point to the same weapon: A very compact, dependable subcarbine you can depend on for when you need to lay down some authority.",
+		bm_w_amcar_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_ak74 = "Kalashnikov Concern AKS-74",                            			--AK
-		bm_w_ak74_desc = "If you liked the AKM, you will love the AK-74. All of the reliability and dependability of the trusted Kalashnikov pattern rifle, but with a smaller caliber, easier to control, particularly in full-auto.",
+		bm_w_ak74_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select fire, magazine fed, and chambered in 5.45x39mm.",
 
 		bm_w_m4 = "Colt M4A1",       		      										--CAR-4 - Carbine, Armalite Rifle?
-		bm_w_m4_desc = "The M4 carbine needs no introduction to the discerning eye. You know it, you probably have it (or even multiple). It's in every movie and video game ever since the late 1990s, and it is the subject of endless debates on whether this or the AK is the better rifle.",
+		bm_w_m4_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_aug = "Steyr AUG A2",                            							--UAR - Universal Assault Rifle?
-		bm_w_aug_desc = "At first glance, it seems improbable that the Steyr AUG was made in the 1970s. Very ahead of its time, this Austrian beauty is a jewel of polymer and advanced alloys, with a very space-age, futuristic design, using a bullpup configuration, and designed for modularity since the day it was introduced. The armed forces of Austria, Ireland and Australia have three things in common: they are drunk most of the time, they speak unintelligible languages, and they all swear by the AUG.",
+		bm_w_aug_desc = "An Austrian bullpup assault rifle manufactured by Steyr. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_akm = "Kalashnikov Concern AKMS",                        					--AK.762
-		bm_w_akm_desc = "If there was ONE rifle to define them all, it would be the AK. Anyone, including people with no interest in firearms, could point at it and recognize immediately what it is. That is why you will find it in the hands of anyone worth their salt: Freedom fighters, street criminals, hardened veterans, and of course, bank robbers. Wood. Steel. Zero compromise.",
+		bm_w_akm_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select fire, magazine fed, and chambered in 7.62x39mm.",
 
 		bm_w_g36 = "Hecker & Koch G36KV",                             					--JP36
-		bm_w_g36_desc = "After the Berlin Wall fell, the reunified Germany needed H&K to replace their aging G3s, but they were forced to abandon audacious, innovative Cold War era space kraut secret technology in favor of a cheaper, more conventional rifle. So, in 1996, H&K created the G36, a modern assault rifle, instantly recognizable with its black polymer furniture and large, translucent magazine. It is a favorite of GenSec, so make sure to get out there and show them you can shoot it better than they do.",
+		bm_w_g36_desc = "A German export carbine manufactured by Heckler & Koch. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_m14 = "Springfield Armory M14",                							--M308
-		bm_w_m14_desc = "As All-American as the apple pie, the 4th of July, and yelling "Yee-haw!", the M14 was first introduced during the Vietnam War in 1959, seemingly at the same time as many other iconic rifles of its time. Powerful and very accurate, it is select-fire, although you may want to keep it on semi-auto; this old girl can be harder to control than an angry stallion in a rodeo.",
+		bm_w_m14_desc = "An American battle rifle manufactured by Springfield Armory. Select fire, magazine fed, and chambered in 7.62x51mm.",
 
 		bm_w_ak5 = "Bofors Ak5",                             				 			--Ak 5
-		bm_w_ak5_desc = "Don't let the name fool you; this isn't a Kalashnikov rifle. The Automatkarbin 5 is Sweden's standard infantry rifle, and it is an improved version of the FN FNC, itself in the same family tree as the venerable FN FAL. Although neither an AK nor an M16, it employs the best of both worlds; the reliable long stroke piston of the former, and the 5.56mm cartridge and magazines of the latter. This is your weapon if you need to bring the Heat to the streets.",
+		bm_w_ak5_desc = "A Swedish licensed copy of the FN FNC, originally designed by Fabrique Nationale d'Herstal. Select fire, magazine fed, and chambered in 5.56x45mm",
 
 		bm_w_m16 = "Colt Model R0901",        		      								--AMR-16
-		bm_w_m16_desc = "The famous M16 rifle, descendant of the AR-15, is an All-American sweetheart still loved and favored by the US armed forces. Despite a rocky start in Vietnam and a troubled service history, and despite many of its shorter variants becoming more popular, the M16 still holds on strong, proving itself to be a capable fighting rifle since nearly 50 years. No law enforcer from 0 to 500 meters is safe from you when you rock the M16!",
+		bm_w_m16_desc = "An American export assault rifle manufactured by Colt Manufacturing Company. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_s552 = "SIG SG 552 Commando",              								--Commando 553
-		bm_w_s552_desc = "This 5.56x45mm short carbine is the smaller, angrier version of the SG550. With a barrel length just under 9 inches, and all of the quality you'd expect from Switzerland, this close-quarters weapon serves police and military forces in many countries of the world.",
+		bm_w_s552_desc = "A Swiss carbine manufactured by Schweizerische Industrie Gesellschaft. Select fire, magazine fed, and chambered in 5.56x45mm.",
 
 		bm_w_scar = "FN SCAR-H STD",                     					 			--Eagle Heavy Rifle - Eagle Light Rifle when
-		bm_w_scar_desc = "The SCAR-H is, as the name suggests, the heavy version of the SCAR rifle platform. Chambered in 7.62x51mm NATO, this is a battle rifle for the 21st century; relatively lightweight, as well as easily adaptable and customizable. If it's good enough for SOF, it's good enough for you!",
+		bm_w_scar_desc = "A Belgian battle rifle manufactured by Fabrique Nationale d'Herstal",
 
 		bm_w_fal = "DSA SA58 FAL",                          				 			--Falcon
 		bm_w_fal_desc = "This isn't your grandfather's FAL. The SA58 OSW is a heavily modified version of the old Belgian workhorse; a short barrel, a folding stock, and plenty of rails for your attachments, but still the same dependable FAL at the core. Reportedly quite popular with Colombian commandos and Brazilian special forces.",
