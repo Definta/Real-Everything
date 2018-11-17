@@ -442,7 +442,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_lemming_desc = "A Belgian handgun manufactured by Fabrique Nationale d'Herstal. Semi-automatic, magazine-fed, and chambered in FN 5.7x28mm.",
 
 		bm_w_chinchilla = "Smith & Wesson Model 29",    		  						--Castigo .44 Revolver https://www.youtube.com/watch?v=8Xjr2hnOHiM
--		bm_w_chinchilla_desc = "An American revolver manufactured by Smith & Wesson. Double action, cylinder-fed, and chambered in .44 Magnum.",
+		bm_w_chinchilla_desc = "An American revolver manufactured by Smith & Wesson. Double action, cylinder-fed, and chambered in .44 Magnum.",
 
 		bm_w_breech = "Luger P08",                      								--Parabellum Pistol
 		bm_w_breech_desc = "A German Empire handgun designed by Georg Luger. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -521,6 +521,8 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
         bm_w_shepheard = "SIG Sauer MPX", 												--Signature SMG
         bm_w_shepheard_desc = "A Swiss submachine gun manufactured by SIG Sauer. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
+--modded weapons
+
 		
         
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
