@@ -49,7 +49,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_galil_desc = "The Galil ARM is a 7.62x51mm rifle of Israeli origin. Its design incorporates a carry handle and a bipod; that, and its name (Galil Automatic Rifle Machine-gun) suggest it was intended as a squad automatic weapon, though it ended up serving as an infantry rifle as well. Also, the front handguard doubles as a bottle opener. Yes, really.",
 
 		bm_w_g3 = "Heckler & Koch G3A3",                         						--Gewehr 3
-		bm_w_g3_desc = "Battle rifle of choice for WPD snipers. High damage - Great accuracy.",
+		bm_w_g3_desc = "This German battle rifle may not look very pretty, but it has an extensive legacy. Being the first successful product made by H&K, the company made dozens of derivatives based on this rifle, most notably the MP5. If you're looking for a raw, battle-proven 7.62x51mm rifle, and find the FAL too basic and the M14 too prissy, this is the rifle for you. The force of ejection also makes a good lateral defense. Not for the faint of shoulders.",
 
 		bm_w_l85a2 = "Enfield L85A2",                       	 			 			--Queen's Wrath - Could be BAE L85A2 as well
 		bm_w_l85a2_desc = "Clover's assault rifle of choice. Moderate damage - The 'Queen's Wrath'.",
