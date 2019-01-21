@@ -523,6 +523,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 --modded weapons
 
+--smgs
 		bm_w_k1a7 = "Daewoo Precision Industries K1A",									--K1A7 SMG
 		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
@@ -531,7 +532,8 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 		bm_w_pdr = "Magpul PDR-C",														--PDR
 		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
-		
+
+--assault rifles
 		bm_w_ar60mrks = "Walther Gewehr 60",
 		bm_w_ar60mrks_desc = "A German designated marksman rifle from an alternate future. Select-fire, magazine-fed, and chambered in 7.92x57mm Mauser.",
 		
@@ -547,9 +549,17 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_hk33 = "Heckler & Koch HK33",
 		bm_w_hk33_desc = "A German assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
+--shotguns
 		bm_w_dp12 = "Standard Manufacturing Company DP-12",
 		bm_w_dp12_desc = "An American bullpup shotgun manufactured by Standard Manufacturing Company, converted to use both barrels at once. Pump-action, tube-fed, and chambered in 12 gauge.",
 		
+		bm_w_wmtx = "MAO Widowmaker TX",
+		bm_w_wmtx_desc = "A Czech shotgun manufactured by Military Arms of Ostrava. Select-fire, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_ks23 = "TsNIITochMash KS-23",
+		bm_w_ks23_desc = "A Soviet carbine manufactured by Tulsky Oruzheiny Zavod. Pump-action, tube-fed, and chambered in 23x75mmR.",
+		
+--machine guns
 		bm_w_mg34 = "Rheinmetall MG 34",
 		bm_w_mg34_desc = "A German general purpose machine gun designed by Heinrich Vollmer. Fully automatic, belt-fed, and chambered in 7.92x57mm Mauser.",
 		
@@ -562,6 +572,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m1919a6 = "Browning M1919A6",
 		bm_w_m1919a6 = "An American general purpose machine gun designed by the legendary John Moses Browning. Fully automatic, belt-fed, and chambered in .30-06 Springfield.",
 		
+--sniper rifles
 		bm_w_dl = "De Lisle Commando Carbine",
 		bm_w_dl_desc = "A British integrally suppressed carbine manufactured by Sterling Armament Company. Bolt-action, magazine-fed, and chambered in .45 ACP.",
 		
@@ -571,6 +582,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_g43 = "Walther Gewehr 43",
 		bm_w_g43_desc = "A German semi-automatic rifle manufactured by Walther. Semi-automatic, magazine-fed, and chambered in 7.92x57mm Mauser.",
 		
+--akimbo
 		bm_w_x_sb = "Akimbo AMT 1911 Hardballers",
 		bm_w_x_sb_desc = "A pair of American 1911-clones used by a legendary Hitman. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
 		
@@ -621,6 +633,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_aek919 = "Akimbo ZiD AEK-919K Kashtans",
 		bm_w_x_aek919_desc = "A pair of Russian machine pistols manufactured by the Degtyaryov Plant. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
 		
+--special
 		bm_w_vick = "Vickers machine gun",
 		bm_w_vick_desc = "A British medium machine gun manufactured by Vickers Limited. Fully-automatic, belt-fed, and chambered in .303 British.",
 		
@@ -636,6 +649,10 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_stdwunderwaffe = "Wunderwaffe DG-2",
 		bm_w_stdwunderwaffe_desc = "A German wonder weapon designed by Edward Richtofen. Semi-automatic, powered by Element 115, and firing off bolts of pure electricity.",
 		
+		bm_w_obrez = "Mosin-Nagant Obrez Custom",
+		bm_w_obrez_desc = "A Russian pistol conversion of an old WWI rifle. Bolt-action, clip-loaded, and chambered in 7.62x54mmR.",
+		
+--pistol
 		bm_w_welrod = "BSA Welrod",
 		bm_w_welrod_desc = "A British integrally suppressed pistol designed by the Inter-Services Research Bureau. Bolt-action, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
@@ -669,6 +686,101 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_plr16_desc = "An American handgun manufactured by Kel-Tec CNC Industries. Semi-automatic, magazine-fed, and chambered in .223 Remington.",
 		
 		bm_w_m712 = "Mauser M712 Schnellfeuer",
+		bm_w_m712_desc = "A German machine pistol manufactured by Mauser Werke. Select-fire, magazine-fed, and chambered in 7.63x25mm Mauser.",
+		
+		bm_w_b93r = "Beretta 93 Raffica",
+		bm_w_b93r_desc = "An Italian machine pistol manufactured by Beretta. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_lapd = "LAPD 2019 Special",
+		bm_w_lapd_desc = "A futuristic handgun from a dystopian future. Like tears in rain..",
+		
+		bm_w_vp70 = "Heckler & Koch VP70M",
+		bm_w_vp70_desc = "A German machine pistol manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+--submachine guns
+		bm_w_proto = "KRISS Super V Prototype",
+		bm_w_proto_desc = "An America prototype submachine gun manufactured by KRISS USA. Select-fire, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_kedr = "Izhmash PP-9 Klin",
+		bm_w_kedr_desc = "A Russian submachine gun designed by Evgeny Dragunov. Select-fire, magazine-fed, and chambered in 9x18mm PMM.",
+		
+		bm_w_pm63 = "FB Radom PM-63",
+		bm_w_pm63 = "A Polish machine pistol manufactured by FB Radom. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_pps43 = "PPS-43",
+		bm_w_pps43_desc = "A Soviet submachine gun designed by Alexei Sudayev. Fully-automatic, magazine-fed, and chambered in 7.62x25mm Tokarev.",
+		
+		bm_w_ak556 = "Khyber Pass AK-101SU",
+		bm_w_ak556_desc = "A Khyber Pass firearm made by an aspiring Pakistani gunsmith based upon the AK-101. Select-fire, magazine fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_js2 = "CSIG JS 9mm",
+		bm_w_js2_desc = "A Chinese bullpup submachine gun manufactured by Jianshe Industries. Select-fire, magazine-fed, and chambered in 9x19mm DAP92-9.",
+		
+		bm_w_spectre_m4 = "SITES Spectre M4",
+		bm_w_spectre_m4_desc = "An Italian submachine gun manufactured by SITES. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_minebea = "Minebea PM-9",
+		bm_w_minebea_desc = "A Japanese machine pistol manufactured by Minebea Company. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_ump = "Heckler & Koch UMP45",
+		bm_w_ump_desc = "A German submachine gun manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_chang6 = "Chongqing Changfeng CF-05",
+		bm_w_chang6_desc = "A Chinese submachine gun manufactured by Chongqing Changfeng. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_fmg9 = "Magpul Industries FMG-9",
+		bm_w_fmg9_desc = "An American folding submachine gun manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_ppsh = "PPSh-41",
+		bm_w_ppsh_desc = "A Soviet submachine gun designed by Georgy Shpagin. Fully-automatic, magazine-fed, and chambered in 7.62x25mm Tokarev.",
+		
+		bm_w_vityaz = "Izhmash PP-19-01 Vityaz-SN",
+		bm_w_vityaz_desc = "A Russian submachine gun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_calico = "Calico M955A",
+		bm_w_calico_desc = "An American submachine gun manufactured by Calico Light Weapons Systems. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_cbjms = "Saab Bofors CBJ-MS",
+		bm_w_cbjms_desc = "A Swedish personal defence weapon manufactured by Saab Bofors Dynamics. Select-fire, magazine-fed, and chambered in 6.5x25mm CBJ.",
+		
+		bm_w_mpx = "SIG Sauer MPX",
+		bm_w_mpx_desc = "A Swiss-American submachine gun manufactured by SIG Sauer. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_evo = "CZ Scorpion Evo 3 A1",
+		bm_w_evo_desc = "A Czech submachine gun manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_mp40 = "Erma Werke MP40",
+		bm_w_mp40_desc = "A German submachine gun manufactured by Erma Werke. Fully-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_storm = "Beretta Mx4 Storm",
+		bm_w_storm_desc = "An Italian submachine gun manufactured by Beretta. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_aug9mm = "Steyr AUG A3 Para XS",
+		bm_w_aug9mm_desc = "An Austrian bullpup submachine gun manufactured by Steyr Mannlicher. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_m3 = "General Motors M3",
+		bm_w_m3_desc = "An American submachine gun manufactured by General Motors. Fully-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_qbz97b = "Norinco QBZ-97B",
+		bm_w_qbz97b_desc = "A Chinese bullpup carbine manufactured by Norinco. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_r0933 = "Colt AR-15 Custom .300 Blackout",
+		bm_w_ro933_desc = "An American custom, integrally suppressed carbine originally manufactured by Colt. Select-fire, magazine-fed, and chambered in .300 Blackout.",
+		
+		bm_w_pdw = "Knight's Armament Company PDW",
+		bm_w_pdw_desc = "An American carbine manufactured by Knight's Armament Company. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_msmc = "Modern SubMachine Carbine",
+		bm_w_msmc_desc = "An Indian submachine gun manufactured by OFT Trichy of OFB. Select-fire, magazine-fed, and chambered in 5.56x30mm MINSAS.",
+		
+		bm_w_glau = "FB Radom PM-98 Glauberyt",
+		bm_w_glau_desc = "A Polish submachine gun manufactured by FB Radom. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_patriot = "XM16E1 \"Patriot\" Custom",
+		bm_w_patriot_desc = "A custom American machine pistol built off of an XM16E1. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO. The only thing we can believe in, with absolute certainty, is the mission.",
+		
+		bm_w_aek919 = "ZiD AEK-919K Kashtan",
+		bm_w_aek919_desc = "A Russian machine pistol manufactured by the Degtyaryov Plant. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
 		
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
