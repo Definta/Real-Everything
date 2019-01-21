@@ -524,13 +524,69 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 --modded weapons
 
 		bm_w_k1a7 = "Daewoo Precision Industries K1A",									--K1A7 SMG
-		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm."
+		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_mp7new = "Heckler & Koch MP7A1",											--MP7
 		bm_w_mp7new_desc = "A German personal defence weapon manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in HK 4.6x30mm DM11.",
 		
 		bm_w_pdr = "Magpul PDR-C",														--PDR
 		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
+		
+		bm_w_ar60mrks = "Walther Gewehr 60",
+		bm_w_ar60mrks_desc = "A German designated marksman rifle from an alternate future. Select-fire, magazine-fed, and chambered in 7.92x57mm Mauser.",
+		
+		bm_w_bulldoge = "SRSS Bulldog 762 M14 Conversion",
+		bm_w_bulldoge_desc = "An American bullpup conversion of a battle rifle designed by Richard Cabral. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_g3m203 = "Heckler & Koch G3A3 w/M203",
+		bm_w_g3m203_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
+		
+		bm_w_ash = "Izhmash ASh-12",
+		bm_w_ash_desc = "A Russian bullpup battle rifle designed by TsKIB SOO. Semi-automatic, magazine-fed, and chambered in 12.7x55mm STs-130.",
+		
+		bm_w_hk33 = "Heckler & Koch HK33",
+		bm_w_hk33_desc = "A German assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_dp12 = "Standard Manufacturing Company DP-12",
+		bm_w_dp12_desc = "An American bullpup shotgun manufactured by Standard Manufacturing Company, converted to use both barrels at once. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_mg34 = "Rheinmetall MG 34",
+		bm_w_mg34_desc = "A German general purpose machine gun designed by Heinrich Vollmer. Fully automatic, belt-fed, and chambered in 7.92x57mm Mauser.",
+		
+		bm_w_volmer = "Vollmer & Company HK51-B",
+		bm_w_volmer_desc = "An aftermarket conversion of a German general purpose machine gun originally manufactured by HK. Fully automatic, belt-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_lewis = "BSA Lewis Gun",
+		bm_w_lewis_desc = "A British light machine gun manufactured by the Birmingham Small Arms Company. Fully automatic, magazine-fed, and chambered in .303 British.",
+		
+		bm_w_m1919a6 = "Browning M1919A6",
+		bm_w_m1919a6 = "An American general purpose machine gun designed by the legendary John Moses Browning. Fully automatic, belt-fed, and chambered in .30-06 Springfield.",
+		
+		bm_w_dl = "De Lisle Commando Carbine",
+		bm_w_dl_desc = "A British integrally suppressed carbine manufactured by Sterling Armament Company. Bolt-action, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_k31 = "Waffenfabrik Bern K31",
+		bm_w_k31_desc = "A Swiss carbine designed by Eidgenossische Waffenfabrik. Straight pull bolt-action, magazine-fed, and chambered in 7.5x55mm Swiss.",
+		
+		bm_w_g43 = "Walther Gewehr 43",
+		bm_w_g43_desc = "A German semi-automatic rifle manufactured by Walther. Semi-automatic, magazine-fed, and chambered in 7.92x57mm Mauser.",
+		
+		bm_w_x_sb = "Akimbo AMT 1911 Hardballers",
+		bm_w_x_sb_desc = "A pair of American 1911-clones used by a legendary Hitman. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_af2011 = "Akimbo Arsenal Firearms AF2011 Duellers",
+		bm_w_x_af2011_desc = "A pair of Italian double-barrelled handguns based on the Colt 1911. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_cz = "Akimbo CZ-75 SP01 Shadows",
+		bm_w_x_cz_desc = "A pair of Czech handguns manufactured by Ceska zbrojovka Uhersky Brod. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_x_nes_desc = "A pair of video game laser gun.. things. Semi-automatic, magazine-fed, and chambered in.. your imagination?",
+		
+		bm_w_x_peepee = "Akimbo KBP PP-2000s",
+		bm_w_x_peepee_desc = "A pair of Russian machine pistols manufactured by KBP Instrument Bureau. Select-fire, magazine-fed, and chambered in 9x19mm 7N21",
+		
+		bm_w_x_lapd = "Akimbo LAPD 2019 Specials",
+		bm_w_x_lapd_desc = "A pair of futuristic handguns from a dystopian future. I have a question, do androids dream of electric sheep?",
         
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
