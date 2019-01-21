@@ -668,7 +668,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_plr16 = "Kel-Tec PLR-16",
 		bm_w_plr16_desc = "An American handgun manufactured by Kel-Tec CNC Industries. Semi-automatic, magazine-fed, and chambered in .223 Remington.",
 		
-		bm_w_m712 = "Mauser M712
+		bm_w_m712 = "Mauser M712 Schnellfeuer",
 		
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
