@@ -214,7 +214,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_m1928_desc = "A pair of American submachine guns manufactured by Auto Ordnance Company. Fully automatic, magazine-fed, and chambered in .45 ACP.",
 
 		bm_w_x_scorpion = "Akimbo Sa. Vz. 61 Skorpions", 								--Akimbo Cobras 
-		bm_w_x_scoption_desc = "A pair of Czechoslovak machine pistols manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in .32 ACP.",
+		bm_w_x_scorpion_desc = "A pair of Czechoslovak machine pistols manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in .32 ACP.",
 
 		bm_w_x_baka = "Akimbo IMI Micro Uzi", 											--Akimbo Micro Uzis 
 		bm_w_x_baka_desc = "A pair of Israeli machine pistols manufactured by Israeli Military Industries. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -241,7 +241,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_p90_desc = "A pair of Belgian personal defence weapons manufactured by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in FN 5.7x28mm.",
 
 		bm_w_x_polymer = "Akimbo KRISS Vector", 										--Akimbo Kross Vertex 
-		bm_w_x__desc = "A pair of American submachine guns manufactured by KRISS USA. Select-fire, magazine-fed, and chambered in .9x19mm Parabellum.",
+		bm_w_x_polymer_desc = "A pair of American submachine guns manufactured by KRISS USA. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_x_coal = "Akimbo Izhmash PP-19 Bizon-2s", 									--Akimbo Tatonkas
 		bm_w_x_coal_desc = "A pair of Soviet submachine guns manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
@@ -580,14 +580,96 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_cz = "Akimbo CZ-75 SP01 Shadows",
 		bm_w_x_cz_desc = "A pair of Czech handguns manufactured by Ceska zbrojovka Uhersky Brod. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
-		bm_w_x_nes_desc = "A pair of video game laser gun.. things. Semi-automatic, magazine-fed, and chambered in.. your imagination?",
+		bm_w_x_nes_desc = "A pair of video game laser gun.. things. Semi-automatic, battery powered, and chambered in.. your imagination?",
 		
 		bm_w_x_peepee = "Akimbo KBP PP-2000s",
 		bm_w_x_peepee_desc = "A pair of Russian machine pistols manufactured by KBP Instrument Bureau. Select-fire, magazine-fed, and chambered in 9x19mm 7N21",
 		
 		bm_w_x_lapd = "Akimbo LAPD 2019 Specials",
 		bm_w_x_lapd_desc = "A pair of futuristic handguns from a dystopian future. I have a question, do androids dream of electric sheep?",
+		
+		bm_w_x_m3 = "Akimbo GM M3 Grease Guns",
+		bm_w_x_m3_desc = "A pair of American submachine guns manufactured by General Motors. Fully automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_kedr = "Akimbo Izhmash PP-9 Klins",
+		bm_w_x_kedr_desc = "A pair of Russian submachine guns designed by Evgeny Dragunov. Select-fire, magazine-fed, and chambered in 9x18mm PMM.",
+		
+		bm_w_x_pm63 = "Akimbo FB Radom PM-63 RAKs",
+		bm_w_x_pm63_desc = "A pair of Polish machine pistols manufactured by FB Radom. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_x_ump = "Akimbo Heckler & Koch UMP45s",
+		bm_w_x_ump_desc = "A pair of German submachine guns manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_minebea = "Akimbo Minebea PM-9s",
+		bm_w_x_minebea_desc = "A pair of Japanese machine pistols manufactured by Minebea Company. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_x_spectre_m4 = "Akimbo SITES Spectre M4s",
+		bm_w_x_spectre_m4_desc = "A pair of Italian submachine guns manufactured by SITES. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_x_evo = "Akimbo CZ Scorpion EVO 3 A1s",
+		bm_w_x_evo_desc = "A pair of Czech submachine guns manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_x_tm1a1 = "Akimbo Colt M1A1 Thompsons",
+		bm_w_x_tm1a1_desc = "A pair of American submachine guns designed by John T. Thompson. Fully-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_ar60 = "Akimbo Walther Gewehr 60s",
+		bm_w_x_ar60_desc = "A pair of German designated marksman rifles from an alternate future. Select-fire, magazine-fed, and chambered in 7.92x57mm Mauser.",
+		
+		bm_w_x_patriot = "Akimbo XM16E1 \"Patriot\" Customs",
+		bm_w_x_patriot_desc = "A pair of custom XM16E1s modified by a legendary soldier. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO. The internal feed mechanism is supposed to be shaped like an infinity symbol.",
         
+		bm_w_x_aek919 = "Akimbo ZiD AEK-919K Kashtans",
+		bm_w_x_aek919_desc = "A pair of Russian machine pistols manufactured by the Degtyaryov Plant. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_vick = "Vickers machine gun",
+		bm_w_vick_desc = "A British medium machine gun manufactured by Vickers Limited. Fully-automatic, belt-fed, and chambered in .303 British.",
+		
+		bm_w_inkunzi = "Neopup PAW-20",
+		bm_w_inkunzi_desc = "A South African grenade launcher designed by Tony Neophytou. Semi-automatic, magazine-fed, and chambered in propriatery 20x42mm grenades.",
+		
+		bm_w_m2hb = "Browning M2HB",
+		bm_w_m2hb_desc = "An American heavy machine gun designed by the legendary John Moses Browning. Fully-automatic, belt-fed, and chambered in .50 BMG.",
+		
+		bm_w_roach = "Rorsch Mk-1",
+		bm_w_roach_desc = "A Pan-Asian Coalition railgun from the near future. Single-shot, breech loaded, and firing a two-stage sabot cartridge.",
+		
+		bm_w_stdwunderwaffe = "Wunderwaffe DG-2",
+		bm_w_stdwunderwaffe_desc = "A German wonder weapon designed by Edward Richtofen. Semi-automatic, powered by Element 115, and firing off bolts of pure electricity.",
+		
+		bm_w_welrod = "BSA Welrod",
+		bm_w_welrod_desc = "A British integrally suppressed pistol designed by the Inter-Services Research Bureau. Bolt-action, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_sb = "AMT 1911 Hardballer",
+		bm_w_sb_desc = "An American 1911-clone used by a legendary Hitman. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_czauto = "CZ 75 Automatic",
+		bm_w_czauto_desc = "A Czech machine pistol manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum. Your phone is ringing..",
+		
+		bm_w_cz = "CZ 75 SP01 Shadow",
+		bm_w_cz_desc = "A Czech handgun manufactured by Ceska zbrojovka Uhersky Brod. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_sw327r8 = "Smith & Wesson Model M&P R8",
+		bm_w_sw327r8_desc = "An American revolver manufactured by Smith & Wesson. Single and double-action, cylinder-fed, and chambered in .357 Magnum.",
+		
+		bm_w_max9 = "SilencerCo Maxim 9",
+		bm_w_max9_desc = "An American integrally suppressed handgun manufactured by SilencerCo. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_peepee = "KBP PP-2000",
+		bm_w_peepee_desc = "A Russian machine pistol manufactured by the KBP Instrument Design Bureau. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_rhino = "Chiappa Rhino 60DS",
+		bm_w_rhino_desc = "An Italian revolver manufactured by Chiappa Firearms. Single and double-action, cylinder-fed, and chambered in .357 Magnum.",
+		
+		bm_w_af2011 = "Arsenal Firearms AF2011 Dueller",
+		bm_w_af2011_desc = "An Italian double-barrelled handgun based on the Colt 1911. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_nes_desc = "A video game laser pistol.. thing. Semi-automatic, battery-powered, and chambered in- no fuck this WHY DOES THIS EXIST.",
+		
+		bm_w_plr16 = "Kel-Tec PLR-16",
+		bm_w_plr16_desc = "An American handgun manufactured by Kel-Tec CNC Industries. Semi-automatic, magazine-fed, and chambered in .223 Remington.",
+		
+		bm_w_m712 = "Mauser M712
+		
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
 end)
