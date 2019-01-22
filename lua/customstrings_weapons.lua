@@ -522,17 +522,6 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
         bm_w_shepheard_desc = "A Swiss submachine gun manufactured by SIG Sauer. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 --modded weapons
-
---smgs
-		bm_w_k1a7 = "Daewoo Precision Industries K1A",									--K1A7 SMG
-		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
-
-		bm_w_mp7new = "Heckler & Koch MP7A1",											--MP7
-		bm_w_mp7new_desc = "A German personal defence weapon manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in HK 4.6x30mm DM11.",
-		
-		bm_w_pdr = "Magpul PDR-C",														--PDR
-		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
-
 --assault rifles
 		bm_w_ar60mrks = "Walther Gewehr 60",
 		bm_w_ar60mrks_desc = "A German designated marksman rifle from an alternate future. Select-fire, magazine-fed, and chambered in 7.92x57mm Mauser.",
@@ -781,6 +770,16 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 		bm_w_aek919 = "ZiD AEK-919K Kashtan",
 		bm_w_aek919_desc = "A Russian machine pistol manufactured by the Degtyaryov Plant. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_k1a7 = "Daewoo Precision Industries K1A",									--K1A7 SMG
+		bm_w_k1a7_desc = "A South Korean carbine manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
+
+		bm_w_mp7new = "Heckler & Koch MP7A1",											--MP7
+		bm_w_mp7new_desc = "A German personal defence weapon manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in HK 4.6x30mm DM11.",
+		
+		bm_w_pdr = "Magpul PDR-C",														--PDR
+		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
+
 		
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
