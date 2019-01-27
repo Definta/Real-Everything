@@ -71,7 +71,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_contraband_m203 = "Colt M203",    			  								--Little Friend Underbarrel Grenade Launcher
 
 		bm_w_ak12 = "Kalashnikov Concern AK-15",                         				--AK17 Rifle The AK-200 derived prototype was better.
-		bm_w_ak12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 7.62x39mm. AK-400 prototype derived.",
+		bm_w_ak12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in a myriad of calibers.",
 
 		bm_w_ching = "Springfield Armory M1 Garand",           							--Galant Rifle
 		bm_w_ching_desc = "An American semi-automatic rifle manufactured by Springfield Armory. Semi-automatic only, en block clip loaded, and chambered in .30-06 Springfield.",
@@ -537,6 +537,120 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 		bm_w_hk33 = "Heckler & Koch HK33",
 		bm_w_hk33_desc = "A German assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_k2 = "Daewoo Precision Industries K2",
+		bm_w_k2_desc = "A South Korean assault rifle manufactured by S&T Motiv. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_akfools = "Izhmash AN-18C",
+		bm_w_akfools_desc = "A joke Russian \"machine pistol\" manufactured by Izhmash, modified by Gage. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_m1c = "General Motors M1 Carbine",
+		bm_w_m1c_desc = "An American carbine manufactured by General Motors. Semi-automatic, magazine-fed, and chambered in .30 Carbine.",
+		
+		bm_w_unirifle = "Uni's Rifle",
+		bm_w_unirifle_desc = "A laser rifle used by a girl named Uni. Select-fire, self-regenerating ammunition, and chambered in lasers that seem a lot like bullets.",
+		
+		bm_w_fusil_762 = "Steyr-Daimler-Puch StG 58",
+		bm_w_fusil_762_desc = "An Austrian licensed produced rifle originally manufactured by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_toym16 = "Crimson Raider M-16 BB Gun",
+		bm_w_toym16_desc = "An American automatic BB gun manufactured by Crimson Raider. Select-fire, magazine-fed, and chambered in 0.177 inch BBs.",
+		
+		bm_w_akgear = "Izhmash AK-74",
+		bm_w_akgear_desc = "A Soviet assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_sr47 = "AR-15 7.62x39mm [AK Mag Conversion]",
+		bm_w_sr47_desc = "A mix and match assault rifle with parts from the CMMG Mk47, and Bear Creek Arsenal AR-15. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_m4a1s = "Colt M4A1",
+		bm_w_m4a1s_desc = "A CT exclusive assault rifle manufactured by Colt. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_saigry = "Salient Arms International GRY Carbine",
+		bm_w_saigry_desc = "An American carbine manufactured by Salient Arms International. Select-fire, magazine-fed, and chambered in .300 Blackout.",
+		
+		bm_w_mini14 = "Ruger Mini-14",
+		bm_w_mini14_desc = "An American semi-automatic rifle manufactured by Sturm, Ruger & Co. Semi-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_hugsforleon = "Taran Tactical Innovations TR-1 Ultralight",
+		bm_w_hugsforleon_desc = "An American semi-automatic rifle manufactured by Taran Tactical Innovations. Semi-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_l1a1 = "RSAF L1A1 Self-Loading Rifle",
+		bm_w_l1a1_desc = "A British battle rifle manufactured by Royal Small Arms Factory. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_vsk94 = "KBP 9A-91",
+		bm_w_vsk94_desc = "A Russian carbine manufactured by the KBP Instrument Design Bureau. Select-fire, magazine-fed, and chambered in 9x39mm.",
+		
+		bm_w_ar160 = "Beretta ARX160",
+		bm_w_ar160_desc = "An Italian assault rifle manufactured by Beretta. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_r0991 = "Colt Model 991",
+		bm_w_r0991_desc = "An American submachine gun manufactured by Colt. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_scarl = "FN SCAR-L",
+		bm_w_scarl_desc = "A Belgian-American assault rifle manufactured by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_ots_14_4a = "OTs-14-4A Groza-4",
+		bm_w_ots_14_4a_desc = "A Russian bullpup assault rifle manufactured by TsKIB SOO. Select-fire, magazine-fed, and chambered in 9x39mm.",
+		
+		bm_w_rk62 = "Valmet RK 62",
+		bm_w_rk62_desc = "A Finnish assault rifle manufactured by Valmet. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_ak12_200 = "Kalashnikov Concern AK-12-1",
+		bm_w_ak12_200_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_f2000 = "FN F2000 Tactical",
+		bm_w_f2000_desc = "A Belgian bullpup assault rifle manufactured by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_xm8 = "Heckler & Koch XM8",
+		bm_w_xm8_desc = "A German prototype assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_aku94 = "K-Var AKU-94",
+		bm_w_aku94_desc = "An American bullpup conversion for AK rifles. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_ar18 = "ArmaLite AR-18",
+		bm_w_ar18_desc = "An American assault rifle manufactured by ArmaLite. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_m27gear = "Heckler & Koch M27 IAR",
+		bm_w_m27gear_desc = "A German-American automatic infantry rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_sr3m = "Tula SR3M Vikhr",
+		bm_w_sr3m_desc = "A Russian carbine manufactured by the Tula Arms Plant. Select-fire, magazine-fed, and chambered in 9x39mm.",
+		
+		bm_w_yayo = "Colt AR-15 w/Colt M203",
+		bm_w_yayo_desc = "An American semi-automatic rifle mocked up to look like an M16A1, with an underbarrel M203 grenade launcher. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 5.56x45mm NATO/40x46mm.",
+		
+		bm_w_galilace = "IWI ACE 23",
+		bm_w_galilace_desc = "An Israeli assault rifle manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_galilace762 = "IWI ACE 52",
+		bm_w_galilace762_desc = "An Israeli battle rifle manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_fusil = "SIMA Fusil Automatico Doble",
+		bm_w_fusil_desc = "A Peruvian bullpup assault rifle manufactured by SIMA Electronics. Select-fire, magazine-fed, and chambered in 5.5x45mm NATO.",
+		
+		bm_w_grotb = "WAT-FB MSBS-5.56B",
+		bm_w_grotb_desc = "A Polish bullpup assault rifle manufactured by FB Radom. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_hk416 = "Heckler & Koch HK416",
+		bm_w_hk416_desc = "A German assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_vz58 = "CZUB vz. 58P",
+		bm_w_vz58_desc = "A Czech assault rifle manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_x95 = "IWI Tavor X95 330",
+		bm_w_x95_desc = "An Israeli bullpup carbine manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_heffy_762 = "Izhmash AK-47",
+		bm_w_heffy_762_desc = "A Soviet assault rifle and the start of an era, designed by Mikhail Kalashnikov himself. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_heffy_gold = "Golden Izhmash AKMS",
+		bm_w_heffy_gold_desc = "A golden Soviet assault rifle probably owned by some warlord in Central Africa. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_qbz3 = "Norinco QBZ-03",
+		bm_w_qbz3_desc = "A Chinese assault rifle manufactured by Norinco. Select-fire, magazine-fed, and chambered in 5.8x42mm	DBP87.",
+		
+		bm_w_aek971 = "Degtyarev AEK-971",
+		bm_w_aek971_desc = "A Russian assault rifle designed by Sergey Koksharov. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
 --shotguns
 		bm_w_dp12 = "Standard Manufacturing Company DP-12",
