@@ -9,29 +9,29 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_amcar = "Colt Model 727 Commando",											--AMCAR "Automatic Military Carbine, Armalite Rifle?
 		bm_w_amcar_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_ak74 = "Kalashnikov Concern AKS-74",                            			--AK
+		bm_w_ak74 = "Kalashnikov Concern AKS-74",										--AK
 		bm_w_ak74_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 
-		bm_w_m4 = "Colt M4A1",       		      										--CAR-4 - Carbine, Armalite Rifle?
+		bm_w_m4 = "Colt M4A1",															--CAR-4 - Carbine, Armalite Rifle?
 		bm_w_m4_desc = "An American carbine manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_aug = "Steyr AUG A2",                            							--UAR Universal Assault Rifle?
+		bm_w_aug = "Steyr AUG A2",														--UAR Universal Assault Rifle?
 		bm_w_aug_desc = "An Austrian bullpup assault rifle manufactured by Steyr. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_akm = "Kalashnikov Concern AKMS",                        					--AK.762
+		bm_w_akm = "Kalashnikov Concern AKMS",											--AK.762
 		bm_w_akm_desc = "A Soviet assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
 
-		bm_w_g36 = "Hecker & Koch G36KV",                             					--JP36
+		bm_w_g36 = "Hecker & Koch G36KV",												--JP36
 		bm_w_g36_desc = "A German export carbine manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		bm_w_m14 = "Springfield Armory M14",                							--M308
+		bm_w_m14 = "Springfield Armory M14",											--M308
 		bm_w_m14_desc = "An American battle rifle manufactured by Springfield Armory. Select-fire, magazine-fed, and chambered in 7.62x51mm.",
 
-		bm_w_ak5 = "Bofors Ak5",                             				 			--Ak 5
+		bm_w_ak5 = "Bofors Ak5",														--Ak 5
 		bm_w_ak5_desc = "A Swedish licensed copy of the FN FNC, originally designed by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm",
 
 		bm_w_m16 = "Colt Model R0901",        		      								--AMR-16
-		bm_w_m16_desc = "An American export assault rifle manufactured by Colt Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
+		bm_w_m16_desc = "An American export assault rifle manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_s552 = "SIG SG 552 Commando",              								--Commando 553
 		bm_w_s552_desc = "A Swiss carbine manufactured by Schweizerische Industrie Gesellschaft. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
@@ -67,14 +67,14 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_tecci_desc = "A German carbine manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
 		bm_w_contraband = "Heckler & Koch HK417D",         				  				--Little Friend 7.62
-		bm_w_contraband_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
+		bm_w_contraband_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt's Manufacturing Company. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
 		bm_w_contraband_m203 = "Colt M203",    			  								--Little Friend Underbarrel Grenade Launcher
 
 		bm_w_ak12 = "Kalashnikov Concern AK-15",                         				--AK17 Rifle The AK-200 derived prototype was better.
 		bm_w_ak12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in a myriad of calibers.",
 
 		bm_w_ching = "Springfield Armory M1 Garand",           							--Galant Rifle
-		bm_w_ching_desc = "An American semi-automatic rifle manufactured by Springfield Armory. Semi-automatic only, en block clip loaded, and chambered in .30-06 Springfield.",
+		bm_w_ching_desc = "An American semi-automatic rifle manufactured by Springfield Armory. Semi-automatic only, en bloc clip loaded, and chambered in .30-06 Springfield.",
 
 		bm_w_corgi = "FN F2000 Tactical",							  					--Union 5.56 Rifle
 		bm_w_corgi_desc = "A Belgian bullpup assault rifle manufactured Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
@@ -85,7 +85,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 --Shotguns
  
 		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
-		bm_w_spas12_desc = "An Italian dual-mode shotgun manufactured by Franchi. Semi-automatic, tube-fed, and chambered in 12 gauge.",
+		bm_w_spas12_desc = "An Italian dual-mode shotgun manufactured by Luigi Franchi S.p.A.. Semi-automatic, tube-fed, and chambered in 12 gauge.",
 
 		bm_w_b682 = "CZUB Redhead O/U Deluxe",											--Joceline O/U 12G
 		bm_w_b682_desc = "A Czech over-under double barrel shotgun manufactured by Ceska zbrojovka Uhersky Brod. Over/under, chamber loaded, and chambered in 12 gauge.",
@@ -97,7 +97,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_saiga_desc = "A Soviet shotgun manufactured by Kalashnikov Concern. Semi-automatic, magazine-fed, and chambered in 12 gauge.",
 
 		bm_w_huntsman = "Stoeger Industries Uplander",									--Mosconi 12G
-		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chamber loaded, and chambered in 12 gauge.	",
+		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chamber loaded, and chambered in 12 gauge.",
 
 		bm_w_benelli = "Benelli M4 Super 90",											--M1014
 		bm_w_benelli_desc = "An Italian shotgun manufactured by Benelli. Semi-automatic, tube-fed, and chambered in 12 gauge.",
@@ -278,7 +278,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_rota = "Akimbo Crye Precision SIX12s",				  					--Akimbo Goliaths
 		bm_w_x_rota_desc = "A pair of American bullpup shotguns manufactured by Crye Precision. Semi-automatic, cylindrical magazine-fed, and chambered in 12 gauge.",
 
---Special
+		--Special
 
 		bm_w_gre_m79 = "Springfield Armory M79",      				          			--GL40 GL GRENADE LAUNCHER 40 GRENADE LAUNCHER
 		bm_w_gre_m79_desc = "An American grenade launcher manufactured by Springfield Armory. Single shot, breech loaded, and chambered in 40x46mm SR.",
@@ -356,8 +356,8 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_model70 = "Winchester Model 70",          		  							--Platypus 70 Sniper Rifle
 		bm_w_model70_desc = "An American sniper rifle manufactured by Winchester Arms. Bolt-action, magazine-fed, and chambered in 7.62x51mm.",
 
-		bm_w_desertfox = "DTA SRS-A1 Covert",				  							--Desertfox Sniper Rifle
-		bm_w_desertfox_desc = "An American bullpup rifle manufactured by Desert Tech Arms. Bolt-action, magazine-fed, and chambered in .338 Lapua Magnum.",
+		bm_w_desertfox = "DT SRS-A1 Covert",				  							--Desertfox Sniper Rifle
+		bm_w_desertfox_desc = "An American bullpup rifle manufactured by Desert Tech. Bolt-action, magazine-fed, and chambered in .338 Lapua Magnum.",
 
 		bm_w_tti = "Taran Tactical Innovations TR-1 Ultra-light",         	  			--Contrator .308 Sniper Rifle
 		bm_w_tti_desc = "An American marksman rifle manufactured by Taran Tactical Innovations. Semi-automatic, magazine-fed, and chambered in 5.56x45mm of the M995 cartridge.",
@@ -373,18 +373,18 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m249 = "FN M249 Para",                   		     		 				--KSP
 		bm_w_m249_desc = "A Belgian light machine gun manufactured by Fabrique National d'Herstal. Fully automatic, belt fed, and chambered in 5.56x45mm.",
 
-		bm_w_hk21 = "Heckler & Koch HK21E",           		      						--Brenner 21
+		bm_w_hk21 = "Heckler & Koch HK21E",												--Brenner 21
 		bm_w_hk21_desc = "A German general purpose machine gun manufactured by Heckler & Koch. Fully automatic, belt fed, and chambered in 7.62x51mm.",
 
-		bm_w_mg42 = "Mauser MG42",               	  									--Buzzsaw 42
+		bm_w_mg42 = "Mauser MG42",														--Buzzsaw 42
 		bm_w_mg42_desc = "A Nazi Germany general purpose machine gun manufactured by Mauser Werke. Fully automatic, belt fed, and chambered in 7.92x57mm.",
 
-		bm_w_par = "FN M240B",             		      									--Ksp 58
+		bm_w_par = "FN M240B",															--Ksp 58
 		bm_w_par_desc = "A Belgian general purpose machine gun manufactured by Fabrique Nationale d'Herstal. Fully automatic, belt fed, and chambered in 7.62x51mm.",
 
 --Pistols
 
-		bm_w_usp = "Heckler & Koch USP45",             	  								--Interceptor 45
+		bm_w_usp = "Heckler & Koch USP45",												--Interceptor 45
 		bm_w_usp_desc = "A German handgun manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
 		
 		bm_w_g22c = "Glock 22C",                   	  									--Chimano Custom
@@ -530,7 +530,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_bulldoge_desc = "An American bullpup conversion of a battle rifle designed by Richard Cabral. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
 		
 		bm_w_g3m203 = "Heckler & Koch G3A3 w/M203",
-		bm_w_g3m203_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
+		bm_w_g3m203_desc = "A German battle rifle manufactured by Heckler & Koch with an underbarrel grenade launcher manufactured by Colt's Manufacturing Company. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 7.62x51mm/40x46mm SR.",
 		
 		bm_w_ash = "Izhmash ASh-12",
 		bm_w_ash_desc = "A Russian bullpup battle rifle designed by TsKIB SOO. Semi-automatic, magazine-fed, and chambered in 12.7x55mm STs-130.",
@@ -563,7 +563,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_sr47_desc = "A mix and match assault rifle with parts from the CMMG Mk47, and Bear Creek Arsenal AR-15. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
 		
 		bm_w_m4a1s = "Colt M4A1",
-		bm_w_m4a1s_desc = "A CT exclusive assault rifle manufactured by Colt. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		bm_w_m4a1s_desc = "A CT exclusive assault rifle manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_saigry = "Salient Arms International GRY Carbine",
 		bm_w_saigry_desc = "An American carbine manufactured by Salient Arms International. Select-fire, magazine-fed, and chambered in .300 Blackout.",
@@ -584,9 +584,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_ar160_desc = "An Italian assault rifle manufactured by Beretta. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_r0991 = "Colt Model 991",
-		bm_w_r0991_desc = "An American submachine gun manufactured by Colt. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_r0991_desc = "An American submachine gun manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
-		bm_w_scarl = "FN SCAR-L",
+		bm_w_scarl = "FN SCAR-L STD",
 		bm_w_scarl_desc = "A Belgian-American assault rifle manufactured by Fabrique Nationale d'Herstal. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_ots_14_4a = "OTs-14-4A Groza-4",
@@ -652,6 +652,87 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_aek971 = "Degtyarev AEK-971",
 		bm_w_aek971_desc = "A Russian assault rifle designed by Sergey Koksharov. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
+		bm_w_obr5 = "LaRue OBR 7.62",
+		bm_w_obr5_desc = "An American assault rifle manufactured by LaRue Tactical. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_sks = "Tula Arms SKS",
+		bm_w_sks_desc = "A Russian semi-automatic rifle manufactured by the Tula Arms Plant. Semi-automatic, magazine-fed, and chambered in 7.62x39mm.",
+		
+		bm_w_qbz95 = "Norinco QBZ-95-1",
+		bm_w_qbz95_desc = "A Chinese bullpup assault rifle manufactured by Norinco. Select-fire, magazine-fed, and chambered in 5.8x42mm DBP10",
+		
+		bm_w_bajur = "AAC Honey Badger",
+		bm_w_bajur_desc = "An American integrally suppressed personal defence weapon manufactured by Advanced Armament Corporation. Select-fire, magazine-fed, and chambered in .300 AAC Blackout.",
+		
+		bm_w_fortress = "eDEN Bavarium Splitter",
+		bm_w_fortress_desc = "A joint eDEN-Medician bullpup assault rifle manufactured by eDEN Corporation. Select-fire, magazine-fed, and chambering a Bavarium infused round.",
+		
+		bm_w_heffy_556 = "Kalashnikov Concern AK-101",
+		bm_w_heffy_556_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_stg44 = "C. G. Haenel Sturmgewehr 44",
+		bm_w_stg44_desc = "A German storm rifle manufactured by C. G. Haenel Waffen und Fahrradfabrik. Select-fire, magazine-fed, and chambered in 7.92x33mm Kurz. The grand daddy of them all.",
+		
+		bm_w_r5 = "Remington R5 RGP",
+		bm_w_r5_desc = "An American assault rifle manufactured by Remington Arms. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_sg510 = "SIG SG 510-1",
+		bm_w_sg510_desc = "A Swiss battle rifle manufactured by SIG. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_acwr = "Remington ACR w/Colt M203",
+		bm_w_acwr_desc = "An American assault rifle manufactured by Remington Arms. Select-fire/single shot, magazine-fed/chamber loaded, and chambered in 5.56x45mm NATO/40x46mm.",
+		
+		bm_w_acwr2 = "Remington ACR",
+		bm_w_acwr2_desc = "An American assault rifle manufactured by Remington Arms. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_akrocket = "Izhmash AN-94",
+		bm_w_akrocket_desc = "A Russian assault rifle designed by Gennadiy Nikonov. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_m4_beowulf = "Alexander Arms-LWRC .50 Beowulf AR-15",
+		bm_w_m4_beowulf_desc = "A hybrid AR-15 rifle with an upper receiver manufactured by Alexander Arms, and a lower receiver from LWRC International. Select-fire, magazine-fed, and chambered in .50 Beowulf.",
+		
+		bm_w_mdr = "Desert Tech MDR",
+		bm_w_mdr_desc = "An American bullpup battle rifle manufactured by Desert Tech. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_sar21 = "ST Kinetics SAR-21 MMS",
+		bm_w_sar21_ desc = "A Singaporean bullpup assault rifle manufactured by ST Kinetics. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_sg552 = "SIG SG 552-2P",
+		bm_w_sg552_desc = "A Swiss carbine manufactured by SIG. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_svt40 = "Tokarev SVT-40",
+		bm_w_svt40_desc = "A Soviet semi-automatic rifle designed by Fedor Tokarev. Semi-automatic, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_scar_m203 = "FN SCAR-L STD w/Colt M203",
+		bm_w_scar_m203_desc = "A Belgian assault rifle manufactured by Fabrique Nationale d'Herstal with an underbarrel grenade launcher manufactured by Colt's Manufacturing Company. Semi-automatic/single-shot, magazine-fed/chamber-loaded, and chambered in 5.56x45mm NATO/40x46mm.",
+		
+		bm_w_fnar = "FN FNAR-L",
+		bm_w_fnar_desc = "A Belgian hunting rifle manufactured by Fabrique Nationale d'Herstal. Semi-automatic, magazine-fed, and chambered in .308 Winchester.",
+		
+		bm_w_hcar = "Ohio Ordnance HCAR",
+		bm_w_hcar_desc = "An American battle rifle manufactured by Ohio Ordnance Works. Select-fire, magazine-fed, and chambered in .30-06 Springfield.",
+		
+		bm_w_mxg = "M2 Raider",
+		bm_w_mxg_desc = "An American battle rifle based upon the original M1 Garand. Semi-automatic, en bloc clip loaded, and chambered in .30-06 Springfield.",
+		
+		bm_w_heffy_545 = "Izhmash AK-74",
+		bm_w_heffy_545_desc = "A Soviet assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_gcar = "Daniel Defense M4 V5",
+		bm_w_gcar_desc = "An American carbine manufactured by Daniel Defense. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_lkrifle = "Lithgow Arms LK-05",
+		bm_w_lkrifle_desc = "An Australian carbine manufactured by Lithgow Small Arms Factory. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_temple = "Heckler & Koch G11K1",
+		bm_w_temple_desc = "A German bullpup assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 4.73x33mm DM11.",
+		
+		bm_w_tilt = "Izhmash AN-94",
+		bm_w_tilt_desc = "A Russian assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		
+		bm_w_m14e2 = "Springfield Armory M14E2",
+		bm_w_m14e2_desc = "An American squad automatic weapon manufactured by Springfield Armory. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
 --shotguns
 		bm_w_dp12 = "Standard Manufacturing Company DP-12",
 		bm_w_dp12_desc = "An American bullpup shotgun manufactured by Standard Manufacturing Company, converted to use both barrels at once. Pump-action, tube-fed, and chambered in 12 gauge.",
@@ -662,18 +743,108 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_ks23 = "TsNIITochMash KS-23",
 		bm_w_ks23_desc = "A Soviet carbine manufactured by Tulsky Oruzheiny Zavod. Pump-action, tube-fed, and chambered in 23x75mmR.",
 		
+		bm_w_12g = "Kalashnikov Concern Saiga-12",
+		bm_w_12g_desc = "A Russian shotgun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_usas12 = "Daewoo Precision Industries USAS-12",
+		bm_w_usas12_desc = "A South Korean shotgun manufactured by Daewoo Precision Industries. Select-fire, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_r870sawed = "Remington Model 870 Sawn-Off",
+		bm_w_r870sawed_desc = "An American shotgun manufactured by Remington Arms. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_pa8 = "Franchi PA8 Shortened",
+		bm_w_pa8_desc = "An Italian shotgun manufactured by Luigi Franchi S.p.A.. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_stf12 = "FABARM STF-12 Compact",
+		bm_w_stf12_desc = "An Italian shotgun manufactured by FABARM Professional. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_xmassg = "SWI Gingerbread",
+		bm_w_xmassg_desc = "A North Pole shotgun manufactured by Santa's Workshop Industries. Side-by-side double-barrelled, chamber-loaded, and chambered in 12 gauge.",
+		
+		bm_w_vepr12 = "Molot Vepr-12",
+		bm_w_vepr12_desc = "A Russian shotgun manufactured by Molot Oruzhie. Select-fire, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_m1912 = "Winchester Model 1912",
+		bm_w_m1912_desc = "An American shotgun manufactured by Winchester Repeating Arms Company. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_toz106 = "Tula Arms TOZ-106",
+		bm_w_toz106_desc = "A Russian shotgun manufactured by the Tula Arms Plant. Bolt-action, magazine-fed, and chambered in 20 gauge.",
+		
+		bm_w_toz34 = "Tula Arms TOZ-34",
+		bm_w_toz34_desc = "A Soviet shotgun manufactured by the Tula Arms Plant. Over/under double-barrelled, chamber-loaded, and chambered in 12 gauge.",
+		
+		bm_w_ak12_76 = "Kalashnikov Concern AK-12/76",
+		bm_w_ak12_76_desc = "A Russian combat shotgun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_m590 = "Mossberg Model 590",
+		bm_w_m590_desc = "An American shotgun manufactured by O.F. Mossberg & Sons. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_toz194 = "Tula Arms TOZ-194M",
+		bm_w_toz194_desc = "A Russian shotgun manufactured by the Tula Arms Plant. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_mp153 = "Kalashnikov Concern Baikal MP-153",
+		bm_w_mp153_desc = "A Russian shotgun manufactured by Kalashnikov Concern. Semi-automatic, tube-fed, and chamebered in 12 gauge.",
+		
+		bm_w_prison = "Deadwood 12 Gauge",
+		bm_w_prison_desc = "An improvised shotgun manufactured in Hoxton's prison. Semi-automatic, tube-fed, and chambered in - effectively - 12 gauge.",
+		
+		bm_w_trench = "Winchester Model 1897 Trench",
+		bm_w_trench_desc = "An American shotgun manufactured by Winchester Repeating Arms. Pump-action, tube-fed, and chambered in 12 gauge.",
+		
+		bm_w_m1216 = "SRM Arms Model 1216",
+		bm_w_m1216_desc = "An American shotgun manufactured by SRM Arms. Semi-automatic, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_spas15 = "Franchi SPAS-15",
+		bm_w_spas15_desc = "An Italian shotgun manufactured by Luigi Franchi S.p.A.. Semi-automatic, magazine-fed, and chambered in 12 gauge.",
+		
+		bm_w_sjogren = "Sjogren Inertia",
+		bm_w_sjogren_desc = "A Swedish shotgun manufactured by AB Svenska Vapen- och Ammunitions Fabriken. Semi-automatic, tube-fed, and chambered in 12 gauge.",
+		
 --machine guns
 		bm_w_mg34 = "Rheinmetall MG 34",
-		bm_w_mg34_desc = "A German general purpose machine gun designed by Heinrich Vollmer. Fully automatic, belt-fed, and chambered in 7.92x57mm Mauser.",
+		bm_w_mg34_desc = "A German general purpose machine gun designed by Heinrich Vollmer. Fully-automatic, belt-fed, and chambered in 7.92x57mm Mauser.",
 		
 		bm_w_volmer = "Vollmer & Company HK51-B",
-		bm_w_volmer_desc = "An aftermarket conversion of a German general purpose machine gun originally manufactured by HK. Fully automatic, belt-fed, and chambered in 7.62x51mm NATO.",
+		bm_w_volmer_desc = "An aftermarket conversion of a German general purpose machine gun originally manufactured by HK. Fully-automatic, belt-fed, and chambered in 7.62x51mm NATO.",
 		
 		bm_w_lewis = "BSA Lewis Gun",
-		bm_w_lewis_desc = "A British light machine gun manufactured by the Birmingham Small Arms Company. Fully automatic, magazine-fed, and chambered in .303 British.",
+		bm_w_lewis_desc = "A British light machine gun manufactured by the Birmingham Small Arms Company. Fully-automatic, magazine-fed, and chambered in .303 British.",
 		
 		bm_w_m1919a6 = "Browning M1919A6",
-		bm_w_m1919a6 = "An American general purpose machine gun designed by the legendary John Moses Browning. Fully automatic, belt-fed, and chambered in .30-06 Springfield.",
+		bm_w_m1919a6_desc = "An American general purpose machine gun designed by the legendary John Moses Browning. Fully-automatic, belt-fed, and chambered in .30-06 Springfield.",
+		
+		bm_w_k3 = "S&T Motiv K3",
+		bm_w_k3_desc = "A South Korean light machine gun manufactured by S&T Motiv. Fully-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_dp28 = "Degtyarev DP-28",
+		bm_w_dp28_desc = "A Soviet light machine gun designed by Vasily Degtyarev. Fully-automatic, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_negev = "RPC Fort-401", --Negev oof
+		bm_w_negev_desc = "A Ukranian copy of a light machine gun originally manufactured by Israeli Weapon Industries. Fully-automatic, belt-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_lsat = "AAI LSAT",
+		bm_w_lsat_desc = "An American light machine gun manufactured by AAI Corporation. Fully-automatic, belt-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_mg5 = "Heckler & Koch MG5 A2",
+		bm_w_mg5_desc = "A German general purpose machine gun manufactured by Heckler & Koch. Fully-automatic, belt-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_ultimax = "ST Kinetics Ultimax 100 Mark 5",
+		bm_w_ultimax_desc = "A Singaporean light machine gun manufactured by Singapore Technologies Kinetics. Fully-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_mg4 = "Heckler & Koch MG4",
+		bm_w_mg4_desc = "A German light machine gun manufactured by Heckler & Koch. Fully-automatic, belt-fed, and chambered in 5.56x45mm NATO.",
+		
+		bm_w_bar = "Browning M1918A2",
+		bm_w_bar_desc = "An American automatic rifle designed by the legendary John Moses Browning. Fully-automatic, magazine-fed, and chambered in .30-06 Springfield.",
+		
+		bm_w_m60 = "Saco Defense M60",
+		bm_w_m60_desc = "An American general purpose machine gun manufactured by Saco Defense. Fully-automatic, belt-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_pecheneg = "TsNIITochMash PKP Pecheneg",
+		bm_w_pecheneg_desc = "A Soviet general purpose machine gun designed by TsNIITochMash. Fully-automatic, belt-fed, and chambered in 7.62x54mmR.",
+
+		bm_w_rpd = "RPD",
+		bm_w_rpd_desc = "A Soviet light machine gun designed by Vasily Degtyarev. Fully-automatic, belt-fed, and chambered in 7.62x39mm.",
 		
 --sniper rifles
 		bm_w_dl = "De Lisle Commando Carbine",
@@ -684,6 +855,103 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		
 		bm_w_g43 = "Walther Gewehr 43",
 		bm_w_g43_desc = "A German semi-automatic rifle manufactured by Walther. Semi-automatic, magazine-fed, and chambered in 7.92x57mm Mauser.",
+		
+		bm_w_awpgear = "Accuracy International Arctic Warfare",
+		bm_w_awpgear_desc = "A CT and T sniper rifle manufactured by Accuracy International. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_frf2 = "GIAT FR F2",
+		bm_w_frf2_desc = "A French sniper rifle manufactured by Giat Industries. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_hmcar = "D.C. Police Sniper Special",
+		bm_w_hmcar_desc = "A high powered sniper rifle based upon the AR-15 platform manufactured in-house by the Washington D.C. Police. Semi-automatic, magazine-fed, and chambered in a very large round.",
+		
+		bm_w_scargear = "FN SSR Mk 20 Mod. 0",
+		bm_w_scargear_desc = "A CT autosniper manufactured by Fabrique Nationale d'Herstal. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_svudragunov = "KBP OTs-03 SVU",
+		bm_w_svudragunov_desc = "A Russian bullpup sniper rifle manufactured by the KBP Instrument Design Bureau. Semi-automatic, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_unibarrett_desc = "A bullpup anti-material rifle used by Uni. Bolt-action, magazine-fed, and chambered in an AMR round.",
+		
+		bm_w_classic = "Mosin-Nagant M91/30 Custom",
+		bm_w_classic_desc = "A Soviet sniper rifle taken out back by Bubba. Bolt-action, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_fyjs = "Jianshe CS-LR3",
+		bm_w_fyjs_desc = "A Chinese sniper rifle manufactured by Jianshe Industries. Bolt-action, magazine-fed, and chambered in 5.8x42mm DBP87.",
+		
+		bm_w_kar98k = "Mauser Karabiner 98 kurz",
+		bm_w_kar98k_desc = "A Nazi Germany rifle manufactured by Mauser Werke. Bolt-action, clip-loaded, and chambered in 7.92x57mm.",
+		
+		bm_w_l115 = "Accuracy International L115A3",
+		bm_w_l115_desc = "A British sniper rifle manufactured by Accuracy International. Bolt-action, magazine-fed, and chambered in .338 Lapua Magnum.",
+		
+		bm_w_m40a5 = "Remington M40A5",
+		bm_w_m40a5_desc = "An American sniper rifle manufactured by Remington Arms. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_sv98 = "Kalashnikov Concern SV-98",
+		bm_w_sv98_desc = "A Russian sniper rifle manufactured by Kalashnikov Concern. Bolt-action, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_mk12 = "NSWCCD Mark 12 Mod. 0 Special Purpose Rifle",
+		bm_w_mk12_desc = "An American designated marksman rifle designed by the Naval Surface Warfare Center Crane Division. Semi-automatic, magazine-fed, and chambered in 5.56x45mm M995.",
+		
+		bm_w_spring = "Springfield Armory M1903A3 Custom",
+		bm_w_spring_desc = "An American rifle manufactured by Springfield Armory with minor customisation. Bolt-action, magazine-fed, and chambered in .30-06 Springfield.",
+		
+		bm_w_vss = "Tula Arms VSS",
+		bm_w_vss_desc = "A Soviet sniper rifle manufactured by the Tula Arms Plant. Semi-automatic, magazine-fed, and chambered in 9x39mm SP-6.",
+		
+		bm_w_type38 = "Type 38 Arisaka",
+		bm_w_type38_desc = "An Imperial Japan rifle manufactured by Tokyo Arsenal. Bolt-action, clip-loaded, and chambered in 6.5x50mm Arisaka.",
+		
+		bm_w_sr25 = "KAC SR-25 E2 ACC",
+		bm_w_sr25_desc = "An American designated marksman rifle manufactured by Knight's Armament Company. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_winchester1894 = "Winchester Model 1894",
+		bm_w_winchester1894_desc = "An American rifle designed by the legendary John Moses Browning. Lever-action, tube-fed, and chambered in a myriad of calibers.",
+		
+		bm_w_xm21 = "Springfield Armory XM21 Sniper Weapon System",
+		bm_w_xm21_desc = "An American sniper rifle manufactured by Springfield Armory. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_nitro = "Holland & Holland 'Royal' Double",
+		bm_w_nitro_desc = "A British rifle manufactured by Holland & Holland. Side-by-side double-barrelled, chamber-loaded, and chambered in .700 Nitro Express.",
+		
+		bm_w_cs5 = "McMillan ALIAS CS5-T",
+		bm_w_cs5_desc = "An American integrally suppressed sniper rifle manufactured by McMillan Firearms. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_qbu88 = "Norinco QBU-88",
+		bm_w_qbu88_desc = "A Chinese bullpup designated marksman rifle manufactured by Norinco. Semi-automatic, magazine-fed, and chambered in 5.8x42mm DBP87.",
+		
+		bm_w_svd = "Kalashnikov Concern SVD",
+		bm_w_svd_desc = "A Soviet sniper rifle manufactured by Kalashnikov Concern. Semi-automatic, magazine-fed, and chambered in 7.62x54mmR.",
+		
+		bm_w_knockout_desc = "An American rifle modified by AAC. Integrally suppressed, bolt-action, magazine-fed, and chambered in .300 Blackout.",
+		
+		bm_w_m200 = "CheyTac M200 Intervention",
+		bm_w_m200_desc = "An American sniper rifle manufactured by CheyTac USA. Bolt-action, magazine-fed, and chambered in .408 Cheyenne Tactical.",
+		
+		bm_w_m98b = "Barrett Model 98 Bravo",
+		bm_w_m98b_desc = "An American sniper rifle manufactured by Barrett Firearms Manufacturing. Bolt-action, magazine-fed, and chambered in .338 Lapua Magnum.",
+		
+		bm_w_fd338 = "F&D Defense FD338",
+		bm_w_fd338_desc = "An American sniper rifle manufactured by F&D Defense. Semi-automatic, magazine-fed, and chambered in .338 Lapua Magnum.",
+		
+		bm_w_lynx = "Gepard GM6",
+		bm_w_lynx_desc = "A Hungarian bullpup anti-material rifle designed by Ferenc Foldi. Semi-automatic, magazine-fed, and chambered in 12.7x108mm.",
+		
+		bm_w_psg1 = "Heckler & Koch PSG1",
+		bm_w_psg1_desc = "A German sniper rifle manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		
+		bm_w_simonev = "PTRS-41",
+		bm_w_simonev_desc = "A Soviet anti-tank rifle designed by Sergei Gavrilovich Simonov. Semi-automatic, magazine-fed, and chambered in 14.5x114mm.",
+		
+		bm_w_merkel = "Merkel Rifle Drilling 961LS",
+		bm_w_merkel_desc = "A German rifle manufactured by Merkel Jagd- und Sportwaffen. Triple-barrelled, chamber-loaded, and chambered in 9.3x74mmR",
+		
+		bm_w_amr2 = "CSIG AMR-2",
+		bm_w_amr2_desc = "A Chinese anti-material rifle manufactured by China South Industries Group.",
+		
+		bm_w_hecate = "PGM Hecate II",
+		bm_w_hecate_desc = "A French anti-material rifle manufactured by PGM Precision. Bolt-action, magazine-fed, and chambered in .50 BMG.",
 		
 --akimbo
 		bm_w_x_sb = "Akimbo AMT 1911 Hardballers",
@@ -735,6 +1003,24 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
         
 		bm_w_x_aek919 = "Akimbo ZiD AEK-919K Kashtans",
 		bm_w_x_aek919_desc = "A pair of Russian machine pistols manufactured by the Degtyaryov Plant. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_x_huntsman = "Akimbo Stoeger Industries Uplanders",
+		bm_w_x_huntsman_desc = "A pair of American shotguns manufactured by Stoeger Industries. Side-by-side double-barrelled, chamber-loaded, and chambered in 12 gauge.",
+		
+		bm_w_x_gsh18 = "Akimbo KBP GSh-18s",
+		bm_w_x_gsh18_desc = "A pair of Russian handguns manufactured by the KBP Instrument Design Bureau. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		
+		bm_w_x_pm = "Akimbo Izhevsk PMs",
+		bm_w_x_pm_desc = "A pair of Soviet handguns manufactured by Izhevsk Mechanical Plant. Semi-automatic, magazine-fed, and chambered in 9x18mm Makarov.",
+		
+		bm_w_x_peacekeeper = "Akimbo Peacekeepers",
+		bm_w_x_peacekeeper_desc = "A pair of revolvers used by a legendary cowboy. SA/DA, cylinder-fed, and chambered in a high powered magnum round.",
+		
+		bm_w_x_colt1911 = "Akimbo Colt 1911s",
+		bm_w_x_colt1911_desc = "A pair of American handguns manufactured by Colt's Manufacturing Company. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		
+		bm_w_x_rally = "Akimbo 1979 CZ 75s",
+		bm_w_x_rally_desc = "A pair of Czech handguns manufactured by Ceska zbrojovka Uhersky Brod. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 --special
 		bm_w_vick = "Vickers machine gun",
@@ -868,7 +1154,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_qbz97b_desc = "A Chinese bullpup carbine manufactured by Norinco. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_r0933 = "Colt AR-15 Custom .300 Blackout",
-		bm_w_ro933_desc = "An American custom, integrally suppressed carbine originally manufactured by Colt. Select-fire, magazine-fed, and chambered in .300 Blackout.",
+		bm_w_ro933_desc = "An American custom, integrally suppressed carbine originally manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in .300 Blackout.",
 		
 		bm_w_pdw = "Knight's Armament Company PDW",
 		bm_w_pdw_desc = "An American carbine manufactured by Knight's Armament Company. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -894,7 +1180,6 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_pdr = "Magpul PDR-C",														--PDR
 		bm_w_pdr_desc = "An American bullpup carbine manufactured by Magpul Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 
-		
         thisisadummystringso = "I don't have to worry about adding/removing Select-fire" -- a comma every time i add a gun I kept this from VxWolf's stuff
     })
 end)
