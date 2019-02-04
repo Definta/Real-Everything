@@ -473,7 +473,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_akmsu_desc = "Downsized Russian submachine gun based on the IZHMA AK.762. High damage - Low ammo capacity.",
 
 		bm_w_p90 = "FN P90 TR",                         								--Kobus 90
-		bm_w_p90_desc = "Advanced Belgian PDW with a unique feeding mechanism. Moderate damage - High magazine size.",
+		bm_w_p90_desc = "Built from the ashes of a 'personal defense weapon' competition dominated by FN and HK, the P90 is the brainchild of the former. Chambered in the 5.7x28mm anti-personnel round - the same as its handgun sister, the Five-seveN - the P90 is a weapon of war. It is made to kill your enemy."",
 
 		bm_w_m45 = "Carl Gustav m/45B",                       	  						--Swedish K / idk
 		bm_w_m45_desc = "Swedish submachine gun made for the Swedish army. High damage - Low ammo capacity.",
@@ -497,7 +497,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_cobray_desc = "Jacket's submachine gun of choice. Moderate damage - High rate of fire.",
 
 		bm_w_polymer = "KRISS Vector",                									--Kross Vertex / Polygon SMG
-		bm_w_polymer_desc = "High-tech submachine gun with unique firing mechanism. Moderate damage - High rate of fire.",
+		bm_w_polymer_desc = "What happens when an experimental recoil mitigation system is unceremoniously shoved into a submachine gun that takes common handgun magazines? You get the KRISS Vector. Chambered in a myriad of calibers, including the .45 ACP round, the Vector (and its subvariants) is an interesting little SMG that somehow managed to gain fame and popularity.",
 
 		bm_w_baka = "IMI Micro Uzi",                       								--Micro Uzi
 		bm_w_baka_desc = "Jiro's submachine gun of choice. Low damage - High concealment.",
