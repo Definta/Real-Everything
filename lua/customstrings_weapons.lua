@@ -103,7 +103,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_benelli_desc = "Modern light shotgun. Low damage - high rate of fire.",
 
 		bm_w_ksg = "Kel-Tec KSG",														--Raven
-		bm_w_ksg_desc = "A shotgun with unique feed system. Moderate damage - Large magazines.",
+		bm_w_ksg_desc = "A UTS-15 and a Remington 870 walk into a bar owned by Kel-Tec. The end result? The KSG-12. A bullpup, pump action, twin internal tube shotgun. Whether you want to load one tube with lethal, and one tube with less-lethal, or just load up with 14 rounds of 12 gauge buck, the KSG-12 doesn't just give you a shotgun, it does so in a compact form factor.",
 
 		bm_w_aa12 = "Auto Assault-12",													--Steakout 12G
 		bm_w_aa12_desc = "Fully automatic magazine-fed light shotgun. Low damage - high ammo capacity.",
@@ -473,7 +473,7 @@ Hooks:Add("LocalizationManagerPostInit", "RishWN_Guns", function(loc)
 		bm_w_akmsu_desc = "Downsized Russian submachine gun based on the IZHMA AK.762. High damage - Low ammo capacity.",
 
 		bm_w_p90 = "FN P90 TR",                         								--Kobus 90
-		bm_w_p90_desc = "Built from the ashes of a 'personal defense weapon' competition dominated by FN and HK, the P90 is the brainchild of the former. Chambered in the 5.7x28mm anti-personnel round - the same as its handgun sister, the Five-seveN - the P90 is a weapon of war. It is made to kill your enemy."",
+		bm_w_p90_desc = "Built from the ashes of a 'personal defense weapon' competition dominated by FN and HK, the P90 is the brainchild of the former. Chambered in the 5.7x28mm anti-personnel round - the same as its handgun sister, the Five-seveN - the P90 is a weapon of war. It is made to kill your enemy.",
 
 		bm_w_m45 = "Carl Gustav m/45B",                       	  						--Swedish K / idk
 		bm_w_m45_desc = "Swedish submachine gun made for the Swedish army. High damage - Low ammo capacity.",
