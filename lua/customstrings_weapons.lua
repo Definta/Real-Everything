@@ -115,7 +115,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_aek971_desc = "A Russian assault rifle designed by Sergey Koksharov. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
 		bm_w_howa = "Howa Type 89",													--Howa-89 - Alcat
-		bm_w_howa_desc = "The Type 89 is one of many 5.56mm combat rifles available in the Mazes. This one offers compatibility with STANAG magazines and the M9 bayonet, a four-position fire selector (safe, semi, burst, auto), and an integrated bipod. The rifle's overall length, handguard and stock were designed with people of relatively short stature in mind, so that it could be comfortable for them to shoot while still performing just as adequately as other rifles of the same caliber. For many, particularly short-statured Japanese, it meant finally having a comfortable upgrade from submachine guns; in turn, they came to give this rifle a nickname: \"Buddy\".",
+		bm_w_howa_desc = "The Type 89 is one of many 5.56mm combat rifles available in the world. This one offers compatibility with STANAG magazines and the M9 bayonet, a four-position fire selector (safe, semi, burst, auto), and an integrated bipod. The rifle's overall length, handguard and stock were designed with people of relatively short stature in mind, so that it could be comfortable for them to shoot while still performing just as adequately as other rifles of the same caliber. For many, particularly short-statured Japanese, it meant finally having a comfortable upgrade from submachine guns; in turn, they came to give this rifle a nickname: \"Buddy\".",
 		
 		bm_w_mav = "Maverick RM-22A1",												--Renegado-HV Prototype
 		bm_w_mav_desc = "A rifle from an alternate future. Select-fire, magazine-fed, and chambered in an intermediate cartridge.",
@@ -169,7 +169,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_gcar_desc = "An American carbine manufactured by Daniel Defense. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_temple = "Heckler & Koch G11K1",
-		bm_w_temple_desc = "The culmination of decades of testing, the G11 is the first successful caseless fighting rifle. Though it probably won't win points in the \"prettiest design\" category, it is still a very ambitious firearm, designed to fire very light-recoiling 4.73mm caseless ammunition, is capable of semi-automatic, burst, and fully-automatic fire, and it comes standard with a reflex sight and storage space for 2 extra magazines. Unfortunately, it is also a nightmarishly complex design, which has earned it various nicknames, such as "clockwork rifle", "space magic rifle" and other less-than-kind nicknames. Nevertheless, if you want to look like an alien from space, or if you want to know what a futuristic firearm feels like, try to get a hold of one of these!",
+		bm_w_temple_desc = "The culmination of decades of testing, the G11 is the first successful caseless fighting rifle. Though it probably won't win points in the \"prettiest design\" category, it is still a very ambitious firearm, designed to fire very light-recoiling 4.73mm caseless ammunition, is capable of semi-automatic, burst, and fully-automatic fire, and it comes standard with a reflex sight and storage space for 2 extra magazines. Unfortunately, it is also a nightmarishly complex design, which has earned it various nicknames, such as \"clockwork rifle\", \"space magic rifle\" and other less-than-kind nicknames. Nevertheless, if you want to look like an alien from space, or if you want to know what a futuristic firearm feels like, try to get a hold of one of these!",
 		
 		bm_w_tilt = "Izhmash AN-94",
 		bm_w_tilt_desc = "The nomenclature for this weapon insists that it is called \"AN-94 Abakan\" and not \"Abakan AN-94\". Nevertheless, the AN-94 is, at the core, one of many attempts to create a rifle that could serve as a replacement for the AK-74, by improving on its predecessor's performance. The AN-94's claim to fame is the 2-round \"hyper burst\" mode, so called because it fires two shots at a rate of 1800 RPM, fast enough to allow the second bullet to leave the barrel before the recoil impulse of the first shot can be felt. Unfortunately, it is also an incredibly complex and unreliable design, which employs a pulley and lifter system to carry rounds from the magazine to the chamber. For the most hardcore fans of the 5.45x39mm caliber, or for those willing to feel a little experimental, like this weapon.",
@@ -303,7 +303,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_aa12_desc = "What's just under a meter long, weighs about 15 pounds, sounds like a jackhammer on steroids, and has the capability to deliver explosive pain, suffering and destruction 300 times per minute? If you didn't answer \"AA-12\", you need to stop making dirty jokes. The AA-12 is the poster child for the very restricted category of fully-automatic shotguns, and although it'll work perfectly well with buckshot or slugs, this weapon really shines when you load it with a full magazine of explosive FRAG-12 shells.",
 		
 		bm_w_boot = "Winchester Model 1887",											--Breaker 12G
-		bm_w_boot_desc = "The Winchester Model 1887 was one of the first successful lever-action shotgun designs ever produced. Originally, the Model 1887 was a 10 gauge firearm that could only handle blackpowder shells, and it was produced with a stock (as well as longer barrels). Subsequent strengthenings of the design, allowed it to shoot modern smokeless powder shells, and eventually a 12 gauge version was produced. However, the classic, stocked Model 1887 disappeared from production as better and more modern shotguns came into the market. Much later, influenced by certain popular action movies, owners of old 1887s sawed their stocks and barrels off and performed the "flip-cocking" move, to differentiate themselves from other shotgunners. This led to a resurgence of the 1887, which is now exclusively produced with a 18.5 inch barrel, an enlarged lever loop, a cut trigger guard, and of course, no stock.",
+		bm_w_boot_desc = "The Winchester Model 1887 was one of the first successful lever-action shotgun designs ever produced. Originally, the Model 1887 was a 10 gauge firearm that could only handle blackpowder shells, and it was produced with a stock (as well as longer barrels). Subsequent strengthenings of the design, allowed it to shoot modern smokeless powder shells, and eventually a 12 gauge version was produced. However, the classic, stocked Model 1887 disappeared from production as better and more modern shotguns came into the market. Much later, influenced by certain popular action movies, owners of old 1887s sawed their stocks and barrels off and performed the \"flip-cocking\" move, to differentiate themselves from other shotgunners. This led to a resurgence of the 1887, which is now exclusively produced with a 18.5 inch barrel, an enlarged lever loop, a cut trigger guard, and of course, no stock.",
 		
 		bm_w_serbu = "Sawn-off Remington 870",											--Locomotive 12G
 		bm_w_serbu_desc = "A shortened American shotgun manufactured by Remington Arms. Pump-action, tube-fed, and chambered in 12 gauge.",
@@ -425,7 +425,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_rpk_desc = "If you think it looks like a bigger, meaner AKM, you wouldn't be wrong. The RPK is a machine gun version of the AKM, and mechanically it is more or less the same. The features that make it an RPK are its 23.2 inch heavy barrel with integrated bipod, the RPK stock, and the magazine, a 40-rounder by default, though it can accept any AK-47 magazine. I recommend using 100-round drums for maximum effectiveness.",
 		
 		bm_w_m249 = "FN M249 Para",														--KSP
-		bm_w_m249_desc = "The M249, or Minimi, is a staple belt-fed light machine gun, among the most popular of its kind in the Mazes. 5.56mm, full-auto only, this weapon comes standard with a bipod and a 200-round belt box, is light enough to fit in a (sufficiently large) bag if needed, yet it is capable of filling the air with bullets at a moment's notice. Though there is no semi-automatic mode, do you sincerely feel like you need it when you have two hundred rounds on tap?",
+		bm_w_m249_desc = "The M249, or Minimi, is a staple belt-fed light machine gun, among the most popular of its kind in the world. 5.56mm, full-auto only, this weapon comes standard with a bipod and a 200-round belt box, is light enough to fit in a (sufficiently large) bag if needed, yet it is capable of filling the air with bullets at a moment's notice. Though there is no semi-automatic mode, do you sincerely feel like you need it when you have two hundred rounds on tap?",
 
 		bm_w_hk21 = "Heckler & Koch HK21E",												--Brenner 21
 		bm_w_hk21_desc = "The HK21 is the light machine gun cousin of the G3. Though it has more or less the same sights and controls, the HK21's main differences with the G3 are the belt-feeding system, the integrated bipod, and the full-auto fire mode, tuned to have a much higher rate of fire. Compatible with M13 belts, and comes with a 150-round belt box by default.",
@@ -475,7 +475,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m40a5_desc = "An American sniper rifle manufactured by Remington Arms. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
 		
 		bm_w_sv98 = "Kalashnikov Concern SV-98",
-		bm_w_sv98_desc = "A Russian sniper rifle manufactured by Kalashnikov Concern. Bolt-action, magazine-fed, and chambered in 7.62x54mmR.",
+		bm_w_sv98_desc = "In the world of 7.62x54mm R precision rifles, the semi-automatic SVD succeeded the bolt-action Mosin Sniper, and in turn, the SV-98, also a bolt-action rifle, succeeded the SVD. Representing somewhat of a 'return to the roots', the SV-98 is nonetheless a modern weapon, featuring a full length optics rail, an integrated bipod, and detachable box magazines. What's old is new again! Plus, the green wood furniture is pretty snazzy.",
 		
 		bm_w_spring = "Springfield Armory M1903A3 Custom",
 		bm_w_spring_desc = "An American rifle manufactured by Springfield Armory with minor customisation. Bolt-action, magazine-fed, and chambered in .30-06 Springfield.",
@@ -484,13 +484,13 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_t1000x5_desc = "A Russian sniper rifle manufactured by ORSIS. Bolt-action, magazine-fed, and chambered in 7.62x51mm NATO.",
 		
 		bm_w_vss = "Tula Arms VSS",
-		bm_w_vss_desc = "A Soviet sniper rifle manufactured by the Tula Arms Plant. Semi-automatic, magazine-fed, and chambered in 9x39mm SP-6.",
+		bm_w_vss_desc = "The Vintorez is a sniper version of the AS Val, and perhaps the more famous of the AS Val derivatives, even though there are really only two mechanical differences between the two rifles; the VSS is fitted with a fixed wooden stock instead of a folding stock, and has a lower rate of fire; making it one of the rare few precision rifles to be capable of fully-automatic fire. Other than that, they are extremely similar, featuring the same integrated silencer system and the same chambering, right down to using the same magazines.",
 		
 		bm_w_k31 = "Waffenfabrik Bern K31",
 		bm_w_k31_desc = "A Swiss carbine designed by Eidgenossische Waffenfabrik. Straight pull bolt-action, magazine-fed, and chambered in 7.5x55mm Swiss.",
 		
 		bm_w_type38 = "Type 38 Arisaka",
-		bm_w_type38_desc = "An Imperial Japan rifle manufactured by Tokyo Arsenal. Bolt-action, clip-loaded, and chambered in 6.5x50mm Arisaka.",
+		bm_w_type38_desc = "This extra-long and unwiedly rifle may not look like it, but it possesses one of the few bolt-action systems that is demonstrably stronger than the Mauser system. Though the caliber this rifle is chambered for isn't the most powerful, at the very least it doesn't recoil heavily.",
 		
 		bm_w_winchester1894 = "Winchester Model 1894",
 		bm_w_winchester1894_desc = "An American rifle designed by the legendary John Moses Browning. Lever-action, tube-fed, and chambered in a myriad of calibers.",
@@ -505,19 +505,19 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_knockout_desc = "An American rifle modified by AAC. Integrally suppressed, bolt-action, magazine-fed, and chambered in .300 Blackout.",
 		
 		bm_w_m200 = "CheyTac M200 Intervention",
-		bm_w_m200_desc = "An American sniper rifle manufactured by CheyTac USA. Bolt-action, magazine-fed, and chambered in .408 Cheyenne Tactical.",
+		bm_w_m200_desc =  "A rifle that brought with it an entirely new long range cartridge based upon the .400 Taylor Magnum, the Intervention's rise to fame was through kids calling for their mothers to get a camera. Whether you like to take your time with shots, or take snap shots instead, the M200 Intervention should treat you well. Don't worry, she won't bite, unless you tell her to.",
 		
 		bm_w_m98b = "Barrett Model 98 Bravo",
-		bm_w_m98b_desc = "An American sniper rifle manufactured by Barrett Firearms Manufacturing. Bolt-action, magazine-fed, and chambered in .338 Lapua Magnum.",
+		bm_w_m98b_desc = "This modern, .338 Lapua bolt-action rifle has everything a sniper could need on the battlefield; a long optics rail to accomodate for any sight your heart desires, a detachable, 10-round box magazine, another rail to fit a light or laser, and a bipod. To sweeten the deal, the rifle makes extensive use of aluminium, making it a relatively lightweight rifle for its category. If you're looking for a new, powerful precision rifle, this is a solid choice!",
 		
 		bm_w_fd338 = "F&D Defense FD338",
 		bm_w_fd338_desc = "An American sniper rifle manufactured by F&D Defense. Semi-automatic, magazine-fed, and chambered in .338 Lapua Magnum.",
 		
-		bm_w_lynx = "Gepard GM6",
+		bm_w_lynx = "Sero Gepard GM6",
 		bm_w_lynx_desc = "A Hungarian bullpup anti-material rifle designed by Ferenc Foldi. Semi-automatic, magazine-fed, and chambered in 12.7x108mm.",
 		
-		bm_w_psg1 = "Heckler & Koch PSG1",
-		bm_w_psg1_desc = "A German sniper rifle manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
+		bm_w_psg1 = "Heckler & Koch PSG-1",
+		bm_w_psg1_desc = "The PSG-1 is the precision rifle cousin of the G3. Though at the core it is mechanically the same (it even accepts the same magazines), the PSG-1 is fitted with a semi-auto only trigger control group, a special ergonomic pistol grip, but most importantly, a 6x optic mounted on the standard HK claw mount and a highly accurate 25.6 inch barrel, the true 'star' features of the PSG-1. This rifle was designed for law enforcement sharpshooters, and it is highly recommended to pair this rifle with Match-grade ammunition for optimal performance.",
 		
 		bm_w_simonev = "PTRS-41",
 		bm_w_simonev_desc = "A Soviet anti-tank rifle designed by Sergei Gavrilovich Simonov. Semi-automatic, magazine-fed, and chambered in 14.5x114mm.",
@@ -825,7 +825,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_unirifle_desc = "A laser rifle used by a girl named Uni. Select-fire, self-regenerating ammunition, and chambered in lasers that seem a lot like bullets.",
 		
 		bm_w_zd_nailgun = "Paslode IM360ci 90mm Cordless",
-		bm_w_zd_nailgun_desc = "An American nailgun manufactured by Paslode. Semi-automatic, magazine-fed, and chambered in 3.1mm nails.",
+		bm_w_zd_nailgun_desc = "Hi! Definta here! Are you a melee focused Heister? Do you not like the idea of learning how to use a conventional firearm? Are you a carpenter in your spare time? Well worry no more! With the all new Paslode Cordless Nailgun, you too can turn your potential enemies into pincushions without having to carry around a quiver full of arrows or bolts. Order now and get absolutely nothing extra, guaranteed!",
 		
 		bm_w_zd_railgun = "Coil Railgun",
 		bm_w_zd_railgun_desc = "An American railgun manufactured by Coil Arms Division. Single-shot, magazine-fed, and chambered in a high velocity slug.",
@@ -941,13 +941,13 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_komodo_desc = "An Israeli bullpup carbine manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
 		
 		bm_w_dl = "De Lisle Commando Carbine",
-		bm_w_dl_desc = "A British integrally suppressed carbine manufactured by Sterling Armament Company. Bolt-action, magazine-fed, and chambered in .45 ACP.",
+		bm_w_dl_desc = "The De Lisle (pronounced 'Duh Leel') was originally a personal project cobbled together from a variety of firearms; a heavily modified Enfield rifle was used as the base, which was then rechambered to .45 ACP. To accomplish this, the rifle was modified with a new bolt to accomodate the new cartridge, a new magazine well, fitted with magazines from a 1911, and a barrel derived from that of a Thompson coupled with a large, extremely effective silencer. The .45 ACP caliber was chosen because standard-pressure ammunition is naturally subsonic, resulting in an extremely silent firearm; one of the quietest in the world, in fact. A stand-out choice if you're looking for a good covert operations weapon, and an excellent companion firearm to a suppressed 1911.",
 		
 		bm_w_sr3m = "Tula SR3M Vikhr",
 		bm_w_sr3m_desc = "A Russian carbine manufactured by the Tula Arms Plant. Select-fire, magazine-fed, and chambered in 9x39mm.",
 		
 		bm_w_bajur = "AAC Honey Badger",
-		bm_w_bajur_desc = "An American integrally suppressed personal defence weapon manufactured by Advanced Armament Corporation. Select-fire, magazine-fed, and chambered in .300 AAC Blackout.",
+		bm_w_bajur_desc = "The basic principle behind the Honey Badger is, in theory, very simple: \"What if the AR-15 could be made as compact and as silent as a silenced MP5, but without compromising on lethality?\" The Honey Badger was developed specifically to answer to this challenge. This subcarbine is an AR-15 derivative using a gas piston system instead of the classic direct impingement system, fitted with a six-inch, integrally silenced, .300 Blackout barrel. The caliber was chosen over 5.56 NATO for its larger bullet diameter and improved performance, particularly when using reduced-velocity ammunition. With just a few millimeters of difference in overall length, and near-identical weight as an MP5A3, the Honey Badger is a top-quality weapon for covert operations.",
 		
 		bm_w_drongo = "Heckler & Koch HK416C",
 		bm_w_drongo_desc = "A German carbine manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -956,13 +956,13 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x95_desc = "An Israeli bullpup carbine manufactured by Israeli Weapon Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_sks = "Tula Arms SKS",
-		bm_w_sks_desc = "A Russian semi-automatic rifle manufactured by the Tula Arms Plant. Semi-automatic, magazine-fed, and chambered in 7.62x39mm.",
+		bm_w_sks_desc = "Often seen in the hands of new shooters, young, fresh-faced and ready to run in the woods, the SKS is a common first choice for people looking to hone their skills with a semi-automatic rifle, while still having a potent weapon for more serious purposes. Chambered in 7.62x39mm, reloaded with stripper clips, and fitted with an integrated bayonet for those with a mind to fight up close and personal, the SKS offers plenty for its low price.",
 		
 		bm_w_sg552 = "SIG SG 552-2P",
 		bm_w_sg552_desc = "A Swiss carbine manufactured by SIG. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
 		bm_w_mk18s = "NSWCCD Mark 18 Mod 1",
-		bm_w_mk18s_desc = "An American carbine developed by Naval Surface Warfare Center Crane Division. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		bm_w_mk18s_desc = "The Mark 18 is one of the shortest members of the AR-15 family. It is a further development of the M4 carbine, with an even shorter barrel - 10.5 inches instead of 14.5 inches. It is very popular among all sorts of people, but particularly heavy weapons users, as it essentially a very short M4A1; uses the same magazines, has the same ergonomics, yet short and light enough to allow carrying two other, larger weapons (or a heavy flamethrower, complete with fuel tank). The very short, submachine gun-like dimensions of this rifle have led to it (and similar rifles) being referred to as 'subcarbines'.",
 		
 		bm_w_lkrifle = "Lithgow Arms LK-05",
 		bm_w_lkrifle_desc = "An Australian carbine manufactured by Lithgow Small Arms Factory. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -971,7 +971,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_s552_desc = "This 5.56x45mm short carbine is the smaller, angrier version of the SG550. With a barrel length just under 9 inches, and all of the quality you'd expect from Switzerland, this close-quarters weapon serves police and military forces in many countries of the world.",
 
 		bm_w_sub2000 = "Kel-Tec SUB-2000",												--Cavity 9mm
-		bm_w_sub2000_desc = "An American folding pistol carbine manufactured by Kel-Tec. Semi-automatic only, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_sub2000_desc = "The SUB-2000 is a minimalistic semi-automatic rifle chambered for pistol calibers and designed to be ultra-lightweight and ultra-compact. When not needed, you can fold it completely in half - it will disable the trigger kit (rendering it unusable until unfolded again), but it will become extremely easy to carry. This gun wants to be the companion rifle to all of your pistol - and it shows.",
 		
 		bm_w_tecci = "Heckler & Koch HK416C",											--Bootleg - Sydney is not the worst girl only because the H3H3 pack is shit, and because of Joy
 		bm_w_tecci_desc = "A German carbine manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
@@ -992,7 +992,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_bastard_desc = "A post-war carbine manufactured by Alexander the Gunsmith. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
 		bm_w_akmsu = "Khyber Pass AKMSU",												--Krinkov
-		bm_w_akmsu_desc = "A Khyber Pass firearm made by an aspiring Pakistani gunsmith based upon the Type 56. Select-fire, maagazine fed, and chambered in 7.62x39mm.",
+		bm_w_akmsu_desc = "This AK derivative is a subcarbine version of the AKMS, with a barrel length of only 8.1 inches. Many adventurers and mercenaries enjoy using the AKMSU, and all agree that the loss of muzzle velocity caused by the very short barrel is just one drawback, easily outweighed by its many qualities: it is very compact, can be folded to an even smaller package if needed, relatively lightweight, and accepts commonly-found magazines and ammunition.",
 		
 		bm_w_ak556 = "Khyber Pass AK-101SU",
 		bm_w_ak556_desc = "A Khyber Pass firearm made by an aspiring Pakistani gunsmith based upon the AK-101. Select-fire, magazine fed, and chambered in 5.56x45mm NATO.",
@@ -1025,7 +1025,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_patriot_desc = "A custom American machine pistol built off of an XM16E1. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO. The only thing we can believe in, with absolute certainty, is the mission.",
 		
 		bm_w_hajk = "CZ 805 BREN A1",													--CR 805B - Carbine? Pfthb
-		bm_w_hajk_desc = "A Czech assault rifle manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 5.56x45mm.",
+		bm_w_hajk_desc = "Before you ask, no, this is not CZ's take on the Bren Gun, this is a more traditional combat rifle from CZ built to replace the Sa vz. 58, an aging rifle that looked like (but isn't related to) the AK platform. The 805 is just what you expect of a modern, modular 5.56mm combat rifle, you can't go wrong with it.",
 		
 --Battle Rifles
 		
@@ -1048,7 +1048,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_ar60mrks_desc = "A German designated marksman rifle from an alternate future. Select-fire, magazine-fed, and chambered in 7.92x57mm Mauser.",
 		
 		bm_w_recce = "Heckler & Koch HK417",
-		bm_w_recce_desc = "A German battle rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		bm_w_recce_desc = "A bigger, meaner version of the HK416 chambered in 7.62 NATO, this rifle offers nearly all of the power expected of a battle rifle, in a short and handy package. With a barrel length of just 12 inches, some muzzle energy is sacrificed, and it does only accept its own proprietary magazines, but there are enough rails to customize this rifle to your heart's content. Short but strong, as they say.",
 		
 		bm_w_bulldoge = "SRSS Bulldog 762 M14 Conversion",
 		bm_w_bulldoge_desc = "An American bullpup conversion of a battle rifle designed by Richard Cabral. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
@@ -1062,14 +1062,14 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_mdr = "Desert Tech MDR",
 		bm_w_mdr_desc = "An American bullpup battle rifle manufactured by Desert Tech. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
 		
-		bm_w_svt40 = "Tokarev SVT-40",
+		bm_w_svt40 = "Tula Arms Tokarev SVT-40",
 		bm_w_svt40_desc = "A Soviet semi-automatic rifle designed by Fedor Tokarev. Semi-automatic, magazine-fed, and chambered in 7.62x54mmR.",
 		
 		bm_w_g43 = "Walther Gewehr 43",
 		bm_w_g43_desc = "A German semi-automatic rifle manufactured by Walther. Semi-automatic, magazine-fed, and chambered in 7.92x57mm Mauser.",
 		
 		bm_w_hcar = "Ohio Ordnance HCAR",
-		bm_w_hcar_desc = "An American battle rifle manufactured by Ohio Ordnance Works. Select-fire, magazine-fed, and chambered in .30-06 Springfield.",
+		bm_w_hcar_desc = "Under its modern looks lies the action of the beast of steel and wood that was the M1918 BAR. The HCAR (Heavy Counter-Assault Rifle) is essentially a modernized, closed-bolt BAR, and though it is semi-automatic only, it is chambered for the same .30-06 Springfield caliber, and accepts the same magazines. In fact, the HCAR comes standard with a huge 30-round magazine! Unlike the old BAR, however, the HCAR exemplifies what it means to modernize an old design; it is fitted with a 16 inch barrel and lightweight polymer furniture (including a retractable M4 style stock) and it has plenty of rails for all of your accessories.",
 		
 		bm_w_mxg = "M2 Raider",
 		bm_w_mxg_desc = "An American battle rifle based upon the original M1 Garand. Semi-automatic, en bloc clip loaded, and chambered in .30-06 Springfield.",
@@ -1138,7 +1138,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_stinger_desc = "An American man-portable surface-to-air missile system manufactured by Raytheon Missile Systems. Single-shot, disposable, and launching a 3kg missile. The guidance system has been broken irrepairably.",
 		
 		bm_w_rpg7 = "Bazalt RPG-7",														--HRL-7
-		bm_w_rpg7_desc = "A Soviet rocket propelled grenade launcher manufactured by NPO Bazalt. Single shot, muzzle loaded, and chambered in PG-7 HEAT rounds.",
+		bm_w_rpg7_desc = "The RPG-7 is one of the oldest anti-armor weapons still in use, first dreamt up by NPO Bazalt in 1961. Those Russians still use it into the modern day in the forms of the RPG-7V2 and RPG-7D3. This baby can take all kinds of rockets, from the classic PG-7V single stage HEAT, to the HE-Frag OG-7V, and even the TBG-7V thermobaric.",
 		
 		bm_w_china = "NAWS China Lake",													--China Puff 40mm Grenade Launcher
 		bm_w_china_desc = "An American grenade launcher manufactured by the Special Projects Division of the Naval Air Weapons Station. Pump action, tube-fed, and chambered in 40x46mm SR.",
@@ -1173,7 +1173,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_kozak_desc = "A German designated marksman rifle manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
 		
 		bm_w_qbu88 = "Norinco QBU-88",
-		bm_w_qbu88_desc = "A Chinese bullpup designated marksman rifle manufactured by Norinco. Semi-automatic, magazine-fed, and chambered in 5.8x42mm DBP87.",
+		bm_w_qbu88_desc = "Though it is not technically part of the QBZ family proper due to mechanical differences, this bullpup precision rifle is still chambered for 5.8x42mm and employs the same QBZ optic mount, fitted by default with the 9x Type 88 scope, making it an equivalent of the SVD. Due to the relatively limited choices of ammunition available in this caliber, handloading is recommended to make the most out of this rifle.",
 		
 		bm_w_svd = "Kalashnikov Concern SVD",
 		bm_w_svd_desc = "A Soviet sniper rifle manufactured by Kalashnikov Concern. Semi-automatic, magazine-fed, and chambered in 7.62x54mmR.",
@@ -1351,13 +1351,13 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 --Submachine Guns
 
 		bm_w_r0991 = "Colt Model 991",
-		bm_w_r0991_desc = "An American submachine gun manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_r0991_desc = "The RO991 is not merely a submachine gun-length caliber, like the Mark 18; it is an actual, literal submachine gun. Though still considered to be part of the AR-15 family, this model is mechanically different, using a simpler blowback operation instead of the direct impingement gas operation system that defines the rifle-caliber AR-15s. Despite that, the RO991 uses the exact same ergonomics as its more powerful cousins, and is viable as both a training platform for other AR-15 rifles and as a legitimate workhorse submachine gun.",
 		
 		bm_w_tm1a1 = "Auto Ordnance Thompson M1A1",
 		bm_w_tm1a1_desc = "An American submachine gun designed by Auto Ordnance. Fully-automatic, magazine-fed, and chambered in .45 ACP.",
 		
 		bm_w_m1928 = "Auto Ordnance M1928 Thompson",									--Chicago Typewriter
-		bm_w_m1928_desc = "An American submachine gun manufactured by Auto Ordnance. Fully automatic, magazine-fed, and chambered in .45 ACP.",
+		bm_w_m1928_desc = "So many affectionate nicknames: The Typewriter, the Tommy Gun, the Trench Broom, the Gangster Gun... All of these names refer to the same weapon: the Thompson, a big, heavy, flashy, .45 caliber submachine gun with a heck of a temper. Sure, it ain't no fancy modern rifle, it's not customizable or modular and all that jazz, but let's be real, if you're carrying a Thompson, you're not doing it because it's practical, you're doing this because you're an artist.",
 
 		bm_w_proto = "KRISS Super V Prototype",
 		bm_w_proto_desc = "An America prototype submachine gun manufactured by KRISS USA. Select-fire, magazine-fed, and chambered in .45 ACP.",
@@ -1366,10 +1366,10 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_mp7new_desc = "A German personal defence weapon manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in HK 4.6x30mm DM11.",
 		
 		bm_w_mp5 = "Heckler & Koch MP5A2",												--Compact-5
-		bm_w_mp5_desc = "A German submachine gun manufactured by Heckler & Koch. Select fre, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_mp5_desc = "The enduringly popular MP5 series, perhaps the most well-loved and most popular submachine gun family in the world, has been the standard of quality for submachine guns since its inception. It is a scaled-down, pistol-caliber version of the G3 rifle, featuring the same ultra-reliable roller-locked delayed blowback action and much of the same controls and features. The MP5A2 features a 3 position selector, chambered in 9x19mm and fitted with a fixed stock. If you're looking for the submachine gun to rule them all, most people seem to agree that it is this one; so if you don't have one already, what are you waiting for?!",
 		
 		bm_w_shepheard = "SIG Sauer MPX", 												--Signature SMG
-		bm_w_shepheard_desc = "A Swiss submachine gun manufactured by SIG Sauer. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_shepheard_desc = "The MPX was made for the sole purpose of being a worthy opponent to the venerable MP5, by offering as many features as possible to sway MP5 owners into adopting it. Though the MP5 has not yet been dethroned, this submachine gun certainly was made to please, with many features right out of the box: a plethora of accessory rails, a threaded barrel, very lightweight, and AR-15 inspired ergonomics, right down to the charging handle and the magazine and bolt releases.",
 		
 		bm_w_erma = "Erma Werke MP40",													--MP40 Submachinegun
 		bm_w_erma_desc = "A Nazi Germany submachine gun manufactured by Erma Werke. Fully automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -1384,7 +1384,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_spectre_m4_desc = "An Italian submachine gun manufactured by SITES. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 		bm_w_ump = "Heckler & Koch UMP45",
-		bm_w_ump_desc = "A German submachine gun manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in .45 ACP.",
+		bm_w_ump_desc = "Although the MP5 family of submachine guns remains an enduringly popular staple in the criminal underworld, there was still a market for shooters of various backgrounds looking for a submachine gun designed to fire larger calibers; the 9x19mm caliber is extremely dominant in the SMG world, and even though the MP5 has variants in .40 S&W and 10mm Auto, they are not as popular as the original 9x19mm version. The UMP series was introduced to attempt addressing these needs. The UMP is a lightweight, simple submachine gun, using a lightweight polymer receiver, a folding stock, and a simple, straight blowback system instead of the MP5's more complex roller-delayed blowback action. All versions have a low, controllable rate of fire, making them pleasant to shoot even in full-auto. This version of the UMP is the UMP45, chambered for .45 ACP, and is the original, first model introduced.",
 		
 		bm_w_chang6 = "Chongqing Changfeng CF-05",
 		bm_w_chang6_desc = "A Chinese submachine gun manufactured by Chongqing Changfeng. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -1398,7 +1398,6 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_vityaz = "Izhmash PP-19-01 Vityaz-SN",
 		bm_w_vityaz_desc = "A Russian submachine gun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		
 		bm_w_calico = "Calico M955A",
 		bm_w_calico_desc = "An American submachine gun manufactured by Calico Light Weapons Systems. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
@@ -1460,7 +1459,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_schakal_desc = "A German submachine gun manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in .45 ACP.",
 
 		bm_w_coal = "Kalashnikov Concern PP-19 Bizon-2",								--Tatonka SMG
-		bm_w_coal_desc = "A Russian submachine gun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+		bm_w_coal_desc = "Despite its strange, unconventional looks, the Bizon is actually a submachine gun derivative of the AKS-74, with a simple blowback action replacing the long-stroke gas-operated system, and nearly 60% parts compatibility with its rifle-caliber cousin. This makes the Bizon a highly reliable firearm, but it is most famous for the big cylindrical device underneath the barrel. No, it is not a grenade launcher, unlike what some might think; it is in fact the magazine. Using a helical arrangement to store the ammunition inside of it, just like Calico M955, the Bizon's magazine capacity is also its main selling point: 64 rounds! If that doesn't convince you to buy one, I'm not sure what will.",
 		
 --Handguns
 
@@ -1471,7 +1470,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_g22c_desc = "An Austrian handgun manufactured by Glock. Semi-automatic, magazine-fed, and chambered in .40 S&W.",
 
 		bm_w_lemming = "FN Five-seveN",													--5/7 AP Pistol
-		bm_w_lemming_desc = "A Belgian handgun manufactured by Fabrique Nationale de Herstal. Semi-automatic, magazine-fed, and chambered in FN 5.7x28mm.",
+		bm_w_lemming_desc = "The Five-seveN is more than your typical combat pistol. It is the companion sidearm to the P90, both of which are designed to fire the 5.7x28mm caliber. Just like the P90, this pistol makes extensive use of polymers, features a fully ambidextrous safety lever located - rather unconventionally for a pistol - above the trigger, as well as a reversible magazine release button. It also features adjustable sights and a rail for mounting a light or laser sight. Arguably, however, the star features of the Five-seveN are its very low weight (a mere 610 grams, or 1.3 lb) and its magazine, with a standard capacity of 20 rounds. As long as you don't mind the caliber, the Five-seveN may well be of the best pistols available to a heister.",
 
 		bm_wp_pis_g26 = "Glock 26",														--Chimano Compact
 		bm_wp_pis_g26_desc = "An Austrian handgun manufactured by Glock. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -1665,7 +1664,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_kedr_desc = "A Russian submachine gun designed by Evgeny Dragunov. Select-fire, magazine-fed, and chambered in 9x18mm PMM.",
 		
 		bm_w_mp9 = "Brugger & Thomat MP9-NA3",											--CMP
-		bm_w_mp9_desc = "A Swiss machine pistol manufactured by Brugger & Thomet. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_mp9_desc = "An updated version of the Steyr TMP, the MP9-N introduced many changes to try and modernize this little automatic firearm, not the least of which is the addition of a simplistic folding stock, which the original TMP did not have, turning it into a proper, if short submachine gun. A top rail was also added for fitting short optics. It is still compatible with TMP magazines, and if you fancy using it like a TMP, fold the stock; it is just the right length, and will fold neatly alongside the foregrip, without interfering. Highly recommended accessories: Red dot sight and MP9 silencer (sold separately).",
 
 		bm_w_mac10mpa = "MasterPiece Arms Ingram MPA10SST",
 		bm_w_mac10mpa_desc = "An American machine pistol with an upper receiver manufactured b y MasterPiece Arms. Select-fire, magazine-fed, and chambered in .45 ACP.",
@@ -1733,6 +1732,29 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_baka = "IMI Micro Uzi",													--Micro Uzi
 		bm_w_baka_desc = "An Israeli machine pistol manufactured by Israeli Military Industries. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
+--Irenfist stuff
+		
+		bm_w_new_mp5primary = "Heckler & Koch MP5A2",
+		bm_w_new_mp5primary_desc = "Everything about the original MP5 platform that you love, but this one goes into your primary slot.",
+		
+		bm_w_m1928primary = "Auto Ordnance M1928 Thompson",
+		bm_w_m1928primary_desc = "When you're a GI and you absolutely need to have a 1911 as your secondary, but still want a Thompson, this primary slot version will help.",
+		
+		bm_w_schakalprimary = "Heckler & Koch UMP45",
+		bm_w_schakalprimary_desc = "Now you can pair a USP45 with your UMP45.",
+		
+		bm_w_shepheardprimary = "SIG Sauer MPX",
+		bm_w_shepheardprimary_desc = "Can't choose between an MP5 and an MPX? Take both!",
+		
+		bm_w_coalprimary = "Izhmash PP-19 Bizon-2",
+		bm_w_coalprimary_desc = "Who said there weren't enough AK primaries?",
+		
+		bm_w_olympicprimary = "Olympic Arms K23B",
+		bm_w_olympicprimary_desc = "All the ability of the AR platform, in a nice, tiny size. Suitable for use as a Firing Port Weapon.",
+		
+		bm_w_hajkprimary = "CZ 805 BREN A1",
+		bm_w_hajkprimary_desc = "Submachine gun my ass.",
+	
 		thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun I kept this from VxWolf's stuff
 	})
 end)
