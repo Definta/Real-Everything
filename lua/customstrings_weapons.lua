@@ -37,7 +37,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_xeno_zd_desc = "An American pulse rifle manufactured by Armat Battlefield Systems. Select-fire, magazine-fed, and chambered in 10x24mm Caseless.",
 		
 		bm_w_vsk94 = "KBP 9A-91",														--Foldaboi
-		bm_w_vsk94_desc = "A Russian carbine manufactured by the KBP Instrument Design Bureau. Select-fire, magazine-fed, and chambered in 9x39mm.",
+		bm_w_vsk94_desc = "When told to 'bring a nine millimeter' to a gunfight, this is what the smart guy brings. Despite the diminutive, submachine gun-like dimensions, the 9A91 is in fact a fully-featured, select-fire combat rifle chambered in the potent 9x39mm caliber. It features a 20-round magazine, a side mount for WP optics, a very short barrel (just a hair over 9 inches), and a folding stock, which allows the 9A91 to be folded down to an even more compact package.",
 
 		bm_w_ar160 = "Beretta ARX160",
 		bm_w_ar160_desc = "An Italian assault rifle manufactured by Beretta. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
