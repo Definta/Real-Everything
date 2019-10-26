@@ -18,25 +18,25 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_aug = "Steyr AUG A2",														--UAR Universal Assault Rifle?
 		bm_w_aug_desc = "At first glance, it seems improbable that the Steyr AUG was made in the 1970s. Very ahead of its time, this Austrian beauty is a jewel of polymer and advanced alloys, with a very space-age, futuristic design, using a bullpup configuration, and designed for modularity since the day it was introduced. The armed forces of Austria, Ireland and Australia have three things in common: they are drunk most of the time, they speak unintelligible languages, and they all swear by the AUG.",
 
-		bm_w_akgear = "Izhmash AK-74",
+		bm_w_akgear = "Izhmash AK-74",													--Payday The Heist era
 		bm_w_akgear_desc = "A Soviet assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
-		bm_w_sr47 = "AR-15 7.62x39mm [AK Mag Conversion]",
+		bm_w_sr47 = "AR-15 7.62x39mm [AK Mag Conversion]",								--KAC SR-47 Hybrid
 		bm_w_sr47_desc = "A mix and match assault rifle with parts from the CMMG Mk47, and Bear Creek Arsenal AR-15. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
 		
 		bm_w_akm = "Kalashnikov Concern AKMS",											--AK.762
 		bm_w_akm_desc = "This is the folding stock version of the AKM. The stock introduced here is the uncomfortable, under-folding wire stock. Though it's about as comfortable as a lawnmower blade against your shoulder, at least now you can fold your AK into a more compact package. Remember, accept no substitutes.",
 
-		bm_w_saigry = "Salient Arms International GRY Carbine",
+		bm_w_saigry = "Salient Arms International GRY Carbine",							--Jailbreak
 		bm_w_saigry_desc = "An American carbine manufactured by Salient Arms International. Select-fire, magazine-fed, and chambered in .300 Blackout.",
 		
-		bm_w_tar21 = "IMI Tavor TAR-21",
+		bm_w_tar21 = "IMI Tavor TAR-21",												--AAAAAAAAAAAAAAAA
 		bm_w_tar21_desc = "An Israeli bullpup assault rifle manufactured by Israeli Military Industries. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 		
-		bm_w_xeno_zd = "Armat M41A",
+		bm_w_xeno_zd = "Armat M41A",													--Cardboard Boy
 		bm_w_xeno_zd_desc = "An American pulse rifle manufactured by Armat Battlefield Systems. Select-fire, magazine-fed, and chambered in 10x24mm Caseless.",
 		
-		bm_w_vsk94 = "KBP 9A-91",
+		bm_w_vsk94 = "KBP 9A-91",														--Foldaboi
 		bm_w_vsk94_desc = "A Russian carbine manufactured by the KBP Instrument Design Bureau. Select-fire, magazine-fed, and chambered in 9x39mm.",
 
 		bm_w_ar160 = "Beretta ARX160",
@@ -191,6 +191,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_ak12 = "Kalashnikov Concern AK-15",										--AK17 Rifle - The AK-200 derived prototype was better.
 		bm_w_ak12_desc = "First there was the first generation. Then there was the second, and then the third. Forget everything you thought you knew about the AK, save for the legendary reliability. The AK-12 series aims to be the most ambitious generation - the fourth - of Kalashnikov-pattern rifles. Out of the box, you get a combat rifle with a fully adjustable stock, a full length optics rail, three fire modes, a threaded barrel, and long underbarrel rails for maximum modularity. The only things that don't change are the magazines, the dependability, and the big smile you'll get when you get one. You will get an AK-12, won't you?",
+
+		bm_w_raifu = "Heckler & Koch HK416",
+		bm_w_raifu_desc = "A German assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
 --Shotguns
 
