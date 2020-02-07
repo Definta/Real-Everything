@@ -22,7 +22,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_akgear_desc = "A Soviet assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 		
 		bm_w_sr47 = "AR-15 7.62x39mm [AK Mag Conversion]",								--KAC SR-47 Hybrid
-		bm_w_sr47_desc = "A mix and match assault rifle with parts from the CMMG Mk47, and Bear Creek Arsenal AR-15. Select-fire, magazine-fed, and chambered in 7.62x39mm.",
+		bm_w_sr47_desc = "Have you wanted to have the ergonomics of an AR-15, while having the bizarre ballistic performance of an AKM? Well look no further than this hybrid of a firearm. With a special receiver and barrel combination, your very own AR-15 can indeed take classic AKM steel mags, and you get a free rechambering into 7.62x39mm in the bargain too. Just don't ask about the ammo efficiency of using old Soviet ammunition against Western police, I don't understand it either.",
 		
 		bm_w_akm = "Kalashnikov Concern AKMS",											--AK.762
 		bm_w_akm_desc = "This is the folding stock version of the AKM. The stock introduced here is the uncomfortable, under-folding wire stock. Though it's about as comfortable as a lawnmower blade against your shoulder, at least now you can fold your AK into a more compact package. Remember, accept no substitutes.",
@@ -231,7 +231,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_xmassg_desc = "A North Pole shotgun manufactured by Santa's Workshop Industries. Side-by-side, chamber-loaded, and chambered in 12 gauge.",
 		
 		bm_w_saiga = "Kalashnikov Concern Saiga 12K",									--IZHMA 12G
-		bm_w_saiga_desc = "A Soviet shotgun manufactured by Kalashnikov Concern. Semi-automatic, magazine-fed, and chambered in 12 gauge.",
+		bm_w_saiga_desc = "The Saiga-12 isn't just a semi-automatic shotgun based upon the AK platform, it's an improvement over it in numerous ways. Gone is the way of the 'rock and lock', and the bolt's been lengthened slightly thanks to the inherent difference in thickness of 12 gauge when compared to the usual 7.62x39mm. Unfortunately for you, one of the last presidents banned importation of Russian arms, but that won't stop Gage, and that won't stop you.",
 
 		bm_w_trent = "Four Letter Word",
 		bm_w_trent_desc = "A custom shotgun made by a Sosig in their garage. Quadruple barreled, chamber-loaded, and chambered in 12 gauge.",
@@ -243,7 +243,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m1912_desc = "An American shotgun manufactured by Winchester Repeating Arms Company. Pump-action, tube-fed, and chambered in 12 gauge.",
 		
 		bm_w_huntsman = "Stoeger Industries Uplander",									--Mosconi 12G
-		bm_w_huntsman_desc = "An American side-by-side double barrel shotgun manufactured by Stoeger Industries. Side-by-side, chamber loaded, and chambered in 12 gauge.",
+		bm_w_huntsman_desc = "A classic American double barrel hunting shotgun. Two long barrels, 12 gauge, break-action; it's as simple as it gets. This model features an side-by-side arrangement, but for you, there's no real issue caused by that.",
 		
 		bm_w_toz106 = "Tula Arms TOZ-106",
 		bm_w_toz106_desc = "A Russian shotgun manufactured by the Tula Arms Plant. Bolt-action, magazine-fed, and chambered in 20 gauge.",
@@ -561,6 +561,23 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_obrez = "Mosin-Nagant Obrez Custom",
 		bm_w_obrez_desc = "A Russian pistol conversion of an old WWI rifle. Bolt-action, clip-loaded, and chambered in 7.62x54mmR.",
 		
+		bm_w_b42 = "Steyr Elite",
+		bm_w_b42_desc = "",
+		
+		bm_w_moss464spx = "Mossberg 464 SPX Centerfire",
+		bm_w_moss464spx_desc = "",
+		
+		bm_w_mas49 = "MAS-49",
+		bm_w_mas49_desc = "",
+		
+		bm_w_tkpd = "TsNIITochMash SVDK",
+		bm_w_tkpd_desc = "",
+		
+		bm_w_martinihenry = "Martini-Henry",
+		bm_w_martinihenry_desc = "",
+		
+		
+		
 --Akimbo Handguns
 		
 		bm_w_x_gsh18 = "Akimbo KBP GSh-18s",
@@ -837,7 +854,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_toym16_desc = "An American automatic BB gun manufactured by Crimson Raider. Select-fire, magazine-fed, and chambered in 0.177 inch BBs.",
 		
 		bm_w_shuno = "Overkill Industries XL 5.56",										--XL 5.56 Microgun Kinda reminds me of the FNV Shoulder Mounted Machine Gun
-		bm_w_shuno_desc = "A portable minigun probably custom built by Chains and Gage. Fully automatic, belt fed, and chambered in 5.56x45mm.",
+		bm_w_shuno_desc = "I know what you're thinking, and no, this isn't a firearm from the Divide. This is the Overkill Industries XL 5.56. Chambered in 5.56x45mm, and reminiscent of the Empty Shell XM556 Microgun, this baby mounts up on your shoulder - like a rocket launcher - and then you can unleash 2000 RPM of hate. The ultimate in suppression deliverers, armour plate shredders, and for taking down anything that pops up from underground.",
 		
 		bm_w_elastic = "Quest Radical Compound Bow",
 		bm_w_elastic_desc = "An American compound bow manufactured by Quest. Single-shot, compound, and launching conventional arrows.",
@@ -870,7 +887,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_saw_akimbo_desc = "A pair of Swedish cement saws repurposed for metal work by Gage. Circular saw blades, and can cut through ATMs, most doors, and deposit boxes.",
 		
 		bm_w_m134 = "General Electrics M134",											--Vulcan Minigun is redundant
-		bm_w_m134_desc = "An American portable minigun manufactured by General Electrics. Fully automatic, belt fed, and chambered in 7.62x51mm.",
+		bm_w_m134_desc = "Contrary to popular belief, this isn't a Vulcan. The Vulcan is a 20mm rotary cannon mounted on most American multi-role fighter jets. This, is the M134 minigun, the little cousin chambered in 7.62x51mm. To some, this would make it a general purpose machine gun with a rotary barrel. I don't think it matters though, when you're spraying out rounds faster than a SWAT Turret. 3000RPM + 7.62x51mm + Any Unfortunate Cop = Swiss Cheese.",
 		
 		bm_w_flamethrower_mk2 = "Flamethrower Mk 1",									--Flamethrower
 		bm_w_flamethrower_mk2_desc = "A custom flamethrower probably cooked up in Wolf's backyard. Shoots flames.",
@@ -1467,7 +1484,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 --Handguns
 
 		bm_w_usp = "Heckler & Koch USP45",												--Interceptor 45
-		bm_w_usp_desc = "A German handgun manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in .45 ACP.",
+		bm_w_usp_desc = "Some people believe this is the finest combat handgun manufactured by any company, ever. To them, this is the weapon of Special Forces teams when they can only have a single, concealable handgun. The type of weapon used to infiltrate an island in Alaska, fighting soldiers that all wear the same white getup. They're wrong, that's the Mark 23. This, is the civilian sister, the USP45. Manufactured by Heckler & Koch during the 80s, 90s, and 00s, normally this thing is cost prohibitive for anyone to own. But, as we've established, Gage is just that awesome.",
 		
 		bm_w_g22c = "Glock 22C",														--Chimano Custom
 		bm_w_g22c_desc = "An Austrian handgun manufactured by Glock. Semi-automatic, magazine-fed, and chambered in .40 S&W.",
@@ -1482,7 +1499,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_glawk_desc = "An Austrian handgun originally designed by Gaston Glock. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 		bm_w_glock_17 = "Glock 17",														--Chimano 88
-		bm_w_glock_17_desc = "An Austrian handgun originally designed by Glock. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_glock_17_desc = "Considered to be the gold standard of what constitutes a modern, reliable combat handgun (but not here), the Glock pistol may not have been the first polymer pistol, but it certainly became the most popular one. Lightweight, reliable, high capacity (standard magazines carry 17 rounds), comes with a mount for a light or a laser, a price tag of only $42,000, and many, more involved customizations available if you take it to your local workshop (read: Got the right mods); the G17 managed to be both attractive and inexpensive. When you need a reliable handgun to get you out of a corner, the Glock 17 will make sure you live to fight another day.",
 		
 		bm_w_k5 = "S&T Motiv K5",
 		bm_w_k5_desc = "A South Korean handgun manufactured by S&T Motiv. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -1635,7 +1652,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_hpb_desc = "A Belgian handgun designed by the legendary John Moses Browning, and manufactured by Fabrique Nationale de Herstal. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 		
 		bm_w_ppk = "Walther PPK/S",														--Gruber Kurz
-		bm_w_ppk_desc = "A German handgun manufactured by Walther. Semi-automatic, magazine-fed, and chambered in .32 ACP.",
+		bm_w_ppk_desc = "Small, lightweight, easily concealable, and definitely very classy. Sure, in the age of modern, high-capacity handguns, the PPK and its 14 rounds of .32 ACP might not seem like much, but in practiced hands, this pistol still definitely has a delivery like a brick through a plate glass window. For an extra double-oh effect, take it to your local engineering workshop and ask for it to be fitted with a .32 pistol silencer; then you shall be able to kill your enemies with so much class and propriety, it'll look like you had a license for it.",
 		
 		bm_w_p226 = "SIG Sauer P226R",													--Signature .40
 		bm_w_p226_desc = "A Swiss handgun manufactured by SIG Sauer. Semi-automatic, magazine-fed, and chambered in .40 S&W.",
