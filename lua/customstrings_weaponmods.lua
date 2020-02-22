@@ -1,109 +1,134 @@
 Hooks:Add("LocalizationManagerPostInit", "RishWN_Attachments", function(loc)
 	LocalizationManager:add_localized_strings({
-        --Sights and Scopes
 
-        bm_wp_upg_o_eotech = "TECopt Holographic", --Holographic Sight
-		bm_wp_upg_o_eotech_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
+		--Not gonna lie, thanks to the terrible rebalance that One Down and Mayhem were, I'm still mildly upset that DMC chose to retire DMCWO. I hope one day it can make a return and a comeback. It and SC's mod were the whole reason I surpassed 1k hours in Payday 2. Most of this information comes from DMC's mod. If anyone knows how to wrap an old version of PD2 up so I can play it without Steam, hit me up. Please.
+		--Sights and Scopes
+        bm_wp_upg_o_eotech = "EOTech Model 516", --Holographic Sight
+		bm_wp_upg_o_eotech_desc = "American holographic optic manufactured by EOTech.",
 
-		bm_wp_upg_o_t1micro = "PA Professional's Choice", --The Professional's Choice /irl same manufacturer as combat sight
-		bm_wp_upg_o_t1micro_desc = "Concealable sight that slightly increases stability. Makes for quick target acquisition.",
+		bm_wp_upg_o_t1micro = "Aimpoint Micro T-1", --The Professional's Choice /irl same manufacturer as combat sight
+		bm_wp_upg_o_t1micro_desc = "Swedish red dot sight manufactured by Aimpoint AB.",
 
-		bm_wp_upg_o_docter = "Surgeon Irondot", --Surgeon Sight
-		bm_wp_upg_o_docter_desc = "Concealable sight that slightly increases stability. A simple irondot with a small sight picture.",
+		bm_wp_upg_o_docter = "Docter Red Dot Sight w/LaRue Tactical Pride-Fowler MRD", --Surgeon Sight
+		bm_wp_upg_o_docter_desc = "American red dot sight + riser combination manufactured by Docter and LaRue tactical respectively.",
 
-		bm_wp_upg_o_acog = "Trigonom Acough Optic", --Acough Optic Scope
-		bm_wp_upg_o_acog_desc = "Large sight that slightly increases stability. Higher magnification for longer range engagements.",
+		bm_wp_upg_o_acog = "Trijicon TA01 ACOG", --Acough Optic Scope
+		bm_wp_upg_o_acog_desc = "Magnified American optic manufactured by Trijicon.",
 
-		bm_wp_upg_o_aimpoint = "Military Red Dot", --Military Red Dot Sight
-		bm_wp_upg_o_aimpoint_desc = "Large sight that slightly increases stability. Simple reticule and a large sight picture. Not as concealable.",
+		bm_wp_upg_o_aimpoint = "Aimpoint CompM2", --Military Red Dot Sight
+		bm_wp_upg_o_aimpoint_desc = "Swedish red dot sight manufactured by Aimpoint AB.",
 
-		bm_wp_upg_o_specter = "Milspec", --That's all there is on it
-		bm_wp_upg_o_specter_desc = "Large sight that slightly increases stability. Gives greater sight picture.",
+		bm_wp_upg_o_specter = "ELCAN SpecterDR", --That's all there is on it
+		bm_wp_upg_o_specter_desc = "Magnified Canadian optic manufactured by Ernst Leitz Canada.",
 
-		bm_wp_upg_o_cmore = "Sey-MORE See More", --"Sey-More", was written on it
-		bm_wp_upg_o_cmore_desc = "Concealable sight that slightly increases stability. Clear sight picture.",
+		bm_wp_upg_o_cmore = "C-More Railway", --"Sey-More", was written on it
+		bm_wp_upg_o_cmore_desc = "American red dot sight manufactured by Vertu Corporation.",
 
-		bm_wp_upg_o_cs = "PA Combat Sight", --'PA' written on it
-		bm_wp_upg_o_cs_desc = "Concealable sight that slightly increases stability. Has a larger sight picture, but smaller reticule.",
+		bm_wp_upg_o_cs = "Aimpoint CS", --'PA' written on it
+		bm_wp_upg_o_cs_desc = "Swedish red dot sight manufactured by Aimpoint AB.",
 
-		bm_wp_upg_o_eotech_xps = "TECopt Compact Holosight", --TECopt written on it
-		bm_wp_upg_o_eotech_xps_desc = "Sight that slightly increases stability. Has a larger reticule and sight picture, sacrificing some concealability.",
+		bm_wp_upg_o_eotech_xps = "EOTech Model XPS2", --TECopt written on it
+		bm_wp_upg_o_eotech_xps_desc = "American compact holographic optic manufactured by EOTech.",
 
-		bm_wp_upg_o_reflex = "Speculator Tactical", --Speculator is brand, tactical written on it
-		bm_wp_upg_o_reflex_desc = "Concealable sight that slightly increases stability. Large sight picture allows for very quick target acquisition.",
+		bm_wp_upg_o_reflex = "Sightmark Sure Shot", --Speculator is brand, tactical written on it
+		bm_wp_upg_o_reflex_desc = "American reflex optic manufactured by Sightmark.",
 
-		bm_wp_upg_o_rx01 = "Trigonom Acough 'Relax, You're Dot On'", --'RELAXYOUREDOTON' written on it
-		bm_wp_upg_o_rx01_desc = "Concealable sight that slightly increases stability. Makes for quick target acquisition.",
+		bm_wp_upg_o_rx01 = "Trijicon RX01", --'RELAXYOUREDOTON' written on it
+		bm_wp_upg_o_rx01_desc = "American red dot sight manufactured by Trijicon.",
 
-		bm_wp_upg_o_rx30 = "Trigonom Solar", --Trigonom is brand, solar ingame name
-		bm_wp_upg_o_rx30_desc = "Sight that slightly increases stability. Has a larger reticule, sacrificing some concealability.",
+		bm_wp_upg_o_rx30 = "Trijicon RX30", --Trigonom is brand, solar ingame name
+		bm_wp_upg_o_rx30_desc = "American red dot sight manufactured by Trijicon.",
 
-        --bm_wp_fps_upg_o_45iron = "XTI Angle Mount Sight", --??? Who tf makes iron sights?
+		bm_wp_upg_o_leupold = "Leupold Mark 4 LR/T w/Barrett Optical Ranging System", --Thanatos written on it, manufacturer
+		bm_wp_upg_o_leupold_desc = "American high magnification scope manufactured by Leupold & Stevens, with a Barrett Optic Ranging System - manufactured by Barrett.",
 
-		bm_wp_upg_o_leupold = "Thanatos Theia Magnified", --Thanatos written on it, manufacturer
-		bm_wp_upg_o_leupold_desc = "Very large scope with extreme magnification and a range finding capability. Automatically marks special enemies aimed at.",
-
-		bm_wp_upg_o_box = "Boxar Box Buddy", --Boxar written on it
-		bm_wp_upg_o_box_desc = "Very large scope with extreme magnification and a range finding capability. Automatically marks special enemies aimed at.",
+		bm_wp_upg_o_box = "Pulsar Digisight NR960", --Boxar written on it
+		bm_wp_upg_o_box_desc = "American night vision optic modified for daytime use. Manufactured by Pulsar NV.",
         
---		bm_wpg_o_mbus_rear = "MBUS Front and Rear Sights", --???
---		bm_wpn_fps_upg_o_45iron = "XTI Angle Mount Sight", --???
---		bm_wp_upg_o_rmr = "Trijicon RM06 RMR Sight", --Pistol Red Dot Sight
+		bm_wpg_o_mbus_rear = "MBUS Front and Rear Sights", --???
 
-		bm_wp_upg_o_spot = "Boxar Reconnaissance", --Reconnaissance / Manufacturer is an assumption
-		bm_wp_upg_o_spot_desc = "Large sight that slightly increases stability. Has a range finding capability.",
+		bm_wpn_fps_upg_o_45iron = "XTI Angle Mount Sight", --???
 
-		bm_wp_pis_deagle_extra = "Toucan Rail", --Deagle Scope Mount
-		bm_wp_pis_deagle_extra_desc = "Augmentation that allows standard sights to be attached.",
+		bm_wp_upg_o_rmr = "Trijicon RM06 RMR Sight", --Pistol Red Dot Sight
 
-		bm_wp_pis_rage_extra = "Toucan Rail", --Bronco Scope Mount
-		bm_wp_pis_rage_extra_desc = "Augmentation that allows standard sights to be attached.",
+		bm_wp_upg_o_spot = "NcSTAR Advanced",
+		bm_wp_upg_o_spot_desc = "Magnified American optic manufactured by NcSTAR.",
 
-		bm_wp_upg_o_ak_scopemount = "KV-04 AK Mount", --Scope Mount (AK)
-		bm_wp_upg_o_ak_scopemount_desc = "A rail mount for sights that is closer to the eyes.",
+--		bm_wp_pis_deagle_extra = "Toucan Rail", --Deagle Scope Mount
+--		bm_wp_pis_deagle_extra_desc = "Augmentation that allows standard sights to be attached.",
+
+--		bm_wp_pis_rage_extra = "Toucan Rail", --Bronco Scope Mount
+--		bm_wp_pis_rage_extra_desc = "Augmentation that allows standard sights to be attached.",
+
+		bm_wp_upg_o_ak_scopemount = "K-VAR KV-04S", --Scope Mount (AK)
+		bm_wp_upg_o_ak_scopemount_desc = "Warsaw Pact to picatinny rail adapter manufactured by K-VAR.",
 
         --Gadgets
 
-		bm_wp_upg_fl_pis_m3x = "TacticalLights XM000 Polymer Light", --Polymer Flashlight
-		bm_wp_upg_fl_ass_smg_sho_peqbox = "Insight CVL-001", --Tactical Laser Module
-		bm_wp_upg_fl_ass_laser = "Superlight Micropoint", --Compact Laser Module
-		bm_wp_upg_fl_ass_peq15 = "Superlight Military Laser Module", --Military Laser Module
-		bm_wp_upg_fl_ass_utg = "UL300 Combo Combat Light", --Combined Module (Large firearms)
+		bm_wp_upg_fl_pis_m3x = "Insight Technology M3X", --Polymer Flashlight
+		
+		bm_wp_upg_fl_ass_smg_sho_peqbox = "Insight Technology AN/PEQ-5", --Tactical Laser Module
+		
+		bm_wp_upg_fl_ass_laser = "Offset Laser Mount & Sight", --Compact Laser Module
+		
+		bm_wp_upg_fl_ass_peq15 = "Insight Technology AN/PEQ-15", --Military Laser Module
+		
+		bm_wp_upg_fl_ass_utg = "UTG P38 LED Laser Combo", --Combined Module (Large firearms)
 
-		bm_wp_upg_fl_x400v = "OPR8TR Light JP009", --Combined Module (Handguns)
-		bm_wp_upg_fl_pis_tlr1 = "TPL SlimTacLight", --Tactical Pistol Light
+		bm_wp_upg_fl_x400v = "SureFire X400V-IRC", --Combined Module (Handguns)
 
-        --Barrels & Foregrips
-        --assault rifles
-		bm_wp_upg_ass_m4_b_beowulf = "Crosskill AMDMR Conversion Kit", --AMCAR/AMR DMR Kits
-		bm_wp_upg_ass_m4_b_beowulf_desc = "Designated Marksman conversion kit. Massively increased damage and accuracy for reduced ammo. A compromise between an assault rifle and a sniper rifle.",
+		bm_wp_upg_fl_pis_tlr1 = "Streamlight TLR1", --Tactical Pistol Light
 
-		bm_wp_upg_ak_b_draco = "IZHMA AK Slavic Dragon", --Slavic Dragon barrel
-		bm_wp_upg_ak_b_draco_desc = "Shortened barrel for increased damage and concealment, but with compromised accuracy.",
-		bm_wp_upg_ak_b_ak105 = "IZHMA AK Modern Barrel", --Modern barrel
-		bm_wp_upg_ak_b_ak105_desc = "A Modernized barrel with increased damage and concealment.",
-		bm_wp_upg_ass_ak_b_zastava = "IZHMA DMR Conversion Kit", --AK platform DMR Kits
-		bm_wp_upg_ass_ak_b_zastava_desc = "Designated Marksman conversion kit. Massively increased damage and accuracy for reduced ammo. A compromise between an assault rifle and a sniper rifle.",
+		--assault rifles
+		--M4
+		bm_wp_upg_ass_m4_b_beowulf = "Beowulf Barrel", --AMCAR/AMR DMR Kits
+		bm_wp_upg_ass_m4_b_beowulf_desc = "Conversion kit for AR platform rifles most likely manufactured by Alexander Arms. Rechambers the rifle to .50 Beowulf. Hits harder, kicks harder, and far more accurate.",
 
-		bm_wp_ching_b_short_desc = "Shortened barrel for increased concealment. Decreases stability.", --Galant Tanker Barrel
+		--AKs
+		bm_wp_upg_ak_b_draco = "Draco Pistol Barrel",
+		bm_wp_upg_ak_b_draco_desc = "The barrel from a Century Arms imported Draco AK pistol.",
+		
+		bm_wp_upg_ak_b_ak105 = "AK-105 Barrel",
+		bm_wp_upg_ak_b_ak105_desc = "The barrel from the carbine AK-100 series. For 7.62x39mm, it's from an AK-105. For 5.45x39mm, it's from an AK-105.",
+		
+		bm_wp_upg_ass_ak_b_zastava = "Zastava M76 Barrel",
+		bm_wp_upg_ass_ak_b_zastava_desc = "The barrel from the Serbian marksman rifle. Does not rechamber the rifle.",
 
-		bm_wp_ak5_b_short_desc = "Shortened barrel with increased damage and concealment. Remember your training, Snake.", --AK5 CQB Barrel
+		--Garand
+		bm_wp_ching_b_short = "T26 Barrel",
+		bm_wp_ching_b_short_desc = "The barrel from the T26 tanker Garand prototype.", --Galant Tanker Barrel
 
-		bm_wp_ass_s552_b_long_desc = "Lengthened barrel for increased accuracy. Not as concealable", --Commando 553 long barrel
+		--Ak5
+		bm_wp_ak5_b_short_desc = "A short barrel for the Ak5C. Does this make it the Ak5CC?", --AK5 CQB Barrel
 
-		bm_wp_scar_b_short_desc = "Shortened barrel for increased concealment and threat. Small accuracy penalty.", --Eagle Heavy short barrel
-		bm_wp_scar_b_long_desc = "Lengthened barrel for increased accuracy.", --long barrel
+		--SG 552-2
+		bm_wp_ass_s552_b_long_desc = "Long barrel for the SG 552.", --Commando 553 long barrel
 
-		bm_wp_fal_body_standard_desc = "Shortened barrel and foregrip for increased concealment. Remember your training, Snake.", --Falcon rifle CQB Foregrip
-		bm_wp_fal_fg_03_desc = "Special foregrip that boosts stability.", --Falcon rifle Retro Foregrip
-		bm_wp_fal_fg_04_desc = "Boosts accuracy and damage but with decreased stability and concealment.", --Falcon rifle Marksman Foregrip
-		bm_wp_fal_fg_wood_desc = "Wooden foregrip that increases accuracy and stability.", --Falcon rifle Wooden Foregrip
+		--SCAR-H
+		bm_wp_scar_b_short_desc = "Long SCAR-H Barrel", --Eagle Heavy short barrel
+		bm_wp_scar_b_long_desc = "S H O R T  B O I", --long barrel
 
-		bm_wp_famas_b_long_desc = "Lengthened barrel for increased stability. Not as concealable.", --Clarion Long barrel
+		--Fucken FAL
+		bm_wp_fal_body_standard = "DSA SA58 Handguard w/Short Barrel",
+		bm_wp_fal_body_standard_desc = "Shortened barrel for the DSA SA58 FAL.",
+
+		bm_wp_fal_fg_03 = "IMI Romat Handguard",
+		bm_wp_fal_fg_03_desc = "Handguard from the Israeli FN FAL copy.", --Falcon rifle Retro Foregrip
+
+		bm_wp_fal_fg_04 = "DSA Freefloat Handguard",
+		bm_wp_fal_fg_04_desc = "Freefloat handguard option for the DSA SA58.", --Falcon rifle Marksman Foregrip
+
+		bm_wp_fal_fg_wood = "Wooden Handguard",
+		bm_wp_fal_fg_wood_desc = "Classic style wooden handguard reminiscent of the original FN FAL.", --Falcon rifle Wooden Foregrip
+
+		--Honhons in surrender intent FAMAS
+		bm_wp_famas_b_long = "Long Barrel",
+		bm_wp_famas_b_long_desc = "Elongated, custom barrel for the FAMAS.", --Clarion Long barrel
 		bm_wp_famas_b_short_desc = "Shortened barrel for increased concealment and damage. Reduced accuracy and stability.", --Clarion short barrel
-		bm_wp_famas_b_sniper = "Experimental Sniper Barrel", --Clarion Sniper Barrel
-		bm_wp_famas_b_sniper_desc = "Prototype barrel with increased accuracy and damage, but reduced stability.",
-		bm_wp_famas_b_suppressed_desc = "Integrally suppressed barrel that reduces fire noise. Increases accuracy", --Clarion Suppressed barrel
+		bm_wp_famas_b_sniper = "G2 Sniper Barrel", --Clarion Sniper Barrel
+		bm_wp_famas_b_sniper_desc = "A 620mm barrel from the G2 Sniper variant of the FAMAS.",
+		bm_wp_famas_b_suppressed = "Integrally Suppressed Barrel",
+		bm_wp_famas_b_suppressed_desc = "Integrally suppressed barrel for the FAMAS.", --Clarion Suppressed barrel
 
 		bm_wp_galil_fg_fab_desc = "Increases stability and accuracy.", --Gecko Fabulous Foregrip
 		bm_wp_galil_fg_mar_desc = "Shortened foregrip and barrel for increased concealment. Sacrifices accuracy and stability.", --Gecko CQB Foregrip

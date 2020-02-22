@@ -1087,7 +1087,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m4a1s_desc = "A CT exclusive assault rifle manufactured by Colt's Manufacturing Company. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
 		bm_w_mini14 = "Ruger Mini-14",
-		bm_w_mini14_desc = "An American semi-automatic rifle manufactured by Sturm, Ruger & Co. Semi-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+		bm_w_mini14_desc = "A more hunting rifle looking, semi-automatic, non-direct impingement counterpart to the AR-15 platform, the Ruger Mini-14 promises to deliver all the capability of .223 Remington - and 5.56x45mm - with compatibility with all your favourite STANAG magazines. The firearm you use when ",
 
 		bm_w_mikon = "Remington R5 RGP",
 		bm_w_mikon_desc = "An American assault rifle manufactured by Remington Arms. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -1653,7 +1653,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_slap_919_desc = "A German submachine gun manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_kurz_919 = "Heckler & Koch MP5K",
-		bm_w_kurz_919_desc = "A compact German submachine gun manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_kurz_919_desc = "The firearm of choice for those with an empty briefcase, or those die hard terrorists and South American drug lords. Easily concealable under a trench coat, and it even comes with a foregrip to help with the fact that the non-PDW variants tend to not have a folding stock. 15 round magazines standard, but it has compatibility with every MP5 magazine out there.",
 
 		bm_w_m38a = "Beretta MAB 38A",
 		bm_w_m38a_desc = "An Italian submachine gun manufactured by Beretta. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
@@ -1730,7 +1730,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_legacy_desc = "A German handgun manufactured by Heckler & Koch. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_colt1911 = "Colt M1911A1",
-		bm_w_colt1911_desc = "An American handgun manufactured by Colt's Manufacturing Company. Semi-automatic, magazine-fed, and chambered in in .45 ACP.",
+		bm_w_colt1911_desc = "God may have created man, Sam Colt may have helped them become equal, but John Browning keeps us equal. Whether you call it the 'Automatic Pistol, Caliber .45, M1911A1' or the 'Pistol, Caliber .45, Automatic, M1911A1', John Browning's tilting barrel design has been in service since 1911, and the A1 entered service in 1924. Two world wars, several East Asian proxy wars, and the platform still sees use as the MEU(SOC) pistol. As American as apple pie and 4th of July.",
 
 		bm_w_rally = "CZUB 1979 CZ 75",
 		bm_w_rally_desc = "A Czechoslovak handgun manufactured by Ceska zbrojovka Uhersky Brod. Semi-automatic, magazine-fed, and chambered in 9x19mm.",
@@ -1960,7 +1960,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m712_desc = "A German machine pistol manufactured by Mauser Werke. Select-fire, magazine-fed, and chambered in 7.63x25mm Mauser.",
 
 		bm_w_b93r = "Beretta 93 Raffica",
-		bm_w_b93r_desc = "An Italian machine pistol manufactured by Beretta. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+		bm_w_b93r_desc = "The leaner, meaner, burst-fire cousin of the Beretta 92. This baby comes with an integrated foregrip up front to help control the kick that 3 rounds of 9x19mm deliver at 1100 rounds per minute. The 'R' according to some means 'burst', and others still say it's 'rapid'. Either way, what's not to love about a machine pistol on an already reliable chassis?",
 
 		bm_w_glau = "FB Radom PM-98 Glauberyt",
 		bm_w_glau_desc = "A Polish submachine gun manufactured by FB Radom. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
