@@ -172,7 +172,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_temple_desc = "A German prototype bullpup clockwork assault rifle manufactured by Heckler & Koch. Select-fire, magazine-fed, and chambered in 4.73x33mm DM11.",
 
 		bm_w_tilt = "Izhmash AN-94",
-		bm_w_tilt_desc = "A Russian prototype assault rifle manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+		bm_w_tilt_desc = "A Russian prototype assault rifle manufactured by Izhmash, modified by Gage. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
 
 		bm_w_famas = "Nexter FAMAS F1",													--Clarion
 		bm_w_famas_desc = "A French bullpup bugle manufactured by Nexter Systems. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -181,7 +181,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_l85a2_desc = "A British-German bullpup assault rifle manufactured by RSAF Enfield and improved by Heckler & Koch. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
 		bm_w_vhs = "HS Produkt VHS-D2",													--Lion's Roar
-		bm_w_vhs_desc = "A Croation bullpup assault rifle manufactured by HS Produkt. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+		bm_w_vhs_desc = "A Croatian bullpup assault rifle manufactured by HS Produkt. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
 		bm_w_asval = "TsNIITochMash AS Val",											--Valkyria Rifle - s i l e n c e r s k i l l s
 		bm_w_asval_desc = "A Soviet integrally suppressed assault rifle manufactured by the Tula Arms Plant. Select-fire, magazine-fed, and chambered in 9x39mm SP-5.",
@@ -238,7 +238,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_grayhound_desc = "An American assault rifle manufactured by Salient Arms International. Select-fire, magazine-fed, and chambered in .300 Blackout.",
 
 		bm_w_nightgoddess = "TsNIITochMash AS Val Mod. 3",
-		bm_w_nightgoddess_desc = "A custom integrally suppressed assault rifle modified by some PMC in Russian. Select-fire, magazine-fed, and chambered in 9x39mm.",
+		bm_w_nightgoddess_desc = "A custom integrally suppressed assault rifle modified by some PMC in Russia. Select-fire, magazine-fed, and chambered in 9x39mm.",
 
 		bm_w_howl = "Zastava M21 ABS",
 		bm_w_howl_desc = "A Serbian assault rifle manufactured by Zastava Arms. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
@@ -249,13 +249,13 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_spas12_desc = "An Italian dual-mode shotgun manufactured by Luigi Franchi S.p.A.. Pump-action, tube-fed, and chambered in 12 gauge.",
 
 		bm_w_b682 = "CZUB Redhead O/U Deluxe",											--Joceline O/U 12G
-		bm_w_b682_desc = "A Czech double-barrelled shotgun manufactured by Ceska zbrojovka Uhersky Brod. Over/under, break-action, and chambered in 12 gauge.",
+		bm_w_b682_desc = "A Czech double-barrelled shotgun manufactured by Ceska zbrojovka Uhersky Brod. Over/under, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_heffy_12g = "Izhmash Saiga-12K",
 		bm_w_heffy_12g_desc = "A Russian shotgun manufactured by Izhmash. Select-fire, magazine-fed, and chambered in 12 gauge.",
 
 		bm_w_littlest = "Remington Spartan 310 Extreme Sawn Off",						--Remington Spartan Ultra Short - Killerwolf
-		bm_w_littlest_desc = "A Russian shotgun manufactured under license by Remington Arms. Side-by-side, chamber-loaded, and chambered in 12 gauge.",
+		bm_w_littlest_desc = "A Russian double-barrelled shotgun manufactured under license by Remington Arms. Side-by-side, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_usas12 = "Daewoo Precision Industries USAS-12",
 		bm_w_usas12_desc = "A South Korean combat shotgun manufactured by Daewoo Precision Industries. Select-fire, magazine-fed, and chambered in 12 gauge.",
@@ -297,10 +297,10 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_toz106_desc = "A Russian shotgun manufactured by the Tula Arms Plant. Bolt-action, magazine-fed, and chambered in 20 gauge.",
 
 		bm_w_toz34 = "Tula Arms TOZ-34",
-		bm_w_toz34_desc = "A Soviet shotgun manufactured by the Tula Arms Plant. Over/under, chamber-loaded, and chambered in 12 gauge.",
+		bm_w_toz34_desc = "A Soviet double-barrelled shotgun manufactured by the Tula Arms Plant. Over/under, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_x_huntsman = "Akimbo Stoeger Industries Uplanders",
-		bm_w_x_huntsman_desc = "A pair of American shotguns manufactured by Stoeger Industries. Side-by-side, chamber-loaded, and chambered in 12 gauge.",
+		bm_w_x_huntsman_desc = "A pair of American double-barrelled shotguns manufactured by Stoeger Industries. Side-by-side, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_ak12_76 = "Kalashnikov Concern AK-12/76",
 		bm_w_ak12_76_desc = "A Russian combat shotgun manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 12 gauge.",
@@ -333,7 +333,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_dp12_desc = "An American bullpup double-barrelled shotgun based on the KSG, manufactured by the Standard Manufacturing Company. Side-by-side pump-action, tube-fed, and chambered in 12 gauge.",
 
 		bm_w_triple = "Chiappa Triple Threat 12",
-		bm_w_triple_desc = "An Italian triple-barrelled shotgun manufactured by Chiappa. Triangle arrangement, break-action, and chambered in 12 gauge.",
+		bm_w_triple_desc = "An Italian triple-barrelled shotgun manufactured by Chiappa. Triangle arrangement, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_sjogren = "Sjogren Inertia",
 		bm_w_sjogren_desc = "A Swedish shotgun manufactured by AB Svenska Vapen- och Ammunitions Fabriken. Semi-automatic, tube-fed, and chambered in 12 gauge.",
@@ -432,7 +432,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_jackhammer_desc = "An American bullpup revolver shotgun manufactured by Pancor Corporation. Select-fire, cylindred-fed, and chambered in 12 gauge.",
 
 		bm_w_dokkasho = "Maverick HS-12 Thunder Ranch",
-		bm_w_dokkasho_desc = "An American double-barrelled shotgun used by a Korean 707th operative. Over/under, breech-loaded, and chambered in 12 gauge.",
+		bm_w_dokkasho_desc = "An American double-barrelled shotgun used by a Korean 707th operative. Over/under, chamber-loaded, and chambered in 12 gauge.",
 
 		bm_w_sideload = "UTAS UTS-15",
 		bm_w_sideload_desc = "A Turkish bullpup shotgun manufactured by UTAS. Pump-action, tube-fed, and chambered in 12 gauge.",
@@ -857,6 +857,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_m6g = "Akimbo Misriah Armory M6Gs",
 		bm_w_x_m6g_desc = "A pair of Martian handguns manufactured by Misriah Armory. Semi-automatic, magazine-fed, and chambered in 12.7x40mm.",
 
+		bm_w_x_642 = "Akimbo S&W Model 642s",
+		bm_w_x_642_desc = "A pair of American revolvers manufactured by Smith & Wesson. DAO, cylinder-fed, and chambered in .38 Special.",
+
 --Akimbo Submachine Guns
 
 		bm_w_x_cobray = "Akimbo Cobray M11/9s",											--Akimbo Jacket's Piece
@@ -962,6 +965,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_x_mts255 = "Akimbo MTs255s",
 		bm_w_x_mts255_desc = "A pair of Russian revolver shotguns manufactured by TsKIB SOO. Double-action, cylinder-fed, and chambered in 12 gauge.",
+
+		bm_w_x_s12 = "Akimbo Kalashinokov Concern Saiga-12Ks",
+		bm_w_x_s12_desc = "A pair of Russian shotguns manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 12 gauge.",
 
 --Special
 
