@@ -851,6 +851,12 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_hshdm = "Akimbo High Standard HDMs",
 		bm_w_x_hshdm_desc = "A pair of American integrally suppressed handguns manufactured by High Standard. Semi-automatic, magazine-fed, and chambered in .22 Long Rifle.",
 
+		bm_w_x_triad = "Akimbo Triads",
+		bm_w_x_triad_desc = "A pair of custom revolvers used by a legendary swordsman. DAO, cylinder-fed, and chambered in chi-plasma infused rounds.",
+
+		bm_w_x_m6g = "Akimbo Misriah Armory M6Gs",
+		bm_w_x_m6g_desc = "A pair of Martian handguns manufactured by Misriah Armory. Semi-automatic, magazine-fed, and chambered in 12.7x40mm.",
+
 --Akimbo Submachine Guns
 
 		bm_w_x_cobray = "Akimbo Cobray M11/9s",											--Akimbo Jacket's Piece
@@ -1423,6 +1429,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_sr2 = "Akimbo TsNIITochMash SR-2M Veresks",								--Akimbo Heather SMG
 		bm_w_x_sr2_desc = "A pair of Russian submachine gun manufactured by Tula Arms Plant. Select-fire, magazine-fed, and chambered in 9x21mm Gyurza.",
 
+		bm_w_x_czauto = "Akimbo CZUB CZ 75 Automatics",
+		bm_w_x_czauto_desc = "A pair of Czech machine pistols manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+
 --Akimbo Rifles
 
 		bm_w_x_amcar = "Akimbo Colt Model 727 Commandos",
@@ -1897,6 +1906,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_m6g = "Misriah Armory M6G PDWS",
 		bm_w_m6g_desc = "A Martian handgun manufactured by Misriah Armory. Semi-automatic, magazine-fed, and chambered in 12.7x40mm.",
+
+		bm_w_g19 = "Glock 19",
+		bm_w_g19_desc = "An Austrian handgun originally designed by Gaston Glock. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 --Machine Pistols
 
