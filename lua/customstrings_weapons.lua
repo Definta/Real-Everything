@@ -1922,6 +1922,15 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_lebman = "Hyman Lebman Custom 1911",
 		bm_w_lebman_desc = "An American custom 1911 originally manufactured by Hyman Lehman. Select-fire, magazine-fed, and chambered in .38 Super.",
 
+		bm_w_hoxy = "FN Five-seveN USG",
+		bm_w_hoxy_desc = "An American handgun manufactured by Fabrique Nationale d'Herstahl. Semi-automatic, magazine-fed, and chambered in FN 5.7x28mm.",
+
+		bm_w_limafive = "Magnum Research Desert Eagle Mark XIX L5",
+		bm_w_limafive_desc = "An American handgun manufactured by Magnum Research. Semi-automatic, magazine-fed, and chambered in .357 Magnum.",
+
+		bm_w_deltaoneniner = "Magnum Research Desert Eagle Mark XIX",
+		bm_w_deltaoneniner_desc = "An American handgun manufactured by Magnum Research. Semi-automatic, magazine-fed, and chambered in .50 Action Express",
+
 --Machine Pistols
 
 		bm_w_hlmp7 = "Heckler & Koch MP7",
