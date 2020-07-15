@@ -249,6 +249,15 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_mk17 = "FN SCAR 17S",
 		bm_w_mk17_desc = "A Belgium civilian rifle converted to a battle rifle. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
 
+		bm_w_raider = "FightLite SCR 5.56 Raider",
+		bm_w_raider_desc = "An American pistol manufactured by FightLite Industries. Semi-automatic, magazine-fed, and chambered in 5.56x45mm NATO.",
+
+		bm_w_smug12 = "Kalashnikov Concern AK-12",
+		bm_w_smug12_desc = "A Russian assault rifle manufactured by Kalashnikov Concern. Select-fire, magazine-fed, and chambered in 5.45x39mm.",
+
+		bm_w_m4bpre = "Bravo Company RECCE-14 KMR-A",
+		bm_w_m4bpre_desc = "An American carbine manufactured by Bravo Company Manufacturing. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+
 --Shotguns
 
 		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 - Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
@@ -1292,7 +1301,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_contraband_m203 = "Colt M203",												--Little Friend Underbarrel Grenade Launcher
 
 		bm_w_wargoddess = "NSWCCD Mk 14 EBR",
-		bm_w_wargoddes_desc = "An American battle rifle manufactured by the Naval Surface Warfare Center - Crane Division. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+		bm_w_wargoddess_desc = "An American battle rifle manufactured by the Naval Surface Warfare Center - Crane Division. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
 
 --Launchers
 
@@ -1354,9 +1363,6 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_rsass = "Remington Semi Automatic Sniper System",
 		bm_w_rsass_desc = "An American sniper rifle manufactured by Remington Arms. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
-
-		bm_w_wargoddness = "NSWCCD Mark 14 Mod 1",
-		bm_w_wargoddness_desc = "An American designated marksman rifle manufactured by the Naval Surface Warfare Center Crane Division. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
 
 		bm_w_sr25 = "KAC SR-25 E2 ACC",
 		bm_w_sr25_desc = "An American designated marksman rifle manufactured by Knight's Armament Company. Semi-automatic, magazine-fed, and chambered in 7.62x51mm NATO.",
