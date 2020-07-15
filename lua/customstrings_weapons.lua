@@ -243,7 +243,8 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_howl = "Zastava M21 ABS",
 		bm_w_howl_desc = "A Serbian assault rifle manufactured by Zastava Arms. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
-
+		bm_w_aknato = "KREBS Custom Assneck",
+		bm_w_aknato_desc = "An American conversion of an AK by KREBS. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
 --Shotguns
 
@@ -682,6 +683,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_m1894 = "Marlin Model 1894 Custom",
 		bm_w_m1894_desc = "A modified American rifle originally manufactured by Marlin Firearms. Lever-action, tube-fed, and chambered in .44 Magnum.",
+		
+		bm_w_r700 = "Remington Model 700P",
+		bm_w_r700_desc = "An American bolt action rifle manufactured by Remington Arms. Bolt-action, magazine-fed, and chambered in .223 Remington.",
 
 --Akimbo Handguns
 
@@ -852,6 +856,18 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_x_hshdm = "Akimbo High Standard HDMs",
 		bm_w_x_hshdm_desc = "A pair of American integrally suppressed handguns manufactured by High Standard. Semi-automatic, magazine-fed, and chambered in .22 Long Rifle.",
+
+		bm_w_x_beer = "Akimbo Beretta 93Rs",
+		bm_w_x_beer_desc = "A pair of Italian machine pistols manufactured by Beretta. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+
+		bm_w_x_czech = "Akimbo CZUB Accushadow 2 Automatics",
+		bm_w_x_czech_desc = "A pair of hybrid handguns manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
+
+		bm_w_x_stech = "Akimbo Stechkin Automatic Pistols",
+		bm_w_x_stech_desc = "A pair of Soviet machine pistols designed by Igor Stetchkin. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
+
+		bm_w_x_holt = "Akimbo Hudson H9s",
+		bm_w_x_holt_desc = "A pair of American handguns manufactured by Hudson Manufacturing. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 --Akimbo Submachine Guns
 
@@ -1670,7 +1686,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 --Handguns
 
 		bm_w_usp = "Heckler & Koch USP45",												--Interceptor 45
-		bm_w_usp_desc = "Some people believe this is the finest combat handgun manufactured by any company, ever. To them, this is the weapon of Special Forces teams when they can only have a single, concealable handgun. The type of weapon used to infiltrate an island in Alaska, fighting soldiers that all wear the same white getup. They're wrong, that's the Mark 23. This, is the civilian sister, the USP45. Manufactured by Heckler & Koch during the 80s, 90s, and 00s, normally this thing is cost prohibitive for anyone to own. But, as we've established, Gage is just that awesome.",
+		bm_w_usp_desc = "Some people believe this is the finest combat handgun manufactured by any company, ever. To them, this is the weapon of Special Forces teams when they can only have a single, concealable handgun. The type of weapon used to infiltrate an island in Alaska, fighting soldiers that all wear the same white getup. They're wrong, that's the Mark 23. This, is the sister that isn't a soldier's gun, the USP45. Manufactured by Heckler & Koch during the 80s, 90s, and 00s, normally this thing is cost prohibitive for anyone to own. But, as we've established, Gage is just that awesome.",
 
 		bm_w_g22c = "Glock 22C",														--Chimano Custom
 		bm_w_g22c_desc = "An Austrian handgun manufactured by Glock. Semi-automatic, magazine-fed, and chambered in .40 S&W.",
@@ -1703,7 +1719,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_gsh18_desc = "A Russian handgun manufactured by the KBP Instrument Design Bureau. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 		bm_w_kolibri = "2.7mm Kolibri Car Pistol",
-		bm_w_kolibri_desc = "An Austro-Hungarian handgun designed by Franz Pfanni. Semi-automatic, magazine-fed, and chambered in 2.7x9mm",
+		bm_w_kolibri_desc = "An Austrian handgun manufactured by the watchmaker Franz Pfannl, chambering the smallest commercially available centerfire (meaning it uses a primer like you'd find on standard, say, 9x19mm Parabellum) cartridge known.",
 
 		bm_w_pm = "IZHMEKH PM",
 		bm_w_pm_desc = "A Russian handgun manufactured by the Izhevsk Mechanical Plant. Semi-automatic, magazine-fed, and chambered in 9x18mm Makarov.",
@@ -1897,6 +1913,12 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m6g = "Misriah Armory M6G PDWS",
 		bm_w_m6g_desc = "A Martian handgun manufactured by Misriah Armory. Semi-automatic, magazine-fed, and chambered in 12.7x40mm.",
 
+		bm_w_holt = "Hudson H9",
+		bm_w_holt_desc = "An American handgun manufactured by Hudson Manufacturing. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+
+		bm_w_lebman = "Hyman Lebman Custom 1911",
+		bm_w_lebman_desc = "An American custom 1911 originally manufactured by Hyman Lehman. Select-fire, magazine-fed, and chambered in .38 Super.",
+
 --Machine Pistols
 
 		bm_w_hlmp7 = "Heckler & Koch MP7",
@@ -1983,29 +2005,15 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_master = "Masterpiece Arms MPA935SST",
 		bm_w_master_desc = "An American machine pistol manufactured by Masterpiece Arms. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
---Irenfist stuff
+		bm_w_beer = "Beretta 93R",
+		bm_w_beer_desc = "An Italian machine pistol manufactured by Beretta Arms. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_new_mp5primary = "Heckler & Koch MP5A2",
-		bm_w_new_mp5primary_desc = "Everything about the original MP5 platform that you love, but this one goes into your primary slot.",
+		bm_w_stech = "Stetchkin Automatic Pistol",
+		bm_w_stech_desc = "A Soviet machine pistol designed by Igor Stetchkin. Select-fire, magazine-fed, and chambered in 9x18mm Makarov.",
 
-		bm_w_m1928primary = "Auto Ordnance M1928 Thompson",
-		bm_w_m1928primary_desc = "When you're a GI and you absolutely need to have a 1911 as your secondary, but still want a Thompson, this primary slot version will help.",
+		bm_w_czech = "CZ Accushadow 2 Automatic",
+		bm_w_czech_desc = "A hybrid of two handguns manufactured by Ceska zbrojovka Uhersky Brod. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
-		bm_w_schakalprimary = "Heckler & Koch UMP45",
-		bm_w_schakalprimary_desc = "Now you can pair a USP45 with your UMP45.",
-
-		bm_w_shepheardprimary = "SIG Sauer MPX",
-		bm_w_shepheardprimary_desc = "Can't choose between an MP5 and an MPX? Take both!",
-
-		bm_w_coalprimary = "Izhmash PP-19 Bizon-2",
-		bm_w_coalprimary_desc = "Who said there weren't enough AK primaries?",
-
-		bm_w_olympicprimary = "Olympic Arms K23B",
-		bm_w_olympicprimary_desc = "All the ability of the AR platform, in a nice, tiny size. Suitable for use as a Firing Port Weapon.",
-
-		bm_w_hajkprimary = "CZ 805 BREN A1",
-		bm_w_hajkprimary_desc = "Submachine gun my ass.",
-
-		thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun I kept this from VxWolf's stuff
+		thisisadummystringso = "I don't have to worry about adding/removing" -- a comma every time i add a gun. I kept this from VxWolf's stuff because I'm a commie and it's for the greater good tovarisch.
 	})
 end)
