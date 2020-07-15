@@ -246,6 +246,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_aknato = "KREBS Custom Assneck",
 		bm_w_aknato_desc = "An American conversion of an AK by KREBS. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
+		bm_w_mk17 = "FN SCAR 17S",
+		bm_w_mk17_desc = "A Belgium civilian rifle converted to a battle rifle. Select-fire, magazine-fed, and chambered in 7.62x51mm NATO.",
+
 --Shotguns
 
 		bm_w_spas12 = "Franchi SPAS-12",												--Predator 12 - Predator starred Arnold Schwarznegger, who also starred in Terminator 2, where a SPAS-12 was prominent
