@@ -789,7 +789,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_peace_desc = "A pair of American revolvers manufactured by Ruger. Single-action, cylinder-fed, and chambered in .45 Long Colt.",
 
 		bm_w_x_qsz92 = "Akimbo Changfeng QSZ-92-5.8s",
-		bm_w_x_qsz92_desc = "A pair of Chinese handguns designed by Liu Ming. Semi-automatic, magazine-fed, and chambered in 5.8x42mm.",
+		bm_w_x_qsz92_desc = "A pair of Chinese handguns designed by Liu Ming. Semi-automatic, magazine-fed, and chambered in 5.8x21mm DAP92.",
 
 		bm_w_x_seburo = "Akimbo Seburo M-5s",
 		bm_w_x_seburo_desc = "A pair of Japanese handguns manufactured by Seburo. Semi-automatic, magazine-fed, and chambered in 5.45x18mm.",
@@ -1812,7 +1812,7 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_p10mm_desc = "An American handgun from a post-apocalyptic future. Semi-automatic, magazine-fed, and chambered in 10mm Auto.",
 
 		bm_w_qs = "Changfeng QSZ-92-5.8",
-		bm_w_qs_desc = "A Chinese handgun designed by Liu Ming. Semi-automatic, magazine-fed, and chambered in 5.8x42mm.",
+		bm_w_qs_desc = "A Chinese handgun designed by Liu Ming. Semi-automatic, magazine-fed, and chambered in 5.8x21mm DAP92.",
 
 		bm_w_seburo = "Seburo M-5",
 		bm_w_seburo_desc = "A Japanese handgun manufactured by Seburo. Semi-automatic, magazine-fed, and chambered in 5.45x18mm.",
