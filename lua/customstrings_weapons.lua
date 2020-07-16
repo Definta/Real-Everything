@@ -535,6 +535,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_m60e4 = "Saco Defense M60E4",
 		bm_w_m60e4_desc = "An American general purpose machine gun manufactured by Saco Defense. Full-automatic, belt-fed, and chambered in 7.62x51mm NATO.",
 
+		bm_w_sigke7 = "SIG KE7",
+		bm_w_sigke7_desc = "A Swiss export light machine gun manufactured by SIG. Fully-automatic, magazine-fed, and chambered in 7.92x57mm Mauser.",
+
 --Sniper Rifle
 
 		bm_w_awpgear = "Accuracy International Arctic Warfare",
@@ -881,6 +884,12 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_x_holt = "Akimbo Hudson H9s",
 		bm_w_x_holt_desc = "A pair of American handguns manufactured by Hudson Manufacturing. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
 
+		bm_w_x_lebman = "Akimbo Hyman Lebman Custom 1911s",
+		bm_w_x_lebman_desc = "A pair of American custom 1911s originally manufactured by Hyman Lehman. Select-fire, magazine-fed, and chambered in .38 Super.",
+
+		bm_w_x_m6g = "Misriah Armory M6Gs",
+		bm_w_x_m6g_desc = "A pair of Martian handguns manufactured by Misriah Armory. Semi-automatic, magazine-fed, and chambered in 12.7x40mm.",
+
 --Akimbo Submachine Guns
 
 		bm_w_x_cobray = "Akimbo Cobray M11/9s",											--Akimbo Jacket's Piece
@@ -1093,6 +1102,9 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_goldgun = "Golden Gun",
 		bm_w_goldgun_desc = "A custom made handgun made of seemingly harmless items. Single-shot, breech-loaded, and chambered in 4.2x30mmR.",
+
+		bm_w_pkpsd9 = "RZ Tactical RVP30 Carbine Kit",
+		bm_w_pkpsd9_desc = "A carbine conversion kit for the Prokolot RVP30. Select-fire, magazine-fed, and chambered in 9x19mm Parabellum.",
 
 --Carbines
 
@@ -1942,6 +1954,15 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 
 		bm_w_deltaoneniner = "Magnum Research Desert Eagle Mark XIX",
 		bm_w_deltaoneniner_desc = "An American handgun manufactured by Magnum Research. Semi-automatic, magazine-fed, and chambered in .50 Action Express",
+
+		bm_w_m9butcool = "Beretta 92F Custom 'Samurai Edge'",
+		bm_w_m9butcool_desc = "A custom Italian handgun manufactured for the elite S.T.A.R.S. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+
+		bm_w_g19 = "Glock 19 Generation 4",
+		bm_w_g19_desc = "An Austrian handgun manufactured by Glock. Semi-automatic, magazine-fed, and chambered in 9x19mm Parabellum.",
+
+		bm_w_qsz92 = "Changfeng QSZ-92-5.8",
+		bm_w_qsz92_desc = "A Chinese handgun designed by Liu Ming. Semi-automatic, magazine-fed, and chambered in 5.8x21mm DAP92.",
 
 --Machine Pistols
 
