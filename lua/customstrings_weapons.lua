@@ -1228,6 +1228,12 @@ Hooks:Add("LocalizationManagerPostInit", "Real Everything", function(loc)
 		bm_w_rabbit = "Noveske N4",
 		bm_w_rabbit_desc = "An American carbine manufactured by Noveske. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
 
+		bm_w_petto = "Q AAC Honey Badger",
+		bm_w_petto_desc = "An American integrally suppressed carbine manufactured by AAC and Q. Select-fire, magazine-fed, and chambered in .300 AAC Blackout.",
+
+		bm_w_soppo = "M4A1 SOPMOD Block II",
+		bm_w_soppo_desc = "A heavily modified Colt M4A1 brought up to Special Operations Peculiar MODification standards. Select-fire, magazine-fed, and chambered in 5.56x45mm NATO.",
+
 --Battle Rifles
 
 		bm_w_fusil_762 = "Steyr-Daimler-Puch StG 58",
